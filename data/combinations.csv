@@ -1,0 +1,361 @@
+number,color_ids,color_names,hexes,best_text_pair,best_contrast,value,chroma,temp,fits
+1,66 118,English Red | Cerulian Blue,#D96629 #0093A5,66/118,1.0,tonal,vivid,warm,apparel
+2,62 130,Yellow Orange | Dark Tyrian Blue,#F99D1B #12354E,62/130,5.9,high,medium,warm,web
+3,14 40,Raw Sienna | Pale Lemon Yellow,#BB7125 #FFEFAE,14/40,3.3,mid,medium,warm,web*
+4,51 151,Isabella Color | Red Violet,#C5A56E #59256A,51/151,4.7,mid,medium,warm,web interior-accent apparel
+5,107 129,Cossack Green | Vandar Poel's Blue,#437742 #064F6E,107/129,1.6,tonal,medium,cool,interior-accent apparel
+6,8 132,Grenadine Pink | Deep Indigo,#F48067 #051230,8/132,7.1,high,medium,warm,web interior-accent apparel
+7,64 89,Orange | Glaucous Green,#F37420 #B4CDC2,64/89,1.6,tonal,medium,warm,apparel
+8,67 134,Cinnamon Rufous | Grayish Lavender - A,#C27544 #B5B1D8,67/134,1.7,tonal,medium,warm,interior-accent apparel
+9,37 141,Violet Red | Dull Blue Violet,#642D5E #80719E,37/141,2.2,tonal,medium,balanced,interior-accent apparel
+10,67 74,Cinnamon Rufous | Dark Citrine,#C27544 #8B835B,67/74,1.0,tonal,medium,warm,interior-accent apparel
+11,42 156,Ivory Buff | Mineral Gray,#EBD3A2 #A2B0AD,42/156,1.5,tonal,muted,warm,interior apparel
+12,51 120,Isabella Color | Green Blue,#C5A56E #099197,51/120,1.6,tonal,medium,balanced,interior-accent apparel
+13,14 146,Raw Sienna | Veronia Purple,#BB7125 #8C4C62,14/146,1.6,tonal,medium,warm,interior-accent apparel
+14,10 41,Spinel Red | Naples Yellow,#F27291 #FBE6A0,10/41,2.2,mid,medium,warm,interior
+15,101 134,Benzol Green | Grayish Lavender - A,#00978D #B5B1D8,101/134,1.7,tonal,medium,cool,interior-accent apparel
+16,34 112,Vandyke Red | Pale King's Blue,#82241F #A7D4E4,34/112,5.9,high,medium,warm,web interior apparel
+17,13 100,Eugenia Red B | Sea Green,#DA525D #00B49B,13/100,1.4,tonal,vivid,balanced,apparel
+18,4 153,Fawn | Dusky Madder Violet,#D1B0A7 #4E1D4C,4/153,6.5,high,muted,balanced,web interior-accent apparel
+19,86 93,Mars Brown Tobacco | Night Green,#653514 #87C540,86/93,4.8,mid,vivid,warm,web apparel-statement
+20,116 136,Calamine BLue | Laelia Pink,#78CDD0 #CA92A8,116/136,1.3,tonal,muted,balanced,interior-accent apparel
+21,8 100,Grenadine Pink | Sea Green,#F48067 #00B49B,8/100,1.0,tonal,vivid,balanced,apparel
+22,55 127,Yellow | Deep Lyons Blue,#FFF200 #1C4286,55/127,8.2,high,vivid,warm,web apparel-statement print/brand
+23,46 139,Cinnamon Buff | Light Mauve,#FDC57E #9A72AA,46/139,2.5,mid,medium,warm,interior apparel
+24,84 146,Sepia | Veronia Purple,#644B1E #8C4C62,84/146,1.2,tonal,medium,warm,interior-accent apparel
+25,19 111,Etruscan Red | Nile Blue,#C55347 #BCE4E5,19/111,3.2,mid,medium,warm,web* interior apparel
+26,48 83,Golden Yellow | Pale Raw Umber,#F3A257 #71502F,48/83,3.4,mid,medium,warm,web* interior-accent
+27,2 158,Corinthian Pink | Slate Color,#F8B6BA #34454C,2/158,5.8,high,muted,balanced,web interior apparel
+28,85 132,Madder Brown | Deep Indigo,#762C19 #051230,85/132,1.8,tonal,medium,warm,interior-accent apparel
+29,76 114,Krongbergs Green | Salvia Blue,#84875E #97ACC8,76/114,1.6,tonal,muted,balanced,interior-accent apparel
+30,30 156,Pompeian Red | Mineral Gray,#AB2439 #A2B0AD,30/156,3.0,mid,medium,warm,web* interior-accent apparel
+31,18 40,Red Orange | Pale Lemon Yellow,#DD4027 #FFEFAE,18/40,3.7,mid,vivid,warm,web* apparel-statement
+32,50 93,Ochraceous Salmon | Night Green,#D8A37B #87C540,50/93,1.0,tonal,vivid,warm,apparel
+33,14 158,Raw Sienna | Slate Color,#BB7125 #34454C,14/158,2.6,mid,medium,warm,interior-accent apparel
+34,9 155,Eosine Pink | Neutral Gray,#F37F94 #B6BFC1,9/155,1.3,tonal,muted,warm,interior-accent apparel
+35,5 29,Light Brown Drab | Carmine Red,#B59392 #A62C37,5/29,2.4,mid,medium,warm,interior-accent apparel
+36,69 88,Sulphine Yellow | Turquoise Green,#C19F2C #B5DECC,69/88,1.7,tonal,medium,warm,interior apparel
+37,28 151,Brick Red | Red Violet,#A84222 #59256A,28/151,1.8,tonal,vivid,warm,apparel
+38,106 127,Diamine Green | Deep Lyons Blue,#1A7444 #1C4286,106/127,1.6,tonal,medium,cool,interior-accent apparel
+39,23 124,Carmine | Helvetia Blue,#CC1236 #005B8D,23/124,1.2,tonal,vivid,warm,apparel
+40,15 71,Vinaceous Tawny | Citron Yellow,#C56127 #B2B73E,15/71,1.9,tonal,vivid,warm,apparel
+41,74 116,Dark Citrine | Calamine BLue,#8B835B #78CDD0,74/116,2.0,tonal,muted,balanced,interior-accent apparel
+42,60 150,Yellow Ocher | Violet,#E2B540 #4F4086,60/150,4.5,mid,vivid,warm,web apparel-statement
+43,2 140,Corinthian Pink | Aconite Violet,#F8B6BA #A36AA5,2/140,2.4,mid,medium,warm,interior apparel
+44,102 121,Light Porcelain Green | Olympic Blue,#00908A #5A82B3,102/121,1.0,tonal,medium,cool,interior-accent apparel
+45,43 56,Seashell Pink | Lemon Yellow,#FDD4BD #F8ED43,43/56,1.1,tonal,medium,warm,apparel
+46,64 159,Orange | Black,#F37420 #111314,64/159,6.5,high,medium,warm,web interior-accent
+47,19 135,Etruscan Red | Grayish Lavender - B,#C55347 #C0A9B3,19/135,2.0,tonal,medium,warm,interior-accent apparel
+48,25 124,Rosolanc Purple | Helvetia Blue,#B73F74 #005B8D,25/124,1.3,tonal,medium,balanced,apparel
+49,112 122,Pale King's Blue | Blue,#A7D4E4 #006EB8,112/122,3.3,mid,medium,cool,web* interior apparel
+50,42 153,Ivory Buff | Dusky Madder Violet,#EBD3A2 #4E1D4C,42/153,8.9,high,medium,warm,web interior apparel
+51,29 122,Carmine Red | Blue,#A62C37 #006EB8,29/122,1.2,tonal,vivid,balanced,apparel
+52,39 159,Sulpher Yellow | Black,#F5ECC2 #111314,39/159,15.6,high,muted,warm,web interior apparel
+53,62 153,Yellow Orange | Dusky Madder Violet,#F99D1B #4E1D4C,62/153,6.1,high,vivid,warm,web apparel-statement print/brand
+54,101 113,Benzol Green | Light Glaucous Blue,#00978D #A5C8D1,101/113,2.0,tonal,medium,cool,interior apparel
+55,11 154,Old Rose | White,#D46D7A #FFFFFF,11/154,3.3,mid,muted,warm,web* interior apparel
+56,135 150,Grayish Lavender - B | Violet,#C0A9B3 #4F4086,135/150,3.9,mid,muted,cool,web* interior-accent apparel
+57,148 158,Taupe Brown | Slate Color,#7A4456 #34454C,148/158,1.3,tonal,muted,balanced,interior-accent apparel
+58,33 100,Hay's Russet | Sea Green,#793327 #00B49B,33/100,3.4,mid,medium,balanced,web* interior-accent
+59,9 72,Eosine Pink | Citrine,#F37F94 #B09F36,9/72,1.0,tonal,vivid,warm,apparel
+60,40 130,Pale Lemon Yellow | Dark Tyrian Blue,#FFEFAE #12354E,40/130,11.0,high,muted,balanced,web interior apparel
+61,92 152,Light Green Yellow | Cotinga Purple,#C7D14F #501345,92/152,8.3,high,medium,warm,web
+62,55 159,Yellow | Black,#FFF200 #111314,55/159,15.9,high,medium,warm,web
+63,38 118,Vistoris Lake | Cerulian Blue,#6D4145 #0093A5,38/118,2.2,tonal,muted,balanced,interior-accent apparel
+64,140 142,Aconite Violet | Dark Soft Violet,#A36AA5 #66629C,140/142,1.3,tonal,medium,cool,interior-accent apparel
+65,69 116,Sulphine Yellow | Calamine BLue,#C19F2C #78CDD0,69/116,1.3,tonal,medium,warm,interior-accent apparel
+66,59 80,Olive Ocher | Olive Green,#D6B43E #6B7140,59/80,2.5,mid,medium,warm,interior-accent
+67,121 130,Olympic Blue | Dark Tyrian Blue,#5A82B3 #12354E,121/130,3.2,mid,muted,cool,web* interior-accent apparel
+68,5 55,Light Brown Drab | Yellow,#B59392 #FFF200,5/55,2.3,mid,vivid,warm,apparel-statement
+69,157 159,Warm Gray | Black,#A1A39A #111314,157/159,7.2,high,muted,balanced,web interior-accent apparel
+70,14 108,Raw Sienna | Lincoln Green,#BB7125 #555832,14/108,1.9,tonal,medium,warm,interior-accent apparel
+71,30 50,Pompeian Red | Ochraceous Salmon,#AB2439 #D8A37B,30/50,3.1,mid,medium,warm,web*
+72,39 112,Sulpher Yellow | Pale King's Blue,#F5ECC2 #A7D4E4,39/112,1.3,tonal,muted,balanced,interior apparel
+73,83 97,Pale Raw Umber | Rainette Green,#71502F #8FA071,83/97,2.5,mid,muted,warm,interior-accent apparel
+74,88 120,Turquoise Green | Green Blue,#B5DECC #099197,88/120,2.5,mid,muted,cool,interior apparel
+75,112 128,Pale King's Blue | Violet Blue,#A7D4E4 #40456A,112/128,5.7,high,muted,cool,web interior apparel
+76,40 157,Pale Lemon Yellow | Warm Gray,#FFEFAE #A1A39A,40/157,2.2,mid,muted,warm,interior apparel
+77,13 129,Eugenia Red B | Vandar Poel's Blue,#DA525D #064F6E,13/129,2.2,tonal,medium,warm,interior-accent apparel
+78,45 117,Pinkish Cinnamon | Venice Green,#EEB480 #62C6BF,45/117,1.1,tonal,medium,balanced,interior-accent apparel
+79,85 120,Madder Brown | Green Blue,#762C19 #099197,85/120,2.5,mid,medium,balanced,interior-accent apparel
+80,39 139,Sulpher Yellow | Light Mauve,#F5ECC2 #9A72AA,39/139,3.2,mid,muted,warm,web* interior apparel
+81,48 157,Golden Yellow | Warm Gray,#F3A257 #A1A39A,48/157,1.2,tonal,medium,warm,interior-accent apparel
+82,33 153,Hay's Russet | Dusky Madder Violet,#793327 #4E1D4C,33/153,1.4,tonal,medium,warm,interior-accent apparel
+83,53 128,Olive Buff | Violet Blue,#C1C494 #40456A,53/128,5.0,mid,muted,cool,web interior apparel
+84,43 133,Seashell Pink | Deep Slate Green,#FDD4BD #112F2C,43/133,10.4,high,muted,balanced,web interior apparel
+85,15 123,Vinaceous Tawny | Antwarp Blue,#C56127 #007190,15/123,1.3,tonal,vivid,warm,apparel
+86,14 100,Raw Sienna | Sea Green,#BB7125 #00B49B,14/100,1.4,tonal,vivid,balanced,apparel
+87,2 71,Corinthian Pink | Citron Yellow,#F8B6BA #B2B73E,2/71,1.2,tonal,medium,warm,interior apparel
+88,43 122,Seashell Pink | Blue,#FDD4BD #006EB8,43/122,3.9,mid,medium,cool,web* interior apparel
+89,62 128,Yellow Orange | Violet Blue,#F99D1B #40456A,62/128,4.3,mid,vivid,warm,web* apparel-statement
+90,9 140,Eosine Pink | Aconite Violet,#F37F94 #A36AA5,9/140,1.6,tonal,medium,warm,interior-accent apparel
+91,38 68,Vistoris Lake | Orange Rufous,#6D4145 #C16B27,38/68,2.1,tonal,medium,warm,interior-accent apparel
+92,6 101,Coral Red | Benzol Green,#F58E84 #00978D,6/101,1.5,tonal,vivid,balanced,apparel
+93,72 113,Citrine | Light Glaucous Blue,#B09F36 #A5C8D1,72/113,1.4,tonal,medium,warm,interior apparel
+94,42 126,Ivory Buff | Dusky Green,#EBD3A2 #004F46,42/126,6.5,high,medium,balanced,web interior apparel
+95,33 131,Hay's Russet | Dull Violet Black,#793327 #1E0E3F,33/131,1.9,tonal,medium,warm,interior-accent apparel
+96,60 77,Yellow Ocher | Olive,#E2B540 #837E31,60/77,2.1,tonal,vivid,warm,apparel
+97,2 19,Corinthian Pink | Etruscan Red,#F8B6BA #C55347,2/19,2.6,mid,medium,warm,interior
+98,85 128,Madder Brown | Violet Blue,#762C19 #40456A,85/128,1.0,tonal,medium,warm,interior-accent apparel
+99,40 118,Pale Lemon Yellow | Cerulian Blue,#FFEFAE #0093A5,40/118,3.1,mid,medium,balanced,web* interior apparel
+100,73 141,Buffy Citrine | Dull Blue Violet,#96874D #80719E,73/141,1.2,tonal,muted,warm,interior-accent apparel
+101,3 127,Cameo Pink | Deep Lyons Blue,#E0B3B6 #1C4286,3/127,5.1,mid,medium,cool,web interior-accent apparel
+102,42 68,Ivory Buff | Orange Rufous,#EBD3A2 #C16B27,42/68,2.6,mid,medium,warm,interior
+103,67 153,Cinnamon Rufous | Dusky Madder Violet,#C27544 #4E1D4C,67/153,3.6,mid,medium,warm,web* interior-accent
+104,29 39,Carmine Red | Sulpher Yellow,#A62C37 #F5ECC2,29/39,5.8,high,medium,warm,web interior apparel
+105,3 98,Cameo Pink | Chromium Green,#E0B3B6 #719470,3/98,1.8,tonal,muted,balanced,interior-accent apparel
+106,123 131,Antwarp Blue | Dull Violet Black,#007190 #1E0E3F,123/131,3.1,mid,medium,cool,web* interior-accent apparel
+107,57 75,Apricot Yellow | Light Grayish Olive,#FFDD00 #848061,57/75,2.9,mid,vivid,warm,apparel-statement
+108,9 28,Eosine Pink | Brick Red,#F37F94 #A84222,9/28,2.3,tonal,vivid,warm,apparel
+109,40 109,Pale Lemon Yellow | Blackish Olive,#FFEFAE #42533E,40/109,7.1,high,muted,warm,web interior apparel
+110,32 87,Brown | Vandyke Brown,#7C4226 #4B3317,32/87,1.4,tonal,medium,warm,interior-accent apparel
+111,40 91,Pale Lemon Yellow | Yellow Green,#FFEFAE #AFD472,40/91,1.4,tonal,medium,warm,interior apparel
+112,8 159,Grenadine Pink | Black,#F48067 #111314,8/159,7.2,high,muted,warm,web interior-accent apparel
+113,43 87,Seashell Pink | Vandyke Brown,#FDD4BD #4B3317,43/87,8.5,high,muted,warm,web interior apparel
+114,61 123,Orange Yellow | Antwarp Blue,#FCB315 #007190,61/123,3.0,mid,vivid,warm,web* apparel-statement
+115,41 65,Naples Yellow | Peach Red,#FBE6A0 #F15A30,41/65,2.7,mid,vivid,warm,apparel-statement
+116,3 143,Cameo Pink | Blue Violet,#E0B3B6 #6450A1,3/143,3.5,mid,medium,cool,web* interior-accent apparel
+117,23 159,Carmine | Black,#CC1236 #111314,23/159,3.2,mid,medium,warm,web* interior-accent apparel
+118,60 87,Yellow Ocher | Vandyke Brown,#E2B540 #4B3317,60/87,6.1,high,medium,warm,web interior-accent
+119,113 130,Light Glaucous Blue | Dark Tyrian Blue,#A5C8D1 #12354E,113/130,7.1,high,muted,cool,web interior apparel
+120,3 30,Cameo Pink | Pompeian Red,#E0B3B6 #AB2439,3/30,3.7,mid,medium,warm,web* interior-accent apparel
+121,32 50 108,Brown | Ochraceous Salmon | Lincoln Green,#7C4226 #D8A37B #555832,32/50,3.5,mid,medium,warm,web* interior-accent apparel
+122,23 47 101,Carmine | Cream Yellow | Benzol Green,#CC1236 #FDBF68 #00978D,23/47,3.4,mid,vivid,warm,web* apparel-statement
+123,6 56 148,Coral Red | Lemon Yellow | Taupe Brown,#F58E84 #F8ED43 #7A4456,56/148,6.1,high,medium,warm,web
+124,36 60 94,Pale Burnt Lake | Yellow Ocher | Olive Yellow,#802626 #E2B540 #A6A159,36/60,4.9,mid,medium,warm,web
+125,4 118 128,Fawn | Cerulian Blue | Violet Blue,#D1B0A7 #0093A5 #40456A,4/128,4.6,mid,muted,cool,web interior-accent apparel
+126,42 60 127,Ivory Buff | Yellow Ocher | Deep Lyons Blue,#EBD3A2 #E2B540 #1C4286,42/127,6.6,high,medium,warm,web interior
+127,46 99 142,Cinnamon Buff | Pistachio Green | Dark Soft Violet,#FDC57E #648F7B #66629C,46/142,3.5,mid,medium,balanced,web* interior apparel
+128,2 117 139,Corinthian Pink | Venice Green | Light Mauve,#F8B6BA #62C6BF #9A72AA,2/139,2.3,mid,medium,balanced,interior apparel
+129,57 70 114,Apricot Yellow | Khaki | Salvia Blue,#FFDD00 #BC892B #97ACC8,57/70,2.3,mid,vivid,warm,apparel-statement
+130,14 29 150,Raw Sienna | Carmine Red | Violet,#BB7125 #A62C37 #4F4086,14/150,2.2,tonal,vivid,warm,apparel
+131,14 66 119,Raw Sienna | English Red | Peacock Blue,#BB7125 #D96629 #00939B,14/66,1.0,tonal,vivid,warm,apparel
+132,39 48 72,Sulpher Yellow | Golden Yellow | Citrine,#F5ECC2 #F3A257 #B09F36,39/72,2.2,mid,medium,warm,interior
+133,34 72 100,Vandyke Red | Citrine | Sea Green,#82241F #B09F36 #00B49B,34/100,3.6,mid,vivid,warm,web* apparel-statement
+134,9 139 151,Eosine Pink | Light Mauve | Red Violet,#F37F94 #9A72AA #59256A,9/151,4.3,mid,medium,warm,web* interior-accent
+135,39 107 114,Sulpher Yellow | Cossack Green | Salvia Blue,#F5ECC2 #437742 #97ACC8,39/107,4.4,mid,muted,balanced,web* interior apparel
+136,22 104 151,Scarlet | Dull Viridian Green | Red Violet,#CB2F43 #009465 #59256A,104/151,2.8,mid,vivid,balanced,apparel-statement
+137,19 46 99,Etruscan Red | Cinnamon Buff | Pistachio Green,#C55347 #FDC57E #648F7B,19/46,2.8,mid,medium,warm,interior
+138,48 56 117,Golden Yellow | Lemon Yellow | Venice Green,#F3A257 #F8ED43 #62C6BF,48/56,1.6,tonal,vivid,warm,apparel
+139,114 132 155,Salvia Blue | Deep Indigo | Neutral Gray,#97ACC8 #051230 #B6BFC1,132/155,9.8,high,muted,cool,web interior-accent apparel
+140,48 123 158,Golden Yellow | Antwarp Blue | Slate Color,#F3A257 #007190 #34454C,48/158,4.8,mid,medium,balanced,web interior-accent apparel
+141,64 91 130,Orange | Yellow Green | Dark Tyrian Blue,#F37420 #AFD472 #12354E,91/130,7.5,high,vivid,warm,web apparel-statement print/brand
+142,27 69 114,Hydrangea Red | Sulphine Yellow | Salvia Blue,#A94151 #C19F2C #97ACC8,27/114,2.5,mid,medium,warm,interior-accent
+143,122 137 157,Blue | Lilac | Warm Gray,#006EB8 #B984AF #A1A39A,122/157,2.0,tonal,muted,balanced,interior-accent apparel
+144,25 64 159,Rosolanc Purple | Orange | Black,#B73F74 #F37420 #111314,64/159,6.5,high,medium,warm,web interior-accent
+145,32 71 131,Brown | Citron Yellow | Dull Violet Black,#7C4226 #B2B73E #1E0E3F,71/131,8.1,high,medium,warm,web interior-accent
+146,70 82 106,Khaki | Deep Grayish Olive | Diamine Green,#BC892B #635A3A #1A7444,70/82,2.2,tonal,medium,warm,interior-accent apparel
+147,10 34 88,Spinel Red | Vandyke Red | Turquoise Green,#F27291 #82241F #B5DECC,34/88,6.4,high,medium,warm,web interior apparel
+148,59 61 118,Olive Ocher | Orange Yellow | Cerulian Blue,#D6B43E #FCB315 #0093A5,61/118,2.0,tonal,vivid,warm,apparel
+149,59 64 133,Olive Ocher | Orange | Deep Slate Green,#D6B43E #F37420 #112F2C,59/133,7.1,high,vivid,warm,web apparel-statement print/brand
+150,43 71 89,Seashell Pink | Citron Yellow | Glaucous Green,#FDD4BD #B2B73E #B4CDC2,43/71,1.5,tonal,medium,balanced,interior apparel
+151,39 62 129,Sulpher Yellow | Yellow Orange | Vandar Poel's Blue,#F5ECC2 #F99D1B #064F6E,39/129,7.5,high,medium,warm,web interior
+152,19 33 113,Etruscan Red | Hay's Russet | Light Glaucous Blue,#C55347 #793327 #A5C8D1,33/113,5.0,mid,medium,warm,web interior apparel
+153,9 61 71,Eosine Pink | Orange Yellow | Citron Yellow,#F37F94 #FCB315 #B2B73E,9/61,1.4,tonal,vivid,warm,apparel
+154,23 55 122,Carmine | Yellow | Blue,#CC1236 #FFF200 #006EB8,23/55,4.8,high,vivid,warm,web apparel-statement print/brand
+155,16 101 132,Jasper Red | Benzol Green | Deep Indigo,#EB5324 #00978D #051230,101/132,5.1,high,vivid,balanced,web apparel-statement print/brand
+156,59 115 150,Olive Ocher | Cobalt Green | Violet,#D6B43E #96D1AA #4F4086,115/150,4.9,mid,medium,balanced,web interior
+157,35 59 121,Pansy Purple | Olive Ocher | Olympic Blue,#7D133A #D6B43E #5A82B3,35/59,5.1,mid,medium,warm,web
+158,56 67 93,Lemon Yellow | Cinnamon Rufous | Night Green,#F8ED43 #C27544 #87C540,56/67,2.9,mid,vivid,warm,apparel-statement
+159,70 116 134,Khaki | Calamine BLue | Grayish Lavender - A,#BC892B #78CDD0 #B5B1D8,70/116,1.6,tonal,medium,balanced,interior-accent apparel
+160,69 83 125,Sulphine Yellow | Pale Raw Umber | Dark Medici Blue,#C19F2C #71502F #547076,69/83,2.8,mid,medium,warm,interior-accent apparel
+161,32 45 124,Brown | Pinkish Cinnamon | Helvetia Blue,#7C4226 #EEB480 #005B8D,32/45,4.3,mid,medium,warm,web* interior-accent apparel
+162,11 97 137,Old Rose | Rainette Green | Lilac,#D46D7A #8FA071 #B984AF,11/97,1.1,tonal,medium,warm,interior-accent apparel
+163,57 88 123,Apricot Yellow | Turquoise Green | Antwarp Blue,#FFDD00 #B5DECC #007190,57/123,4.1,mid,medium,warm,web*
+164,18 61 150,Red Orange | Orange Yellow | Violet,#DD4027 #FCB315 #4F4086,61/150,4.8,mid,vivid,warm,web apparel-statement
+165,3 10 38,Cameo Pink | Spinel Red | Vistoris Lake,#E0B3B6 #F27291 #6D4145,3/38,4.5,mid,medium,warm,web interior-accent apparel
+166,8 41 133,Grenadine Pink | Naples Yellow | Deep Slate Green,#F48067 #FBE6A0 #112F2C,41/133,11.5,high,medium,warm,web interior apparel
+167,54 112 129,Ecru | Pale King's Blue | Vandar Poel's Blue,#C2AE93 #A7D4E4 #064F6E,112/129,5.6,high,muted,cool,web interior apparel
+168,56 129 146,Lemon Yellow | Vandar Poel's Blue | Veronia Purple,#F8ED43 #064F6E #8C4C62,56/129,7.3,high,medium,warm,web interior
+169,2 40 157,Corinthian Pink | Pale Lemon Yellow | Warm Gray,#F8B6BA #FFEFAE #A1A39A,40/157,2.2,mid,muted,warm,interior apparel
+170,25 61 151,Rosolanc Purple | Orange Yellow | Red Violet,#B73F74 #FCB315 #59256A,61/151,6.1,high,vivid,warm,web apparel-statement print/brand
+171,36 62 89,Pale Burnt Lake | Yellow Orange | Glaucous Green,#802626 #F99D1B #B4CDC2,36/89,5.6,high,medium,warm,web interior
+172,67 123 151,Cinnamon Rufous | Antwarp Blue | Red Violet,#C27544 #007190 #59256A,67/151,3.1,mid,medium,balanced,web* interior-accent
+173,56 85 88,Lemon Yellow | Madder Brown | Turquoise Green,#F8ED43 #762C19 #B5DECC,56/85,8.0,high,medium,warm,web
+174,2 135 148,Corinthian Pink | Grayish Lavender - B | Taupe Brown,#F8B6BA #C0A9B3 #7A4456,2/148,4.4,mid,muted,warm,web* interior apparel
+175,45 53 143,Pinkish Cinnamon | Olive Buff | Blue Violet,#EEB480 #C1C494 #6450A1,53/143,3.6,mid,medium,balanced,web* interior apparel
+176,1 43 116,Hermosa Pink | Seashell Pink | Calamine BLue,#F9C1CE #FDD4BD #78CDD0,43/116,1.3,tonal,muted,balanced,interior apparel
+177,36 73 134,Pale Burnt Lake | Buffy Citrine | Grayish Lavender - A,#802626 #96874D #B5B1D8,36/134,4.6,mid,medium,warm,web interior-accent apparel
+178,42 113 120,Ivory Buff | Light Glaucous Blue | Green Blue,#EBD3A2 #A5C8D1 #099197,42/120,2.6,mid,muted,cool,interior apparel
+179,18 48 127,Red Orange | Golden Yellow | Deep Lyons Blue,#DD4027 #F3A257 #1C4286,48/127,4.6,mid,vivid,warm,web apparel-statement
+180,46 139 155,Cinnamon Buff | Light Mauve | Neutral Gray,#FDC57E #9A72AA #B6BFC1,46/139,2.5,mid,muted,warm,interior apparel
+181,29 150 152,Carmine Red | Violet | Cotinga Purple,#A62C37 #4F4086 #501345,29/152,1.9,tonal,medium,warm,apparel
+182,14 87 132,Raw Sienna | Vandyke Brown | Deep Indigo,#BB7125 #4B3317 #051230,14/132,4.8,mid,medium,warm,web interior-accent apparel
+183,145 146 151,Deep Violet / Plumbeous | Veronia Purple | Red Violet,#70727C #8C4C62 #59256A,145/151,2.3,tonal,muted,warm,interior-accent apparel
+184,10 42 75,Spinel Red | Ivory Buff | Light Grayish Olive,#F27291 #EBD3A2 #848061,42/75,2.7,mid,medium,warm,interior apparel
+185,5 19 40,Light Brown Drab | Etruscan Red | Pale Lemon Yellow,#B59392 #C55347 #FFEFAE,19/40,3.8,mid,medium,warm,web* interior apparel
+186,33 50 122,Hay's Russet | Ochraceous Salmon | Blue,#793327 #D8A37B #006EB8,33/50,4.0,mid,medium,warm,web* interior-accent
+187,124 135 140,Helvetia Blue | Grayish Lavender - B | Aconite Violet,#005B8D #C0A9B3 #A36AA5,124/135,3.3,mid,muted,cool,web* interior-accent apparel
+188,97 114 115,Rainette Green | Salvia Blue | Cobalt Green,#8FA071 #97ACC8 #96D1AA,97/115,1.6,tonal,muted,cool,interior apparel
+189,56 110 117,Lemon Yellow | Deep Slate Olive | Venice Green,#F8ED43 #253122 #62C6BF,56/110,11.1,high,medium,warm,web interior
+190,42 66 159,Ivory Buff | English Red | Black,#EBD3A2 #D96629 #111314,42/159,12.7,high,medium,warm,web interior apparel
+191,5 60 122,Light Brown Drab | Yellow Ocher | Blue,#B59392 #E2B540 #006EB8,60/122,2.7,mid,medium,warm,interior-accent
+192,47 87 145,Cream Yellow | Vandyke Brown | Deep Violet / Plumbeous,#FDBF68 #4B3317 #70727C,47/87,7.1,high,muted,warm,web interior apparel
+193,8 41 102,Grenadine Pink | Naples Yellow | Light Porcelain Green,#F48067 #FBE6A0 #00908A,41/102,3.1,mid,medium,warm,web* interior
+194,16 43 121,Jasper Red | Seashell Pink | Olympic Blue,#EB5324 #FDD4BD #5A82B3,43/121,2.9,mid,medium,warm,interior
+195,10 40 155,Spinel Red | Pale Lemon Yellow | Neutral Gray,#F27291 #FFEFAE #B6BFC1,10/40,2.3,mid,medium,warm,interior apparel
+196,71 112 143,Citron Yellow | Pale King's Blue | Blue Violet,#B2B73E #A7D4E4 #6450A1,112/143,4.1,mid,medium,cool,web* interior
+197,9 142 155,Eosine Pink | Dark Soft Violet | Neutral Gray,#F37F94 #66629C #B6BFC1,142/155,2.9,mid,muted,balanced,interior-accent apparel
+198,20 57 103,Burnt Sienna | Apricot Yellow | Green,#AE5224 #FFDD00 #489B6E,20/57,3.8,mid,vivid,warm,web* apparel-statement
+199,21 81 127,Ochre Red | Light Brownish Olive | Deep Lyons Blue,#AB544D #806E4B #1C4286,81/127,1.9,tonal,medium,warm,interior-accent apparel
+200,29 53 98,Carmine Red | Olive Buff | Chromium Green,#A62C37 #C1C494 #719470,29/53,3.8,mid,medium,warm,web* interior apparel
+201,8 77 115,Grenadine Pink | Olive | Cobalt Green,#F48067 #837E31 #96D1AA,77/115,2.4,mid,medium,warm,interior
+202,88 115 158,Turquoise Green | Cobalt Green | Slate Color,#B5DECC #96D1AA #34454C,88/158,6.7,high,muted,cool,web interior apparel
+203,40 49 108,Pale Lemon Yellow | Vinaceous Cinnamon | Lincoln Green,#FFEFAE #EEA78C #555832,40/108,6.4,high,medium,warm,web interior apparel
+204,25 67 113,Rosolanc Purple | Cinnamon Rufous | Light Glaucous Blue,#B73F74 #C27544 #A5C8D1,25/113,2.9,mid,medium,warm,interior apparel
+205,36 49 150,Pale Burnt Lake | Vinaceous Cinnamon | Violet,#802626 #EEA78C #4F4086,36/49,4.7,mid,medium,warm,web interior-accent
+206,2 48 67,Corinthian Pink | Golden Yellow | Cinnamon Rufous,#F8B6BA #F3A257 #C27544,2/67,2.0,tonal,medium,warm,interior apparel
+207,79 89 159,Sudan Brown | Glaucous Green | Black,#A36752 #B4CDC2 #111314,89/159,11.0,high,muted,warm,web interior apparel
+208,39 120 123,Sulpher Yellow | Green Blue | Antwarp Blue,#F5ECC2 #099197 #007190,39/123,4.6,high,medium,cool,web interior apparel
+209,42 62 114,Ivory Buff | Yellow Orange | Salvia Blue,#EBD3A2 #F99D1B #97ACC8,42/114,1.5,tonal,medium,warm,interior apparel
+210,46 56 108,Cinnamon Buff | Lemon Yellow | Lincoln Green,#FDC57E #F8ED43 #555832,56/108,6.0,high,medium,warm,web
+211,63 94 132,Apricot Orange | Olive Yellow | Deep Indigo,#F68C50 #A6A159 #051230,63/132,7.7,high,medium,warm,web interior-accent
+212,30 78 114,Pompeian Red | Orange Citrine | Salvia Blue,#AB2439 #986F2D #97ACC8,30/114,2.9,mid,medium,warm,interior-accent
+213,49 57 112,Vinaceous Cinnamon | Apricot Yellow | Pale King's Blue,#EEA78C #FFDD00 #A7D4E4,49/57,1.4,tonal,medium,warm,apparel
+214,42 79 150,Ivory Buff | Sudan Brown | Violet,#EBD3A2 #A36752 #4F4086,42/150,5.9,high,medium,balanced,web interior apparel
+215,47 122 138,Cream Yellow | Blue | Eupatorium Purple,#FDBF68 #006EB8 #BF5892,47/122,3.2,mid,vivid,warm,web* apparel-statement
+216,16 103 159,Jasper Red | Green | Black,#EB5324 #489B6E #111314,103/159,5.4,high,medium,warm,web interior-accent
+217,36 50 106,Pale Burnt Lake | Ochraceous Salmon | Diamine Green,#802626 #D8A37B #1A7444,36/50,4.2,mid,medium,warm,web* interior-accent apparel
+218,124 134 145,Helvetia Blue | Grayish Lavender - A | Deep Violet / Plumbeous,#005B8D #B5B1D8 #70727C,124/134,3.5,mid,muted,cool,web* interior-accent apparel
+219,16 98 126,Jasper Red | Chromium Green | Dusky Green,#EB5324 #719470 #004F46,98/126,2.7,mid,medium,warm,general
+220,26 50 140,Pomegranite Purple | Ochraceous Salmon | Aconite Violet,#B71F57 #D8A37B #A36AA5,26/50,2.8,mid,medium,warm,interior-accent
+221,29 155 159,Carmine Red | Neutral Gray | Black,#A62C37 #B6BFC1 #111314,155/159,9.9,high,muted,warm,web interior-accent apparel
+222,60 62 68,Yellow Ocher | Yellow Orange | Orange Rufous,#E2B540 #F99D1B #C16B27,60/68,2.0,tonal,vivid,warm,apparel
+223,5 50 88,Light Brown Drab | Ochraceous Salmon | Turquoise Green,#B59392 #D8A37B #B5DECC,5/88,1.8,tonal,muted,warm,interior apparel
+224,10 125 148,Spinel Red | Dark Medici Blue | Taupe Brown,#F27291 #547076 #7A4456,10/148,2.7,mid,muted,warm,interior-accent apparel
+225,23 126 147,Carmine | Dusky Green | Dark Slate Purple,#CC1236 #004F46 #704357,23/126,1.6,tonal,medium,warm,interior-accent apparel
+226,38 47 150,Vistoris Lake | Cream Yellow | Violet,#6D4145 #FDBF68 #4F4086,47/150,5.3,high,medium,warm,web interior apparel
+227,1 113 118,Hermosa Pink | Light Glaucous Blue | Cerulian Blue,#F9C1CE #A5C8D1 #0093A5,1/118,2.3,mid,muted,cool,interior apparel
+228,29 40 155,Carmine Red | Pale Lemon Yellow | Neutral Gray,#A62C37 #FFEFAE #B6BFC1,29/40,5.9,high,medium,warm,web interior apparel
+229,48 110 155,Golden Yellow | Deep Slate Olive | Neutral Gray,#F3A257 #253122 #B6BFC1,110/155,7.2,high,muted,warm,web interior-accent apparel
+230,8 88 115,Grenadine Pink | Turquoise Green | Cobalt Green,#F48067 #B5DECC #96D1AA,8/88,1.7,tonal,medium,balanced,interior apparel
+231,3 33 121,Cameo Pink | Hay's Russet | Olympic Blue,#E0B3B6 #793327 #5A82B3,3/33,4.8,mid,muted,warm,web interior-accent apparel
+232,23 45 132,Carmine | Pinkish Cinnamon | Deep Indigo,#CC1236 #EEB480 #051230,45/132,10.1,high,medium,warm,web
+233,29 73 128,Carmine Red | Buffy Citrine | Violet Blue,#A62C37 #96874D #40456A,73/128,2.5,mid,medium,warm,interior-accent apparel
+234,46 83 112,Cinnamon Buff | Pale Raw Umber | Pale King's Blue,#FDC57E #71502F #A7D4E4,46/83,4.6,mid,medium,warm,web interior apparel
+235,42 62 135,Ivory Buff | Yellow Orange | Grayish Lavender - B,#EBD3A2 #F99D1B #C0A9B3,42/135,1.5,tonal,medium,warm,interior apparel
+236,70 127 144,Khaki | Deep Lyons Blue | Purple Drab,#BC892B #1C4286 #84565B,70/127,3.1,mid,medium,warm,web* interior-accent
+237,29 85 114,Carmine Red | Madder Brown | Salvia Blue,#A62C37 #762C19 #97ACC8,85/114,4.2,mid,medium,warm,web* interior-accent apparel
+238,50 152 157,Ochraceous Salmon | Cotinga Purple | Warm Gray,#D8A37B #501345 #A1A39A,50/152,6.2,high,muted,warm,web interior-accent apparel
+239,5 58 89,Light Brown Drab | Pyrite Yellow | Glaucous Green,#B59392 #CAB356 #B4CDC2,5/89,1.6,tonal,muted,warm,interior apparel
+240,7 55 118,Fresh Color | Yellow | Cerulian Blue,#F6917E #FFF200 #0093A5,55/118,3.1,mid,vivid,warm,web* apparel-statement
+241,18 40 51 125,Red Orange | Pale Lemon Yellow | Isabella Color | Dark Medici Blue,#DD4027 #FFEFAE #C5A56E #547076,40/125,4.6,mid,medium,warm,web interior apparel
+242,9 20 106 159,Eosine Pink | Burnt Sienna | Diamine Green | Black,#F37F94 #AE5224 #1A7444 #111314,9/159,7.3,high,medium,warm,web interior-accent apparel
+243,14 42 80 158,Raw Sienna | Ivory Buff | Olive Green | Slate Color,#BB7125 #EBD3A2 #6B7140 #34454C,42/158,6.8,high,medium,warm,web interior apparel
+244,5 15 96 123,Light Brown Drab | Vinaceous Tawny | Andover Green | Antwarp Blue,#B59392 #C56127 #6D7E77 #007190,5/123,2.0,tonal,medium,warm,interior-accent apparel
+245,29 105 130 158,Carmine Red | Oil Green | Dark Tyrian Blue | Slate Color,#A62C37 #819238 #12354E #34454C,105/130,3.7,mid,medium,warm,web* interior-accent apparel
+246,2 28 39 46,Corinthian Pink | Brick Red | Sulpher Yellow | Cinnamon Buff,#F8B6BA #A84222 #F5ECC2 #FDC57E,28/39,5.0,high,medium,warm,web interior apparel
+247,14 57 101 127,Raw Sienna | Apricot Yellow | Benzol Green | Deep Lyons Blue,#BB7125 #FFDD00 #00978D #1C4286,57/127,7.1,high,vivid,warm,web apparel-statement print/brand
+248,9 70 134 147,Eosine Pink | Khaki | Grayish Lavender - A | Dark Slate Purple,#F37F94 #BC892B #B5B1D8 #704357,134/147,3.8,mid,medium,warm,web* interior-accent apparel
+249,33 54 59 125,Hay's Russet | Ecru | Olive Ocher | Dark Medici Blue,#793327 #C2AE93 #D6B43E #547076,33/59,4.5,mid,medium,warm,web interior-accent apparel
+250,58 65 100 111,Pyrite Yellow | Peach Red | Sea Green | Nile Blue,#CAB356 #F15A30 #00B49B #BCE4E5,65/111,2.4,mid,medium,warm,general
+251,31 55 106 158,Red | Yellow | Diamine Green | Slate Color,#A72144 #FFF200 #1A7444 #34454C,55/158,8.5,high,vivid,warm,web apparel-statement print/brand
+252,13 14 69 120,Eugenia Red B | Raw Sienna | Sulphine Yellow | Green Blue,#DA525D #BB7125 #C19F2C #099197,13/69,1.5,tonal,vivid,warm,apparel
+253,56 63 152 158,Lemon Yellow | Apricot Orange | Cotinga Purple | Slate Color,#F8ED43 #F68C50 #501345 #34454C,56/152,11.3,high,medium,warm,web
+254,2 39 77 136,Corinthian Pink | Sulpher Yellow | Olive | Laelia Pink,#F8B6BA #F5ECC2 #837E31 #CA92A8,39/77,3.5,mid,muted,warm,web* interior apparel
+255,14 58 116 159,Raw Sienna | Pyrite Yellow | Calamine BLue | Black,#BB7125 #CAB356 #78CDD0 #111314,116/159,10.1,high,medium,warm,web interior-accent apparel
+256,49 64 104 159,Vinaceous Cinnamon | Orange | Dull Viridian Green | Black,#EEA78C #F37420 #009465 #111314,49/159,9.3,high,medium,warm,web interior-accent
+257,17 61 122 140,Spectrum Red | Orange Yellow | Blue | Aconite Violet,#E31F26 #FCB315 #006EB8 #A36AA5,61/122,2.9,mid,vivid,warm,apparel-statement
+258,36 45 77 123,Pale Burnt Lake | Pinkish Cinnamon | Olive | Antwarp Blue,#802626 #EEB480 #837E31 #007190,36/45,5.1,mid,medium,warm,web interior-accent
+259,56 120 124 157,Lemon Yellow | Green Blue | Helvetia Blue | Warm Gray,#F8ED43 #099197 #005B8D #A1A39A,56/124,5.9,high,medium,balanced,web interior apparel
+260,11 49 89 100,Old Rose | Vinaceous Cinnamon | Glaucous Green | Sea Green,#D46D7A #EEA78C #B4CDC2 #00B49B,11/89,1.9,tonal,medium,balanced,interior apparel
+261,31 40 116 157,Red | Pale Lemon Yellow | Calamine BLue | Warm Gray,#A72144 #FFEFAE #78CDD0 #A1A39A,31/40,6.1,high,medium,warm,web interior apparel
+262,13 42 72 107,Eugenia Red B | Ivory Buff | Citrine | Cossack Green,#DA525D #EBD3A2 #B09F36 #437742,42/107,3.6,mid,medium,warm,web* interior
+263,20 45 88 158,Burnt Sienna | Pinkish Cinnamon | Turquoise Green | Slate Color,#AE5224 #EEB480 #B5DECC #34454C,88/158,6.7,high,medium,warm,web interior apparel
+264,2 18 90 118,Corinthian Pink | Red Orange | Dark Greenish Glaucous | Cerulian Blue,#F8B6BA #DD4027 #B7C2A9 #0093A5,2/18,2.5,mid,medium,warm,interior apparel
+265,11 57 94 131,Old Rose | Apricot Yellow | Olive Yellow | Dull Violet Black,#D46D7A #FFDD00 #A6A159 #1E0E3F,57/131,13.1,high,vivid,warm,web apparel-statement print/brand
+266,17 42 97 101,Spectrum Red | Ivory Buff | Rainette Green | Benzol Green,#E31F26 #EBD3A2 #8FA071 #00978D,17/42,3.2,mid,medium,warm,web*
+267,47 62 101 122,Cream Yellow | Yellow Orange | Benzol Green | Blue,#FDBF68 #F99D1B #00978D #006EB8,47/122,3.2,mid,vivid,warm,web* apparel-statement
+268,5 14 110 111,Light Brown Drab | Raw Sienna | Deep Slate Olive | Nile Blue,#B59392 #BB7125 #253122 #BCE4E5,110/111,9.9,high,muted,warm,web interior apparel
+269,14 36 140 159,Raw Sienna | Pale Burnt Lake | Aconite Violet | Black,#BB7125 #802626 #A36AA5 #111314,14/159,4.8,mid,medium,warm,web interior-accent apparel
+270,13 39 80 107,Eugenia Red B | Sulpher Yellow | Olive Green | Cossack Green,#DA525D #F5ECC2 #6B7140 #437742,39/107,4.4,mid,medium,warm,web* interior apparel
+271,26 115 120 133,Pomegranite Purple | Cobalt Green | Green Blue | Deep Slate Green,#B71F57 #96D1AA #099197 #112F2C,115/133,8.1,high,medium,balanced,web interior apparel
+272,40 64 88 114,Pale Lemon Yellow | Orange | Turquoise Green | Salvia Blue,#FFEFAE #F37420 #B5DECC #97ACC8,40/64,2.4,mid,medium,warm,interior apparel
+273,1 35 79 155,Hermosa Pink | Pansy Purple | Sudan Brown | Neutral Gray,#F9C1CE #7D133A #A36752 #B6BFC1,1/35,6.6,high,muted,warm,web interior apparel
+274,65 74 121 139,Peach Red | Dark Citrine | Olympic Blue | Light Mauve,#F15A30 #8B835B #5A82B3 #9A72AA,65/121,1.1,tonal,medium,warm,interior-accent apparel
+275,19 54 85 148,Etruscan Red | Ecru | Madder Brown | Taupe Brown,#C55347 #C2AE93 #762C19 #7A4456,54/85,4.5,mid,medium,warm,web interior-accent apparel
+276,9 43 91 159,Eosine Pink | Seashell Pink | Yellow Green | Black,#F37F94 #FDD4BD #AFD472 #111314,43/159,13.6,high,medium,warm,web interior apparel
+277,10 25 77 131,Spinel Red | Rosolanc Purple | Olive | Dull Violet Black,#F27291 #B73F74 #837E31 #1E0E3F,10/131,6.3,high,medium,warm,web
+278,47 59 107 126,Cream Yellow | Olive Ocher | Cossack Green | Dusky Green,#FDBF68 #D6B43E #437742 #004F46,47/126,5.8,high,medium,warm,web
+279,14 49 54 130,Raw Sienna | Vinaceous Cinnamon | Ecru | Dark Tyrian Blue,#BB7125 #EEA78C #C2AE93 #12354E,49/130,6.4,high,medium,warm,web interior-accent apparel
+280,13 108 136 148,Eugenia Red B | Lincoln Green | Laelia Pink | Taupe Brown,#DA525D #555832 #CA92A8 #7A4456,136/148,2.9,mid,medium,warm,interior-accent apparel
+281,40 101 115 123,Pale Lemon Yellow | Benzol Green | Cobalt Green | Antwarp Blue,#FFEFAE #00978D #96D1AA #007190,40/123,4.8,high,medium,cool,web interior apparel
+282,13 52 115 137,Eugenia Red B | Maple | Cobalt Green | Lilac,#DA525D #C59F6B #96D1AA #B984AF,13/115,2.2,tonal,medium,warm,interior apparel
+283,21 36 98 117,Ochre Red | Pale Burnt Lake | Chromium Green | Venice Green,#AB544D #802626 #719470 #62C6BF,36/117,4.6,mid,medium,warm,web interior-accent apparel
+284,12 57 100 126,Eugenia Red A | Apricot Yellow | Sea Green | Dusky Green,#E2625E #FFDD00 #00B49B #004F46,57/126,7.0,high,vivid,warm,web apparel-statement print/brand
+285,5 20 65 88,Light Brown Drab | Burnt Sienna | Peach Red | Turquoise Green,#B59392 #AE5224 #F15A30 #B5DECC,20/88,3.5,mid,medium,warm,web* interior
+286,20 61 119 128,Burnt Sienna | Orange Yellow | Peacock Blue | Violet Blue,#AE5224 #FCB315 #00939B #40456A,61/128,5.0,mid,vivid,warm,web apparel-statement
+287,9 58 112 116,Eosine Pink | Pyrite Yellow | Pale King's Blue | Calamine BLue,#F37F94 #CAB356 #A7D4E4 #78CDD0,9/112,1.5,tonal,medium,warm,interior apparel
+288,62 84 148 159,Yellow Orange | Sepia | Taupe Brown | Black,#F99D1B #644B1E #7A4456 #111314,62/159,8.7,high,medium,warm,web interior-accent apparel
+289,56 92 128 131,Lemon Yellow | Light Green Yellow | Violet Blue | Dull Violet Black,#F8ED43 #C7D14F #40456A #1E0E3F,56/131,14.4,high,medium,warm,web
+290,38 40 108 115,Vistoris Lake | Pale Lemon Yellow | Lincoln Green | Cobalt Green,#6D4145 #FFEFAE #555832 #96D1AA,38/40,7.3,high,muted,warm,web interior apparel
+291,92 100 115 116,Light Green Yellow | Sea Green | Cobalt Green | Calamine BLue,#C7D14F #00B49B #96D1AA #78CDD0,92/100,1.5,tonal,medium,cool,interior apparel
+292,40 45 51 54,Pale Lemon Yellow | Pinkish Cinnamon | Isabella Color | Ecru,#FFEFAE #EEB480 #C5A56E #C2AE93,40/51,2.0,mid,medium,warm,interior apparel
+293,14 88 95 103,Raw Sienna | Turquoise Green | Artemesia Green | Green,#BB7125 #B5DECC #709390 #489B6E,14/88,2.5,mid,medium,balanced,interior apparel
+294,39 47 107 114,Sulpher Yellow | Cream Yellow | Cossack Green | Salvia Blue,#F5ECC2 #FDBF68 #437742 #97ACC8,39/107,4.4,mid,medium,warm,web* interior apparel
+295,47 55 122 131,Cream Yellow | Yellow | Blue | Dull Violet Black,#FDBF68 #FFF200 #006EB8 #1E0E3F,55/131,15.0,high,vivid,warm,web apparel-statement print/brand
+296,39 50 83 158,Sulpher Yellow | Ochraceous Salmon | Pale Raw Umber | Slate Color,#F5ECC2 #D8A37B #71502F #34454C,39/158,8.4,high,muted,warm,web interior apparel
+297,20 62 80 128,Burnt Sienna | Yellow Orange | Olive Green | Violet Blue,#AE5224 #F99D1B #6B7140 #40456A,62/128,4.3,mid,medium,warm,web*
+298,14 56 65 159,Raw Sienna | Lemon Yellow | Peach Red | Black,#BB7125 #F8ED43 #F15A30 #111314,56/159,15.2,high,vivid,warm,web apparel-statement print/brand
+299,24 49 105 123,Indian Lake | Vinaceous Cinnamon | Oil Green | Antwarp Blue,#C53C69 #EEA78C #819238 #007190,49/123,2.8,mid,medium,warm,interior-accent
+300,8 47 88 116,Grenadine Pink | Cream Yellow | Turquoise Green | Calamine BLue,#F48067 #FDBF68 #B5DECC #78CDD0,8/88,1.7,tonal,medium,warm,interior apparel
+301,17 42 97 140,Spectrum Red | Ivory Buff | Rainette Green | Aconite Violet,#E31F26 #EBD3A2 #8FA071 #A36AA5,17/42,3.2,mid,medium,warm,web* interior
+302,47 54 111 123,Cream Yellow | Ecru | Nile Blue | Antwarp Blue,#FDBF68 #C2AE93 #BCE4E5 #007190,111/123,4.0,mid,medium,balanced,web* interior apparel
+303,41 65 110 155,Naples Yellow | Peach Red | Deep Slate Olive | Neutral Gray,#FBE6A0 #F15A30 #253122 #B6BFC1,41/110,10.9,high,medium,warm,web interior apparel
+304,33 47 74 101,Hay's Russet | Cream Yellow | Dark Citrine | Benzol Green,#793327 #FDBF68 #8B835B #00978D,33/47,5.5,high,medium,warm,web interior
+305,45 57 71 88,Pinkish Cinnamon | Apricot Yellow | Citron Yellow | Turquoise Green,#EEB480 #FFDD00 #B2B73E #B5DECC,57/71,1.6,tonal,vivid,warm,apparel
+306,56 101 104 111,Lemon Yellow | Benzol Green | Dull Viridian Green | Nile Blue,#F8ED43 #00978D #009465 #BCE4E5,56/104,3.1,mid,medium,cool,web*
+307,23 134 140 152,Carmine | Grayish Lavender - A | Aconite Violet | Cotinga Purple,#CC1236 #B5B1D8 #A36AA5 #501345,134/152,6.7,high,medium,warm,web interior-accent
+308,4 22 66 115,Fawn | Scarlet | English Red | Cobalt Green,#D1B0A7 #CB2F43 #D96629 #96D1AA,22/115,2.9,mid,medium,warm,general
+309,48 63 128 129,Golden Yellow | Apricot Orange | Violet Blue | Vandar Poel's Blue,#F3A257 #F68C50 #40456A #064F6E,48/128,4.4,mid,medium,warm,web* interior-accent
+310,39 45 77 110,Sulpher Yellow | Pinkish Cinnamon | Olive | Deep Slate Olive,#F5ECC2 #EEB480 #837E31 #253122,39/110,11.4,high,muted,warm,web interior apparel
+311,30 47 90 92,Pompeian Red | Cream Yellow | Dark Greenish Glaucous | Light Green Yellow,#AB2439 #FDBF68 #B7C2A9 #C7D14F,30/47,4.2,mid,medium,warm,web*
+312,20 62 95 124,Burnt Sienna | Yellow Orange | Artemesia Green | Helvetia Blue,#AE5224 #F99D1B #709390 #005B8D,62/124,3.4,mid,medium,warm,web*
+313,23 55 106 159,Carmine | Yellow | Diamine Green | Black,#CC1236 #FFF200 #1A7444 #111314,55/159,15.9,high,vivid,warm,web apparel-statement print/brand
+314,9 33 127 153,Eosine Pink | Hay's Russet | Deep Lyons Blue | Dusky Madder Violet,#F37F94 #793327 #1C4286 #4E1D4C,9/153,5.1,mid,medium,warm,web interior-accent
+315,8 39 48 138,Grenadine Pink | Sulpher Yellow | Golden Yellow | Eupatorium Purple,#F48067 #F5ECC2 #F3A257 #BF5892,39/138,3.5,mid,medium,warm,web*
+316,34 104 150 151,Vandyke Red | Dull Viridian Green | Violet | Red Violet,#82241F #009465 #4F4086 #59256A,104/151,2.8,mid,medium,cool,general
+317,44 54 56 88,Light Pinkish Cinnamon | Ecru | Lemon Yellow | Turquoise Green,#FCC79B #C2AE93 #F8ED43 #B5DECC,54/56,1.7,tonal,medium,warm,interior apparel
+318,81 109 126 133,Light Brownish Olive | Blackish Olive | Dusky Green | Deep Slate Green,#806E4B #42533E #004F46 #112F2C,81/133,2.8,mid,muted,cool,interior-accent apparel
+319,14 57 62 107,Raw Sienna | Apricot Yellow | Yellow Orange | Cossack Green,#BB7125 #FFDD00 #F99D1B #437742,57/107,3.9,mid,vivid,warm,web* apparel-statement
+320,6 39 105 113,Coral Red | Sulpher Yellow | Oil Green | Light Glaucous Blue,#F58E84 #F5ECC2 #819238 #A5C8D1,39/105,2.8,mid,medium,warm,interior apparel
+321,5 39 110 114,Light Brown Drab | Sulpher Yellow | Deep Slate Olive | Salvia Blue,#B59392 #F5ECC2 #253122 #97ACC8,39/110,11.4,high,muted,balanced,web interior apparel
+322,17 28 138 143,Spectrum Red | Brick Red | Eupatorium Purple | Blue Violet,#E31F26 #A84222 #BF5892 #6450A1,138/143,1.5,tonal,vivid,warm,apparel
+323,46 71 85 159,Cinnamon Buff | Citron Yellow | Madder Brown | Black,#FDC57E #B2B73E #762C19 #111314,46/159,11.9,high,medium,warm,web interior apparel
+324,30 121 140 155,Pompeian Red | Olympic Blue | Aconite Violet | Neutral Gray,#AB2439 #5A82B3 #A36AA5 #B6BFC1,30/155,3.6,mid,medium,warm,web* interior-accent apparel
+325,13 41 60 133,Eugenia Red B | Naples Yellow | Yellow Ocher | Deep Slate Green,#DA525D #FBE6A0 #E2B540 #112F2C,41/133,11.5,high,medium,warm,web interior
+326,39 65 91 93,Sulpher Yellow | Peach Red | Yellow Green | Night Green,#F5ECC2 #F15A30 #AFD472 #87C540,39/65,2.8,mid,vivid,warm,apparel-statement
+327,9 14 54 135,Eosine Pink | Raw Sienna | Ecru | Grayish Lavender - B,#F37F94 #BB7125 #C2AE93 #C0A9B3,14/54,1.7,tonal,medium,warm,interior-accent apparel
+328,28 63 87 102,Brick Red | Apricot Orange | Vandyke Brown | Light Porcelain Green,#A84222 #F68C50 #4B3317 #00908A,63/87,4.9,mid,medium,warm,web
+329,47 135 152 158,Cream Yellow | Grayish Lavender - B | Cotinga Purple | Slate Color,#FDBF68 #C0A9B3 #501345 #34454C,47/152,8.4,high,muted,warm,web interior apparel
+330,53 111 114 120,Olive Buff | Nile Blue | Salvia Blue | Green Blue,#C1C494 #BCE4E5 #97ACC8 #099197,111/120,2.7,mid,muted,cool,interior apparel
+331,24 131 139 150,Indian Lake | Dull Violet Black | Light Mauve | Violet,#C53C69 #1E0E3F #9A72AA #4F4086,131/139,4.5,mid,medium,balanced,web interior-accent
+332,6 22 110 126,Coral Red | Scarlet | Deep Slate Olive | Dusky Green,#F58E84 #CB2F43 #253122 #004F46,6/110,5.8,high,medium,warm,web interior-accent
+333,20 56 115 122,Burnt Sienna | Lemon Yellow | Cobalt Green | Blue,#AE5224 #F8ED43 #96D1AA #006EB8,56/122,4.3,mid,vivid,warm,web* apparel-statement
+334,43 77 91 123,Seashell Pink | Olive | Yellow Green | Antwarp Blue,#FDD4BD #837E31 #AFD472 #007190,43/123,4.0,mid,medium,warm,web* interior apparel
+335,34 62 150 158,Vandyke Red | Yellow Orange | Violet | Slate Color,#82241F #F99D1B #4F4086 #34454C,62/158,4.6,mid,medium,warm,web interior-accent
+336,9 33 40 109,Eosine Pink | Hay's Russet | Pale Lemon Yellow | Blackish Olive,#F37F94 #793327 #FFEFAE #42533E,33/40,7.8,high,medium,warm,web interior apparel
+337,38 136 149 159,Vistoris Lake | Laelia Pink | Violet Carmine | Black,#6D4145 #CA92A8 #713B4C #111314,136/159,7.2,high,muted,warm,web interior-accent apparel
+338,29 61 126 135,Carmine Red | Orange Yellow | Dusky Green | Grayish Lavender - B,#A62C37 #FCB315 #004F46 #C0A9B3,61/126,5.2,high,medium,warm,web
+339,50 66 113 128,Ochraceous Salmon | English Red | Light Glaucous Blue | Violet Blue,#D8A37B #D96629 #A5C8D1 #40456A,113/128,5.1,mid,medium,warm,web interior apparel
+340,65 100 155 159,Peach Red | Sea Green | Neutral Gray | Black,#F15A30 #00B49B #B6BFC1 #111314,155/159,9.9,high,medium,warm,web interior-accent apparel
+341,8 107 110 113,Grenadine Pink | Cossack Green | Deep Slate Olive | Light Glaucous Blue,#F48067 #437742 #253122 #A5C8D1,110/113,7.6,high,muted,warm,web interior apparel
+342,2 47 78 110,Corinthian Pink | Cream Yellow | Orange Citrine | Deep Slate Olive,#F8B6BA #FDBF68 #986F2D #253122,47/110,8.3,high,medium,warm,web interior apparel
+343,20 42 82 129,Burnt Sienna | Ivory Buff | Deep Grayish Olive | Vandar Poel's Blue,#AE5224 #EBD3A2 #635A3A #064F6E,42/129,6.1,high,medium,warm,web interior apparel
+344,46 127 140 159,Cinnamon Buff | Deep Lyons Blue | Aconite Violet | Black,#FDC57E #1C4286 #A36AA5 #111314,46/159,11.9,high,medium,balanced,web interior apparel
+345,33 111 117 143,Hay's Russet | Nile Blue | Venice Green | Blue Violet,#793327 #BCE4E5 #62C6BF #6450A1,33/111,6.6,high,medium,cool,web interior apparel
+346,25 88 92 96,Rosolanc Purple | Turquoise Green | Light Green Yellow | Andover Green,#B73F74 #B5DECC #C7D14F #6D7E77,25/88,3.5,mid,medium,warm,web* interior apparel
+347,94 100 124 137,Olive Yellow | Sea Green | Helvetia Blue | Lilac,#A6A159 #00B49B #005B8D #B984AF,100/124,2.7,mid,medium,balanced,interior-accent apparel
+348,53 107 110 152,Olive Buff | Cossack Green | Deep Slate Olive | Cotinga Purple,#C1C494 #437742 #253122 #501345,53/152,7.6,high,muted,warm,web interior apparel
+349,26 123 127 159,Pomegranite Purple | Antwarp Blue | Deep Lyons Blue | Black,#B71F57 #007190 #1C4286 #111314,123/159,3.3,mid,medium,cool,web* interior-accent apparel
+350,61 73 95 147,Orange Yellow | Buffy Citrine | Artemesia Green | Dark Slate Purple,#FCB315 #96874D #709390 #704357,61/147,4.4,mid,medium,warm,web* interior apparel
+351,9 43 112 129,Eosine Pink | Seashell Pink | Pale King's Blue | Vandar Poel's Blue,#F37F94 #FDD4BD #A7D4E4 #064F6E,43/129,6.5,high,muted,warm,web interior apparel
+352,24 56 116 159,Indian Lake | Lemon Yellow | Calamine BLue | Black,#C53C69 #F8ED43 #78CDD0 #111314,56/159,15.2,high,medium,warm,web interior
+353,44 58 68 90,Light Pinkish Cinnamon | Pyrite Yellow | Orange Rufous | Dark Greenish Glaucous,#FCC79B #CAB356 #C16B27 #B7C2A9,44/68,2.5,mid,medium,warm,interior apparel
+354,17 48 111 122,Spectrum Red | Golden Yellow | Nile Blue | Blue,#E31F26 #F3A257 #BCE4E5 #006EB8,111/122,3.9,mid,vivid,warm,web* apparel-statement
+355,25 87 100 123,Rosolanc Purple | Vandyke Brown | Sea Green | Antwarp Blue,#B73F74 #4B3317 #00B49B #007190,87/100,4.4,mid,medium,balanced,web* interior-accent
+356,56 72 113 134,Lemon Yellow | Citrine | Light Glaucous Blue | Grayish Lavender - A,#F8ED43 #B09F36 #A5C8D1 #B5B1D8,56/72,2.1,mid,medium,warm,interior
+357,58 113 139 158,Pyrite Yellow | Light Glaucous Blue | Light Mauve | Slate Color,#CAB356 #A5C8D1 #9A72AA #34454C,113/158,5.6,high,muted,warm,web interior apparel
+358,56 64 89 123,Lemon Yellow | Orange | Glaucous Green | Antwarp Blue,#F8ED43 #F37420 #B4CDC2 #007190,56/123,4.5,high,vivid,warm,web apparel-statement print/brand
+359,56 85 111 155,Lemon Yellow | Madder Brown | Nile Blue | Neutral Gray,#F8ED43 #762C19 #BCE4E5 #B6BFC1,56/85,8.0,high,medium,warm,web interior apparel
+360,121 129 148 150,Olympic Blue | Vandar Poel's Blue | Taupe Brown | Violet,#5A82B3 #064F6E #7A4456 #4F4086,121/129,2.2,tonal,medium,cool,interior-accent apparel

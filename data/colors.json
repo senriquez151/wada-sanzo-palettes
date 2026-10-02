@@ -1,0 +1,5216 @@
+[
+ {
+  "id": 1,
+  "name": "Hermosa Pink",
+  "hex": "#F9C1CE",
+  "rgb": [
+   249,
+   193,
+   206
+  ],
+  "lab": [
+   83.4,
+   22.1,
+   1.6
+  ],
+  "cmyk": [
+   0,
+   30,
+   6,
+   0
+  ],
+  "lrv": 63,
+  "family": "red/pink",
+  "gamut_delta_e": 0,
+  "combinations": [
+   176,
+   227,
+   273
+  ]
+ },
+ {
+  "id": 2,
+  "name": "Corinthian Pink",
+  "hex": "#F8B6BA",
+  "rgb": [
+   248,
+   182,
+   186
+  ],
+  "lab": [
+   80.3,
+   25.4,
+   7.9
+  ],
+  "cmyk": [
+   0,
+   35,
+   15,
+   0
+  ],
+  "lrv": 57,
+  "family": "red/pink",
+  "gamut_delta_e": 0,
+  "combinations": [
+   27,
+   43,
+   87,
+   97,
+   128,
+   169,
+   174,
+   206,
+   246,
+   254,
+   264,
+   342
+  ]
+ },
+ {
+  "id": 3,
+  "name": "Cameo Pink",
+  "hex": "#E0B3B6",
+  "rgb": [
+   224,
+   179,
+   182
+  ],
+  "lab": [
+   77.2,
+   17.2,
+   4.9
+  ],
+  "cmyk": [
+   10,
+   32,
+   19,
+   0
+  ],
+  "lrv": 51,
+  "family": "red/pink",
+  "gamut_delta_e": 0,
+  "combinations": [
+   101,
+   105,
+   116,
+   120,
+   165,
+   231
+  ]
+ },
+ {
+  "id": 4,
+  "name": "Fawn",
+  "hex": "#D1B0A7",
+  "rgb": [
+   209,
+   176,
+   167
+  ],
+  "lab": [
+   74.5,
+   11.2,
+   9.4
+  ],
+  "cmyk": [
+   18,
+   31,
+   30,
+   0
+  ],
+  "lrv": 47,
+  "family": "peach/salmon",
+  "gamut_delta_e": 0,
+  "combinations": [
+   18,
+   125,
+   308
+  ]
+ },
+ {
+  "id": 5,
+  "name": "Light Brown Drab",
+  "hex": "#B59392",
+  "rgb": [
+   181,
+   147,
+   146
+  ],
+  "lab": [
+   64.1,
+   13.0,
+   5.3
+  ],
+  "cmyk": [
+   8,
+   30,
+   20,
+   25
+  ],
+  "lrv": 33,
+  "family": "peach/salmon",
+  "gamut_delta_e": 0,
+  "combinations": [
+   35,
+   68,
+   185,
+   191,
+   223,
+   239,
+   244,
+   268,
+   285,
+   321
+  ]
+ },
+ {
+  "id": 6,
+  "name": "Coral Red",
+  "hex": "#F58E84",
+  "rgb": [
+   245,
+   142,
+   132
+  ],
+  "lab": [
+   70.3,
+   39.3,
+   23.2
+  ],
+  "cmyk": [
+   0,
+   55,
+   40,
+   0
+  ],
+  "lrv": 40,
+  "family": "red-orange",
+  "gamut_delta_e": 0,
+  "combinations": [
+   92,
+   123,
+   320,
+   332
+  ]
+ },
+ {
+  "id": 7,
+  "name": "Fresh Color",
+  "hex": "#F6917E",
+  "rgb": [
+   246,
+   145,
+   126
+  ],
+  "lab": [
+   71.0,
+   37.5,
+   27.3
+  ],
+  "cmyk": [
+   0,
+   53,
+   45,
+   0
+  ],
+  "lrv": 41,
+  "family": "red-orange",
+  "gamut_delta_e": 0,
+  "combinations": [
+   240
+  ]
+ },
+ {
+  "id": 8,
+  "name": "Grenadine Pink",
+  "hex": "#F48067",
+  "rgb": [
+   244,
+   128,
+   103
+  ],
+  "lab": [
+   66.9,
+   43.8,
+   34.7
+  ],
+  "cmyk": [
+   0,
+   62,
+   58,
+   0
+  ],
+  "lrv": 36,
+  "family": "red-orange",
+  "gamut_delta_e": 0,
+  "combinations": [
+   6,
+   21,
+   112,
+   166,
+   193,
+   201,
+   230,
+   300,
+   315,
+   341
+  ]
+ },
+ {
+  "id": 9,
+  "name": "Eosine Pink",
+  "hex": "#F37F94",
+  "rgb": [
+   243,
+   127,
+   148
+  ],
+  "lab": [
+   67.3,
+   46.7,
+   10.3
+  ],
+  "cmyk": [
+   0,
+   63,
+   23,
+   0
+  ],
+  "lrv": 36,
+  "family": "red/pink",
+  "gamut_delta_e": 0,
+  "combinations": [
+   34,
+   59,
+   90,
+   108,
+   134,
+   153,
+   197,
+   242,
+   248,
+   276,
+   287,
+   314,
+   327,
+   336,
+   351
+  ]
+ },
+ {
+  "id": 10,
+  "name": "Spinel Red",
+  "hex": "#F27291",
+  "rgb": [
+   242,
+   114,
+   145
+  ],
+  "lab": [
+   64.5,
+   52.2,
+   8.3
+  ],
+  "cmyk": [
+   0,
+   70,
+   21,
+   0
+  ],
+  "lrv": 33,
+  "family": "red/pink",
+  "gamut_delta_e": 0,
+  "combinations": [
+   14,
+   147,
+   165,
+   184,
+   195,
+   224,
+   277
+  ]
+ },
+ {
+  "id": 11,
+  "name": "Old Rose",
+  "hex": "#D46D7A",
+  "rgb": [
+   212,
+   109,
+   122
+  ],
+  "lab": [
+   58.8,
+   42.1,
+   12.3
+  ],
+  "cmyk": [
+   15,
+   70,
+   40,
+   0
+  ],
+  "lrv": 26,
+  "family": "red/pink",
+  "gamut_delta_e": 0,
+  "combinations": [
+   55,
+   162,
+   260,
+   265
+  ]
+ },
+ {
+  "id": 12,
+  "name": "Eugenia Red A",
+  "hex": "#E2625E",
+  "rgb": [
+   226,
+   98,
+   94
+  ],
+  "lab": [
+   58.4,
+   50.8,
+   28.5
+  ],
+  "cmyk": [
+   7,
+   76,
+   60,
+   0
+  ],
+  "lrv": 26,
+  "family": "red-orange",
+  "gamut_delta_e": 0,
+  "combinations": [
+   284
+  ]
+ },
+ {
+  "id": 13,
+  "name": "Eugenia Red B",
+  "hex": "#DA525D",
+  "rgb": [
+   218,
+   82,
+   93
+  ],
+  "lab": [
+   54.3,
+   54.7,
+   23.7
+  ],
+  "cmyk": [
+   0,
+   80,
+   50,
+   10
+  ],
+  "lrv": 22,
+  "family": "red-orange",
+  "gamut_delta_e": 0,
+  "combinations": [
+   17,
+   77,
+   252,
+   262,
+   270,
+   280,
+   282,
+   325
+  ]
+ },
+ {
+  "id": 14,
+  "name": "Raw Sienna",
+  "hex": "#BB7125",
+  "rgb": [
+   187,
+   113,
+   37
+  ],
+  "lab": [
+   55.1,
+   25.5,
+   52.2
+  ],
+  "cmyk": [
+   18,
+   58,
+   100,
+   12
+  ],
+  "lrv": 23,
+  "family": "orange",
+  "gamut_delta_e": 0,
+  "combinations": [
+   3,
+   13,
+   33,
+   70,
+   86,
+   130,
+   131,
+   182,
+   243,
+   247,
+   252,
+   255,
+   268,
+   269,
+   279,
+   293,
+   298,
+   319,
+   327
+  ]
+ },
+ {
+  "id": 15,
+  "name": "Vinaceous Tawny",
+  "hex": "#C56127",
+  "rgb": [
+   197,
+   97,
+   39
+  ],
+  "lab": [
+   53.2,
+   38.2,
+   50.2
+  ],
+  "cmyk": [
+   17,
+   72,
+   100,
+   6
+  ],
+  "lrv": 21,
+  "family": "brown/tan",
+  "gamut_delta_e": 0,
+  "combinations": [
+   40,
+   85,
+   244
+  ]
+ },
+ {
+  "id": 16,
+  "name": "Jasper Red",
+  "hex": "#EB5324",
+  "rgb": [
+   235,
+   83,
+   36
+  ],
+  "lab": [
+   56.8,
+   58.4,
+   57.6
+  ],
+  "cmyk": [
+   2,
+   83,
+   100,
+   0
+  ],
+  "lrv": 24,
+  "family": "red-orange",
+  "gamut_delta_e": 0,
+  "combinations": [
+   155,
+   194,
+   216,
+   219
+  ]
+ },
+ {
+  "id": 17,
+  "name": "Spectrum Red",
+  "hex": "#E31F26",
+  "rgb": [
+   227,
+   31,
+   38
+  ],
+  "lab": [
+   49.6,
+   70.9,
+   50.1
+  ],
+  "cmyk": [
+   5,
+   100,
+   100,
+   0
+  ],
+  "lrv": 17,
+  "family": "red-orange",
+  "gamut_delta_e": 0,
+  "combinations": [
+   257,
+   266,
+   301,
+   322,
+   354
+  ]
+ },
+ {
+  "id": 18,
+  "name": "Red Orange",
+  "hex": "#DD4027",
+  "rgb": [
+   221,
+   64,
+   39
+  ],
+  "lab": [
+   51.8,
+   60.6,
+   50.9
+  ],
+  "cmyk": [
+   9,
+   90,
+   100,
+   0
+  ],
+  "lrv": 19,
+  "family": "red-orange",
+  "gamut_delta_e": 0,
+  "combinations": [
+   31,
+   164,
+   179,
+   241,
+   264
+  ]
+ },
+ {
+  "id": 19,
+  "name": "Etruscan Red",
+  "hex": "#C55347",
+  "rgb": [
+   197,
+   83,
+   71
+  ],
+  "lab": [
+   50.7,
+   45.9,
+   31.1
+  ],
+  "cmyk": [
+   16,
+   80,
+   74,
+   6
+  ],
+  "lrv": 19,
+  "family": "red-orange",
+  "gamut_delta_e": 0,
+  "combinations": [
+   25,
+   47,
+   97,
+   137,
+   152,
+   185,
+   275
+  ]
+ },
+ {
+  "id": 20,
+  "name": "Burnt Sienna",
+  "hex": "#AE5224",
+  "rgb": [
+   174,
+   82,
+   36
+  ],
+  "lab": [
+   46.4,
+   36.2,
+   43.8
+  ],
+  "cmyk": [
+   22,
+   76,
+   100,
+   15
+  ],
+  "lrv": 15,
+  "family": "brown/tan",
+  "gamut_delta_e": 0,
+  "combinations": [
+   198,
+   242,
+   263,
+   285,
+   286,
+   297,
+   312,
+   333,
+   343
+  ]
+ },
+ {
+  "id": 21,
+  "name": "Ochre Red",
+  "hex": "#AB544D",
+  "rgb": [
+   171,
+   84,
+   77
+  ],
+  "lab": [
+   46.8,
+   35.7,
+   21.8
+  ],
+  "cmyk": [
+   18,
+   73,
+   63,
+   20
+  ],
+  "lrv": 16,
+  "family": "red-orange",
+  "gamut_delta_e": 0,
+  "combinations": [
+   199,
+   283
+  ]
+ },
+ {
+  "id": 22,
+  "name": "Scarlet",
+  "hex": "#CB2F43",
+  "rgb": [
+   203,
+   47,
+   67
+  ],
+  "lab": [
+   46.5,
+   61.5,
+   28.9
+  ],
+  "cmyk": [
+   10,
+   95,
+   72,
+   7
+  ],
+  "lrv": 15,
+  "family": "red-orange",
+  "gamut_delta_e": 0,
+  "combinations": [
+   136,
+   308,
+   332
+  ]
+ },
+ {
+  "id": 23,
+  "name": "Carmine",
+  "hex": "#CC1236",
+  "rgb": [
+   204,
+   18,
+   54
+  ],
+  "lab": [
+   44.3,
+   67.2,
+   33.7
+  ],
+  "cmyk": [
+   0,
+   100,
+   75,
+   16
+  ],
+  "lrv": 14,
+  "family": "red-orange",
+  "gamut_delta_e": 0,
+  "combinations": [
+   39,
+   117,
+   122,
+   154,
+   225,
+   232,
+   307,
+   313
+  ]
+ },
+ {
+  "id": 24,
+  "name": "Indian Lake",
+  "hex": "#C53C69",
+  "rgb": [
+   197,
+   60,
+   105
+  ],
+  "lab": [
+   47.5,
+   57.2,
+   6.7
+  ],
+  "cmyk": [
+   12,
+   89,
+   35,
+   9
+  ],
+  "lrv": 16,
+  "family": "red/pink",
+  "gamut_delta_e": 0,
+  "combinations": [
+   299,
+   331,
+   352
+  ]
+ },
+ {
+  "id": 25,
+  "name": "Rosolanc Purple",
+  "hex": "#B73F74",
+  "rgb": [
+   183,
+   63,
+   116
+  ],
+  "lab": [
+   45.9,
+   52.4,
+   -3.2
+  ],
+  "cmyk": [
+   30,
+   90,
+   33,
+   0
+  ],
+  "lrv": 15,
+  "family": "red/pink",
+  "gamut_delta_e": 0,
+  "combinations": [
+   48,
+   144,
+   170,
+   204,
+   277,
+   346,
+   355
+  ]
+ },
+ {
+  "id": 26,
+  "name": "Pomegranite Purple",
+  "hex": "#B71F57",
+  "rgb": [
+   183,
+   31,
+   87
+  ],
+  "lab": [
+   41.4,
+   61.0,
+   8.4
+  ],
+  "cmyk": [
+   23,
+   100,
+   50,
+   6
+  ],
+  "lrv": 12,
+  "family": "red/pink",
+  "gamut_delta_e": 0,
+  "combinations": [
+   220,
+   271,
+   349
+  ]
+ },
+ {
+  "id": 27,
+  "name": "Hydrangea Red",
+  "hex": "#A94151",
+  "rgb": [
+   169,
+   65,
+   81
+  ],
+  "lab": [
+   43.1,
+   44.4,
+   14.2
+  ],
+  "cmyk": [
+   38,
+   90,
+   70,
+   0
+  ],
+  "lrv": 13,
+  "family": "red/pink",
+  "gamut_delta_e": 0,
+  "combinations": [
+   142
+  ]
+ },
+ {
+  "id": 28,
+  "name": "Brick Red",
+  "hex": "#A84222",
+  "rgb": [
+   168,
+   66,
+   34
+  ],
+  "lab": [
+   42.5,
+   41.5,
+   40.7
+  ],
+  "cmyk": [
+   22,
+   84,
+   100,
+   18
+  ],
+  "lrv": 12,
+  "family": "red-orange",
+  "gamut_delta_e": 0,
+  "combinations": [
+   37,
+   108,
+   246,
+   322,
+   328
+  ]
+ },
+ {
+  "id": 29,
+  "name": "Carmine Red",
+  "hex": "#A62C37",
+  "rgb": [
+   166,
+   44,
+   55
+  ],
+  "lab": [
+   38.7,
+   50.2,
+   24.7
+  ],
+  "cmyk": [
+   25,
+   95,
+   80,
+   16
+  ],
+  "lrv": 10,
+  "family": "red-orange",
+  "gamut_delta_e": 0,
+  "combinations": [
+   35,
+   51,
+   104,
+   130,
+   181,
+   200,
+   221,
+   228,
+   233,
+   237,
+   245,
+   338
+  ]
+ },
+ {
+  "id": 30,
+  "name": "Pompeian Red",
+  "hex": "#AB2439",
+  "rgb": [
+   171,
+   36,
+   57
+  ],
+  "lab": [
+   38.9,
+   54.8,
+   23.8
+  ],
+  "cmyk": [
+   18,
+   97,
+   74,
+   19
+  ],
+  "lrv": 10,
+  "family": "red-orange",
+  "gamut_delta_e": 0,
+  "combinations": [
+   30,
+   71,
+   120,
+   212,
+   311,
+   324
+  ]
+ },
+ {
+  "id": 31,
+  "name": "Red",
+  "hex": "#A72144",
+  "rgb": [
+   167,
+   33,
+   68
+  ],
+  "lab": [
+   37.9,
+   54.6,
+   15.4
+  ],
+  "cmyk": [
+   30,
+   100,
+   70,
+   10
+  ],
+  "lrv": 10,
+  "family": "red/pink",
+  "gamut_delta_e": 0,
+  "combinations": [
+   251,
+   261
+  ]
+ },
+ {
+  "id": 32,
+  "name": "Brown",
+  "hex": "#7C4226",
+  "rgb": [
+   124,
+   66,
+   38
+  ],
+  "lab": [
+   35.1,
+   23.5,
+   28.6
+  ],
+  "cmyk": [
+   35,
+   74,
+   90,
+   35
+  ],
+  "lrv": 8,
+  "family": "brown/tan",
+  "gamut_delta_e": 0,
+  "combinations": [
+   110,
+   121,
+   145,
+   161
+  ]
+ },
+ {
+  "id": 33,
+  "name": "Hay's Russet",
+  "hex": "#793327",
+  "rgb": [
+   121,
+   51,
+   39
+  ],
+  "lab": [
+   31.2,
+   30.7,
+   23.5
+  ],
+  "cmyk": [
+   37,
+   85,
+   87,
+   35
+  ],
+  "lrv": 7,
+  "family": "brown/terracotta",
+  "gamut_delta_e": 0,
+  "combinations": [
+   58,
+   82,
+   95,
+   152,
+   186,
+   231,
+   249,
+   304,
+   314,
+   336,
+   345
+  ]
+ },
+ {
+  "id": 34,
+  "name": "Vandyke Red",
+  "hex": "#82241F",
+  "rgb": [
+   130,
+   36,
+   31
+  ],
+  "lab": [
+   30.2,
+   40.6,
+   27.6
+  ],
+  "cmyk": [
+   32,
+   95,
+   95,
+   33
+  ],
+  "lrv": 6,
+  "family": "red-orange",
+  "gamut_delta_e": 0,
+  "combinations": [
+   16,
+   133,
+   147,
+   316,
+   335
+  ]
+ },
+ {
+  "id": 35,
+  "name": "Pansy Purple",
+  "hex": "#7D133A",
+  "rgb": [
+   125,
+   19,
+   58
+  ],
+  "lab": [
+   27.6,
+   45.9,
+   6.1
+  ],
+  "cmyk": [
+   34,
+   100,
+   60,
+   34
+  ],
+  "lrv": 5,
+  "family": "red/pink",
+  "gamut_delta_e": 0,
+  "combinations": [
+   157,
+   273
+  ]
+ },
+ {
+  "id": 36,
+  "name": "Pale Burnt Lake",
+  "hex": "#802626",
+  "rgb": [
+   128,
+   38,
+   38
+  ],
+  "lab": [
+   30.2,
+   39.0,
+   22.7
+  ],
+  "cmyk": [
+   25,
+   90,
+   80,
+   40
+  ],
+  "lrv": 6,
+  "family": "red-orange",
+  "gamut_delta_e": 0,
+  "combinations": [
+   124,
+   171,
+   177,
+   205,
+   217,
+   258,
+   269,
+   283
+  ]
+ },
+ {
+  "id": 37,
+  "name": "Violet Red",
+  "hex": "#642D5E",
+  "rgb": [
+   100,
+   45,
+   94
+  ],
+  "lab": [
+   27.8,
+   30.4,
+   -17.7
+  ],
+  "cmyk": [
+   75,
+   100,
+   50,
+   5
+  ],
+  "lrv": 5,
+  "family": "violet/purple",
+  "gamut_delta_e": 0,
+  "combinations": [
+   9
+  ]
+ },
+ {
+  "id": 38,
+  "name": "Vistoris Lake",
+  "hex": "#6D4145",
+  "rgb": [
+   109,
+   65,
+   69
+  ],
+  "lab": [
+   33.1,
+   20.3,
+   6.1
+  ],
+  "cmyk": [
+   40,
+   71,
+   55,
+   40
+  ],
+  "lrv": 7,
+  "family": "red/pink",
+  "gamut_delta_e": 0,
+  "combinations": [
+   63,
+   91,
+   165,
+   226,
+   290,
+   337
+  ]
+ },
+ {
+  "id": 39,
+  "name": "Sulpher Yellow",
+  "hex": "#F5ECC2",
+  "rgb": [
+   245,
+   236,
+   194
+  ],
+  "lab": [
+   93.2,
+   -1.7,
+   21.6
+  ],
+  "cmyk": [
+   4,
+   4,
+   28,
+   0
+  ],
+  "lrv": 83,
+  "family": "yellow",
+  "gamut_delta_e": 0,
+  "combinations": [
+   52,
+   72,
+   80,
+   104,
+   132,
+   135,
+   151,
+   208,
+   246,
+   254,
+   270,
+   294,
+   296,
+   310,
+   315,
+   320,
+   321,
+   326
+  ]
+ },
+ {
+  "id": 40,
+  "name": "Pale Lemon Yellow",
+  "hex": "#FFEFAE",
+  "rgb": [
+   255,
+   239,
+   174
+  ],
+  "lab": [
+   94.9,
+   -0.1,
+   34.1
+  ],
+  "cmyk": [
+   0,
+   4,
+   38,
+   0
+  ],
+  "lrv": 86,
+  "family": "yellow",
+  "gamut_delta_e": 4,
+  "combinations": [
+   3,
+   31,
+   60,
+   76,
+   99,
+   109,
+   111,
+   169,
+   185,
+   195,
+   203,
+   228,
+   241,
+   261,
+   272,
+   281,
+   290,
+   292,
+   336
+  ]
+ },
+ {
+  "id": 41,
+  "name": "Naples Yellow",
+  "hex": "#FBE6A0",
+  "rgb": [
+   251,
+   230,
+   160
+  ],
+  "lab": [
+   91.7,
+   0.3,
+   36.6
+  ],
+  "cmyk": [
+   2,
+   7,
+   44,
+   0
+  ],
+  "lrv": 80,
+  "family": "yellow",
+  "gamut_delta_e": 0,
+  "combinations": [
+   14,
+   115,
+   166,
+   193,
+   303,
+   325
+  ]
+ },
+ {
+  "id": 42,
+  "name": "Ivory Buff",
+  "hex": "#EBD3A2",
+  "rgb": [
+   235,
+   211,
+   162
+  ],
+  "lab": [
+   85.6,
+   3.4,
+   27.3
+  ],
+  "cmyk": [
+   8,
+   15,
+   40,
+   0
+  ],
+  "lrv": 67,
+  "family": "yellow",
+  "gamut_delta_e": 0,
+  "combinations": [
+   11,
+   50,
+   94,
+   102,
+   126,
+   178,
+   184,
+   190,
+   209,
+   214,
+   235,
+   243,
+   262,
+   266,
+   301,
+   343
+  ]
+ },
+ {
+  "id": 43,
+  "name": "Seashell Pink",
+  "hex": "#FDD4BD",
+  "rgb": [
+   253,
+   212,
+   189
+  ],
+  "lab": [
+   88.1,
+   12.1,
+   17.3
+  ],
+  "cmyk": [
+   0,
+   19,
+   23,
+   0
+  ],
+  "lrv": 72,
+  "family": "brown/tan",
+  "gamut_delta_e": 0,
+  "combinations": [
+   45,
+   84,
+   88,
+   113,
+   150,
+   176,
+   194,
+   276,
+   334,
+   351
+  ]
+ },
+ {
+  "id": 44,
+  "name": "Light Pinkish Cinnamon",
+  "hex": "#FCC79B",
+  "rgb": [
+   252,
+   199,
+   155
+  ],
+  "lab": [
+   84.2,
+   15.6,
+   29.8
+  ],
+  "cmyk": [
+   0,
+   25,
+   40,
+   0
+  ],
+  "lrv": 64,
+  "family": "brown/tan",
+  "gamut_delta_e": 0,
+  "combinations": [
+   317,
+   353
+  ]
+ },
+ {
+  "id": 45,
+  "name": "Pinkish Cinnamon",
+  "hex": "#EEB480",
+  "rgb": [
+   238,
+   180,
+   128
+  ],
+  "lab": [
+   77.8,
+   17.2,
+   34.7
+  ],
+  "cmyk": [
+   5,
+   32,
+   53,
+   0
+  ],
+  "lrv": 52,
+  "family": "brown/tan",
+  "gamut_delta_e": 0,
+  "combinations": [
+   78,
+   161,
+   175,
+   232,
+   258,
+   263,
+   292,
+   305,
+   310
+  ]
+ },
+ {
+  "id": 46,
+  "name": "Cinnamon Buff",
+  "hex": "#FDC57E",
+  "rgb": [
+   253,
+   197,
+   126
+  ],
+  "lab": [
+   83.5,
+   14.7,
+   43.7
+  ],
+  "cmyk": [
+   0,
+   25,
+   57,
+   0
+  ],
+  "lrv": 62,
+  "family": "orange",
+  "gamut_delta_e": 3,
+  "combinations": [
+   23,
+   127,
+   137,
+   180,
+   210,
+   234,
+   246,
+   323,
+   344
+  ]
+ },
+ {
+  "id": 47,
+  "name": "Cream Yellow",
+  "hex": "#FDBF68",
+  "rgb": [
+   253,
+   191,
+   104
+  ],
+  "lab": [
+   81.8,
+   16.5,
+   52.0
+  ],
+  "cmyk": [
+   0,
+   28,
+   68,
+   0
+  ],
+  "lrv": 59,
+  "family": "orange",
+  "gamut_delta_e": 3,
+  "combinations": [
+   122,
+   192,
+   215,
+   226,
+   267,
+   278,
+   294,
+   295,
+   300,
+   302,
+   304,
+   311,
+   329,
+   342
+  ]
+ },
+ {
+  "id": 48,
+  "name": "Golden Yellow",
+  "hex": "#F3A257",
+  "rgb": [
+   243,
+   162,
+   87
+  ],
+  "lab": [
+   73.9,
+   25.9,
+   51.2
+  ],
+  "cmyk": [
+   2,
+   42,
+   74,
+   0
+  ],
+  "lrv": 46,
+  "family": "orange",
+  "gamut_delta_e": 3,
+  "combinations": [
+   26,
+   81,
+   132,
+   138,
+   140,
+   179,
+   206,
+   229,
+   309,
+   315,
+   354
+  ]
+ },
+ {
+  "id": 49,
+  "name": "Vinaceous Cinnamon",
+  "hex": "#EEA78C",
+  "rgb": [
+   238,
+   167,
+   140
+  ],
+  "lab": [
+   75.0,
+   24.7,
+   24.8
+  ],
+  "cmyk": [
+   4,
+   40,
+   42,
+   0
+  ],
+  "lrv": 48,
+  "family": "peach/salmon",
+  "gamut_delta_e": 0,
+  "combinations": [
+   203,
+   205,
+   213,
+   256,
+   260,
+   279,
+   299
+  ]
+ },
+ {
+  "id": 50,
+  "name": "Ochraceous Salmon",
+  "hex": "#D8A37B",
+  "rgb": [
+   216,
+   163,
+   123
+  ],
+  "lab": [
+   71.4,
+   16.5,
+   29.1
+  ],
+  "cmyk": [
+   15,
+   38,
+   55,
+   0
+  ],
+  "lrv": 42,
+  "family": "brown/tan",
+  "gamut_delta_e": 0,
+  "combinations": [
+   32,
+   71,
+   121,
+   186,
+   217,
+   220,
+   223,
+   238,
+   296,
+   339
+  ]
+ },
+ {
+  "id": 51,
+  "name": "Isabella Color",
+  "hex": "#C5A56E",
+  "rgb": [
+   197,
+   165,
+   110
+  ],
+  "lab": [
+   69.7,
+   7.1,
+   33.0
+  ],
+  "cmyk": [
+   15,
+   28,
+   60,
+   10
+  ],
+  "lrv": 40,
+  "family": "olive/ochre",
+  "gamut_delta_e": 0,
+  "combinations": [
+   4,
+   12,
+   241,
+   292
+  ]
+ },
+ {
+  "id": 52,
+  "name": "Maple",
+  "hex": "#C59F6B",
+  "rgb": [
+   197,
+   159,
+   107
+  ],
+  "lab": [
+   68.2,
+   9.6,
+   32.9
+  ],
+  "cmyk": [
+   5,
+   26,
+   56,
+   20
+  ],
+  "lrv": 38,
+  "family": "brown/tan",
+  "gamut_delta_e": 0,
+  "combinations": [
+   282
+  ]
+ },
+ {
+  "id": 53,
+  "name": "Olive Buff",
+  "hex": "#C1C494",
+  "rgb": [
+   193,
+   196,
+   148
+  ],
+  "lab": [
+   78.0,
+   -7.1,
+   23.7
+  ],
+  "cmyk": [
+   16,
+   6,
+   42,
+   12
+  ],
+  "lrv": 53,
+  "family": "yellow-green/olive",
+  "gamut_delta_e": 0,
+  "combinations": [
+   83,
+   175,
+   200,
+   330,
+   348
+  ]
+ },
+ {
+  "id": 54,
+  "name": "Ecru",
+  "hex": "#C2AE93",
+  "rgb": [
+   194,
+   174,
+   147
+  ],
+  "lab": [
+   72.2,
+   4.2,
+   16.7
+  ],
+  "cmyk": [
+   20,
+   25,
+   40,
+   6
+  ],
+  "lrv": 44,
+  "family": "yellow",
+  "gamut_delta_e": 0,
+  "combinations": [
+   167,
+   249,
+   275,
+   279,
+   292,
+   302,
+   317,
+   327
+  ]
+ },
+ {
+  "id": 55,
+  "name": "Yellow",
+  "hex": "#FFF200",
+  "rgb": [
+   255,
+   242,
+   0
+  ],
+  "lab": [
+   95.0,
+   -6.5,
+   95.6
+  ],
+  "cmyk": [
+   0,
+   0,
+   100,
+   0
+  ],
+  "lrv": 85,
+  "family": "yellow",
+  "gamut_delta_e": 10,
+  "combinations": [
+   22,
+   62,
+   68,
+   154,
+   240,
+   251,
+   295,
+   313
+  ]
+ },
+ {
+  "id": 56,
+  "name": "Lemon Yellow",
+  "hex": "#F8ED43",
+  "rgb": [
+   248,
+   237,
+   67
+  ],
+  "lab": [
+   92.7,
+   -9.4,
+   77.8
+  ],
+  "cmyk": [
+   5,
+   0,
+   85,
+   0
+  ],
+  "lrv": 81,
+  "family": "yellow",
+  "gamut_delta_e": 5,
+  "combinations": [
+   45,
+   123,
+   138,
+   158,
+   168,
+   173,
+   189,
+   210,
+   253,
+   259,
+   289,
+   298,
+   306,
+   317,
+   333,
+   352,
+   356,
+   358,
+   359
+  ]
+ },
+ {
+  "id": 57,
+  "name": "Apricot Yellow",
+  "hex": "#FFDD00",
+  "rgb": [
+   255,
+   221,
+   0
+  ],
+  "lab": [
+   89.4,
+   1.9,
+   89.5
+  ],
+  "cmyk": [
+   0,
+   10,
+   100,
+   0
+  ],
+  "lrv": 73,
+  "family": "yellow",
+  "gamut_delta_e": 7,
+  "combinations": [
+   107,
+   129,
+   163,
+   198,
+   213,
+   247,
+   265,
+   284,
+   305,
+   319
+  ]
+ },
+ {
+  "id": 58,
+  "name": "Pyrite Yellow",
+  "hex": "#CAB356",
+  "rgb": [
+   202,
+   179,
+   86
+  ],
+  "lab": [
+   73.6,
+   0.4,
+   49.8
+  ],
+  "cmyk": [
+   23,
+   25,
+   80,
+   0
+  ],
+  "lrv": 45,
+  "family": "yellow",
+  "gamut_delta_e": 4,
+  "combinations": [
+   239,
+   250,
+   255,
+   287,
+   353,
+   357
+  ]
+ },
+ {
+  "id": 59,
+  "name": "Olive Ocher",
+  "hex": "#D6B43E",
+  "rgb": [
+   214,
+   180,
+   62
+  ],
+  "lab": [
+   74.9,
+   3.6,
+   61.8
+  ],
+  "cmyk": [
+   18,
+   26,
+   90,
+   0
+  ],
+  "lrv": 47,
+  "family": "yellow",
+  "gamut_delta_e": 4,
+  "combinations": [
+   66,
+   148,
+   149,
+   156,
+   157,
+   249,
+   278
+  ]
+ },
+ {
+  "id": 60,
+  "name": "Yellow Ocher",
+  "hex": "#E2B540",
+  "rgb": [
+   226,
+   181,
+   64
+  ],
+  "lab": [
+   76.2,
+   8.4,
+   62.8
+  ],
+  "cmyk": [
+   12,
+   28,
+   88,
+   0
+  ],
+  "lrv": 50,
+  "family": "yellow",
+  "gamut_delta_e": 4,
+  "combinations": [
+   42,
+   96,
+   118,
+   124,
+   126,
+   191,
+   222,
+   325
+  ]
+ },
+ {
+  "id": 61,
+  "name": "Orange Yellow",
+  "hex": "#FCB315",
+  "rgb": [
+   252,
+   179,
+   21
+  ],
+  "lab": [
+   78.5,
+   19.6,
+   78.2
+  ],
+  "cmyk": [
+   0,
+   33,
+   100,
+   0
+  ],
+  "lrv": 53,
+  "family": "yellow",
+  "gamut_delta_e": 4,
+  "combinations": [
+   114,
+   148,
+   153,
+   164,
+   170,
+   257,
+   286,
+   338,
+   350
+  ]
+ },
+ {
+  "id": 62,
+  "name": "Yellow Orange",
+  "hex": "#F99D1B",
+  "rgb": [
+   249,
+   157,
+   27
+  ],
+  "lab": [
+   73.0,
+   29.4,
+   72.9
+  ],
+  "cmyk": [
+   0,
+   45,
+   100,
+   0
+  ],
+  "lrv": 44,
+  "family": "orange",
+  "gamut_delta_e": 4,
+  "combinations": [
+   2,
+   53,
+   89,
+   151,
+   171,
+   209,
+   222,
+   235,
+   267,
+   288,
+   297,
+   312,
+   319,
+   335
+  ]
+ },
+ {
+  "id": 63,
+  "name": "Apricot Orange",
+  "hex": "#F68C50",
+  "rgb": [
+   246,
+   140,
+   80
+  ],
+  "lab": [
+   69.4,
+   37.7,
+   49.6
+  ],
+  "cmyk": [
+   0,
+   55,
+   75,
+   0
+  ],
+  "lrv": 39,
+  "family": "orange",
+  "gamut_delta_e": 0,
+  "combinations": [
+   211,
+   253,
+   309,
+   328
+  ]
+ },
+ {
+  "id": 64,
+  "name": "Orange",
+  "hex": "#F37420",
+  "rgb": [
+   243,
+   116,
+   32
+  ],
+  "lab": [
+   63.8,
+   47.2,
+   64.7
+  ],
+  "cmyk": [
+   0,
+   68,
+   100,
+   0
+  ],
+  "lrv": 32,
+  "family": "orange",
+  "gamut_delta_e": 0,
+  "combinations": [
+   7,
+   46,
+   141,
+   144,
+   149,
+   256,
+   272,
+   358
+  ]
+ },
+ {
+  "id": 65,
+  "name": "Peach Red",
+  "hex": "#F15A30",
+  "rgb": [
+   241,
+   90,
+   48
+  ],
+  "lab": [
+   59.1,
+   57.5,
+   54.4
+  ],
+  "cmyk": [
+   0,
+   80,
+   90,
+   0
+  ],
+  "lrv": 26,
+  "family": "red-orange",
+  "gamut_delta_e": 0,
+  "combinations": [
+   115,
+   250,
+   274,
+   285,
+   298,
+   303,
+   326,
+   340
+  ]
+ },
+ {
+  "id": 66,
+  "name": "English Red",
+  "hex": "#D96629",
+  "rgb": [
+   217,
+   102,
+   41
+  ],
+  "lab": [
+   57.2,
+   43.3,
+   54.4
+  ],
+  "cmyk": [
+   13,
+   73,
+   100,
+   0
+  ],
+  "lrv": 24,
+  "family": "orange",
+  "gamut_delta_e": 0,
+  "combinations": [
+   1,
+   131,
+   190,
+   308,
+   339
+  ]
+ },
+ {
+  "id": 67,
+  "name": "Cinnamon Rufous",
+  "hex": "#C27544",
+  "rgb": [
+   194,
+   117,
+   68
+  ],
+  "lab": [
+   57.2,
+   27.8,
+   40.2
+  ],
+  "cmyk": [
+   20,
+   60,
+   82,
+   5
+  ],
+  "lrv": 25,
+  "family": "orange",
+  "gamut_delta_e": 0,
+  "combinations": [
+   8,
+   10,
+   103,
+   158,
+   172,
+   204,
+   206
+  ]
+ },
+ {
+  "id": 68,
+  "name": "Orange Rufous",
+  "hex": "#C16B27",
+  "rgb": [
+   193,
+   107,
+   39
+  ],
+  "lab": [
+   54.6,
+   31.6,
+   51.2
+  ],
+  "cmyk": [
+   18,
+   65,
+   100,
+   8
+  ],
+  "lrv": 22,
+  "family": "brown/tan",
+  "gamut_delta_e": 0,
+  "combinations": [
+   91,
+   102,
+   222,
+   353
+  ]
+ },
+ {
+  "id": 69,
+  "name": "Sulphine Yellow",
+  "hex": "#C19F2C",
+  "rgb": [
+   193,
+   159,
+   44
+  ],
+  "lab": [
+   67.2,
+   4.3,
+   60.6
+  ],
+  "cmyk": [
+   24,
+   32,
+   100,
+   4
+  ],
+  "lrv": 36,
+  "family": "olive/ochre",
+  "gamut_delta_e": 3,
+  "combinations": [
+   36,
+   65,
+   142,
+   160,
+   252
+  ]
+ },
+ {
+  "id": 70,
+  "name": "Khaki",
+  "hex": "#BC892B",
+  "rgb": [
+   188,
+   137,
+   43
+  ],
+  "lab": [
+   61.0,
+   13.9,
+   55.1
+  ],
+  "cmyk": [
+   24,
+   45,
+   100,
+   6
+  ],
+  "lrv": 29,
+  "family": "olive/ochre",
+  "gamut_delta_e": 3,
+  "combinations": [
+   129,
+   146,
+   159,
+   236,
+   248
+  ]
+ },
+ {
+  "id": 71,
+  "name": "Citron Yellow",
+  "hex": "#B2B73E",
+  "rgb": [
+   178,
+   183,
+   62
+  ],
+  "lab": [
+   72.5,
+   -13.1,
+   58.2
+  ],
+  "cmyk": [
+   35,
+   17,
+   95,
+   0
+  ],
+  "lrv": 44,
+  "family": "yellow-green/olive",
+  "gamut_delta_e": 4,
+  "combinations": [
+   40,
+   87,
+   145,
+   150,
+   153,
+   196,
+   305,
+   323
+  ]
+ },
+ {
+  "id": 72,
+  "name": "Citrine",
+  "hex": "#B09F36",
+  "rgb": [
+   176,
+   159,
+   54
+  ],
+  "lab": [
+   65.6,
+   -2.6,
+   54.5
+  ],
+  "cmyk": [
+   36,
+   32,
+   100,
+   0
+  ],
+  "lrv": 34,
+  "family": "olive/ochre",
+  "gamut_delta_e": 3,
+  "combinations": [
+   59,
+   93,
+   132,
+   133,
+   262,
+   356
+  ]
+ },
+ {
+  "id": 73,
+  "name": "Buffy Citrine",
+  "hex": "#96874D",
+  "rgb": [
+   150,
+   135,
+   77
+  ],
+  "lab": [
+   56.6,
+   0.0,
+   33.3
+  ],
+  "cmyk": [
+   42,
+   40,
+   82,
+   8
+  ],
+  "lrv": 24,
+  "family": "olive/ochre",
+  "gamut_delta_e": 0,
+  "combinations": [
+   100,
+   177,
+   233,
+   350
+  ]
+ },
+ {
+  "id": 74,
+  "name": "Dark Citrine",
+  "hex": "#8B835B",
+  "rgb": [
+   139,
+   131,
+   91
+  ],
+  "lab": [
+   54.7,
+   -1.4,
+   23.1
+  ],
+  "cmyk": [
+   38,
+   34,
+   67,
+   20
+  ],
+  "lrv": 22,
+  "family": "olive/ochre",
+  "gamut_delta_e": 0,
+  "combinations": [
+   10,
+   41,
+   274,
+   304
+  ]
+ },
+ {
+  "id": 75,
+  "name": "Light Grayish Olive",
+  "hex": "#848061",
+  "rgb": [
+   132,
+   128,
+   97
+  ],
+  "lab": [
+   53.2,
+   -2.3,
+   17.0
+  ],
+  "cmyk": [
+   43,
+   36,
+   62,
+   19
+  ],
+  "lrv": 21,
+  "family": "olive/ochre",
+  "gamut_delta_e": 0,
+  "combinations": [
+   107,
+   184
+  ]
+ },
+ {
+  "id": 76,
+  "name": "Krongbergs Green",
+  "hex": "#84875E",
+  "rgb": [
+   132,
+   135,
+   94
+  ],
+  "lab": [
+   55.1,
+   -6.2,
+   21.5
+  ],
+  "cmyk": [
+   48,
+   35,
+   70,
+   12
+  ],
+  "lrv": 23,
+  "family": "yellow-green/olive",
+  "gamut_delta_e": 0,
+  "combinations": [
+   29
+  ]
+ },
+ {
+  "id": 77,
+  "name": "Olive",
+  "hex": "#837E31",
+  "rgb": [
+   131,
+   126,
+   49
+  ],
+  "lab": [
+   52.2,
+   -5.7,
+   41.5
+  ],
+  "cmyk": [
+   48,
+   38,
+   100,
+   15
+  ],
+  "lrv": 20,
+  "family": "olive/ochre",
+  "gamut_delta_e": 0,
+  "combinations": [
+   96,
+   201,
+   254,
+   258,
+   277,
+   310,
+   334
+  ]
+ },
+ {
+  "id": 78,
+  "name": "Orange Citrine",
+  "hex": "#986F2D",
+  "rgb": [
+   152,
+   111,
+   45
+  ],
+  "lab": [
+   50.2,
+   11.5,
+   42.0
+  ],
+  "cmyk": [
+   28,
+   48,
+   92,
+   24
+  ],
+  "lrv": 18,
+  "family": "brown/tan",
+  "gamut_delta_e": 0,
+  "combinations": [
+   212,
+   342
+  ]
+ },
+ {
+  "id": 79,
+  "name": "Sudan Brown",
+  "hex": "#A36752",
+  "rgb": [
+   163,
+   103,
+   82
+  ],
+  "lab": [
+   49.9,
+   23.0,
+   22.5
+  ],
+  "cmyk": [
+   25,
+   60,
+   65,
+   19
+  ],
+  "lrv": 18,
+  "family": "brown/terracotta",
+  "gamut_delta_e": 0,
+  "combinations": [
+   207,
+   214,
+   273
+  ]
+ },
+ {
+  "id": 80,
+  "name": "Olive Green",
+  "hex": "#6B7140",
+  "rgb": [
+   107,
+   113,
+   64
+  ],
+  "lab": [
+   46.4,
+   -8.5,
+   26.5
+  ],
+  "cmyk": [
+   56,
+   40,
+   85,
+   22
+  ],
+  "lrv": 15,
+  "family": "yellow-green/olive",
+  "gamut_delta_e": 0,
+  "combinations": [
+   66,
+   243,
+   270,
+   297
+  ]
+ },
+ {
+  "id": 81,
+  "name": "Light Brownish Olive",
+  "hex": "#806E4B",
+  "rgb": [
+   128,
+   110,
+   75
+  ],
+  "lab": [
+   47.5,
+   3.7,
+   22.2
+  ],
+  "cmyk": [
+   42,
+   46,
+   73,
+   24
+  ],
+  "lrv": 16,
+  "family": "olive/ochre",
+  "gamut_delta_e": 0,
+  "combinations": [
+   199,
+   318
+  ]
+ },
+ {
+  "id": 82,
+  "name": "Deep Grayish Olive",
+  "hex": "#635A3A",
+  "rgb": [
+   99,
+   90,
+   58
+  ],
+  "lab": [
+   38.6,
+   -0.3,
+   19.9
+  ],
+  "cmyk": [
+   50,
+   48,
+   78,
+   37
+  ],
+  "lrv": 10,
+  "family": "olive/ochre",
+  "gamut_delta_e": 0,
+  "combinations": [
+   146,
+   343
+  ]
+ },
+ {
+  "id": 83,
+  "name": "Pale Raw Umber",
+  "hex": "#71502F",
+  "rgb": [
+   113,
+   80,
+   47
+  ],
+  "lab": [
+   37.1,
+   11.2,
+   25.0
+  ],
+  "cmyk": [
+   46,
+   63,
+   87,
+   32
+  ],
+  "lrv": 9,
+  "family": "brown/tan",
+  "gamut_delta_e": 0,
+  "combinations": [
+   26,
+   73,
+   160,
+   234,
+   296
+  ]
+ },
+ {
+  "id": 84,
+  "name": "Sepia",
+  "hex": "#644B1E",
+  "rgb": [
+   100,
+   75,
+   30
+  ],
+  "lab": [
+   33.8,
+   6.9,
+   30.2
+  ],
+  "cmyk": [
+   48,
+   60,
+   100,
+   40
+  ],
+  "lrv": 8,
+  "family": "olive/ochre",
+  "gamut_delta_e": 0,
+  "combinations": [
+   24,
+   288
+  ]
+ },
+ {
+  "id": 85,
+  "name": "Madder Brown",
+  "hex": "#762C19",
+  "rgb": [
+   118,
+   44,
+   25
+  ],
+  "lab": [
+   29.1,
+   32.0,
+   29.3
+  ],
+  "cmyk": [
+   36,
+   88,
+   100,
+   38
+  ],
+  "lrv": 6,
+  "family": "red-orange",
+  "gamut_delta_e": 0,
+  "combinations": [
+   28,
+   79,
+   98,
+   173,
+   237,
+   275,
+   323,
+   359
+  ]
+ },
+ {
+  "id": 86,
+  "name": "Mars Brown Tobacco",
+  "hex": "#653514",
+  "rgb": [
+   101,
+   53,
+   20
+  ],
+  "lab": [
+   28.0,
+   20.5,
+   29.8
+  ],
+  "cmyk": [
+   39,
+   76,
+   100,
+   47
+  ],
+  "lrv": 5,
+  "family": "brown/tan",
+  "gamut_delta_e": 0,
+  "combinations": [
+   19
+  ]
+ },
+ {
+  "id": 87,
+  "name": "Vandyke Brown",
+  "hex": "#4B3317",
+  "rgb": [
+   75,
+   51,
+   23
+  ],
+  "lab": [
+   23.8,
+   8.5,
+   22.1
+  ],
+  "cmyk": [
+   56,
+   71,
+   97,
+   52
+  ],
+  "lrv": 4,
+  "family": "brown/tan",
+  "gamut_delta_e": 0,
+  "combinations": [
+   110,
+   113,
+   118,
+   182,
+   192,
+   328,
+   355
+  ]
+ },
+ {
+  "id": 88,
+  "name": "Turquoise Green",
+  "hex": "#B5DECC",
+  "rgb": [
+   181,
+   222,
+   204
+  ],
+  "lab": [
+   85.3,
+   -16.9,
+   4.6
+  ],
+  "cmyk": [
+   29,
+   0,
+   24,
+   0
+  ],
+  "lrv": 66,
+  "family": "green",
+  "gamut_delta_e": 0,
+  "combinations": [
+   36,
+   74,
+   147,
+   163,
+   173,
+   202,
+   223,
+   230,
+   263,
+   272,
+   285,
+   293,
+   300,
+   305,
+   317,
+   346
+  ]
+ },
+ {
+  "id": 89,
+  "name": "Glaucous Green",
+  "hex": "#B4CDC2",
+  "rgb": [
+   180,
+   205,
+   194
+  ],
+  "lab": [
+   80.3,
+   -10.2,
+   2.3
+  ],
+  "cmyk": [
+   30,
+   9,
+   24,
+   0
+  ],
+  "lrv": 57,
+  "family": "green",
+  "gamut_delta_e": 0,
+  "combinations": [
+   7,
+   150,
+   171,
+   207,
+   239,
+   260,
+   358
+  ]
+ },
+ {
+  "id": 90,
+  "name": "Dark Greenish Glaucous",
+  "hex": "#B7C2A9",
+  "rgb": [
+   183,
+   194,
+   169
+  ],
+  "lab": [
+   77.1,
+   -7.6,
+   11.4
+  ],
+  "cmyk": [
+   30,
+   15,
+   36,
+   0
+  ],
+  "lrv": 52,
+  "family": "yellow-green/olive",
+  "gamut_delta_e": 0,
+  "combinations": [
+   264,
+   311,
+   353
+  ]
+ },
+ {
+  "id": 91,
+  "name": "Yellow Green",
+  "hex": "#AFD472",
+  "rgb": [
+   175,
+   212,
+   114
+  ],
+  "lab": [
+   80.6,
+   -24.6,
+   43.9
+  ],
+  "cmyk": [
+   35,
+   0,
+   72,
+   0
+  ],
+  "lrv": 57,
+  "family": "yellow-green/olive",
+  "gamut_delta_e": 3,
+  "combinations": [
+   111,
+   141,
+   276,
+   326,
+   334
+  ]
+ },
+ {
+  "id": 92,
+  "name": "Light Green Yellow",
+  "hex": "#C7D14F",
+  "rgb": [
+   199,
+   209,
+   79
+  ],
+  "lab": [
+   81.1,
+   -15.9,
+   60.6
+  ],
+  "cmyk": [
+   26,
+   5,
+   85,
+   0
+  ],
+  "lrv": 58,
+  "family": "yellow-green/olive",
+  "gamut_delta_e": 4,
+  "combinations": [
+   61,
+   289,
+   291,
+   311,
+   346
+  ]
+ },
+ {
+  "id": 93,
+  "name": "Night Green",
+  "hex": "#87C540",
+  "rgb": [
+   135,
+   197,
+   64
+  ],
+  "lab": [
+   73.3,
+   -36.0,
+   57.0
+  ],
+  "cmyk": [
+   52,
+   0,
+   100,
+   0
+  ],
+  "lrv": 45,
+  "family": "yellow-green/olive",
+  "gamut_delta_e": 5,
+  "combinations": [
+   19,
+   32,
+   158,
+   326
+  ]
+ },
+ {
+  "id": 94,
+  "name": "Olive Yellow",
+  "hex": "#A6A159",
+  "rgb": [
+   166,
+   161,
+   89
+  ],
+  "lab": [
+   65.5,
+   -6.1,
+   37.8
+  ],
+  "cmyk": [
+   40,
+   30,
+   80,
+   0
+  ],
+  "lrv": 34,
+  "family": "olive/ochre",
+  "gamut_delta_e": 0,
+  "combinations": [
+   124,
+   211,
+   265,
+   347
+  ]
+ },
+ {
+  "id": 95,
+  "name": "Artemesia Green",
+  "hex": "#709390",
+  "rgb": [
+   112,
+   147,
+   144
+  ],
+  "lab": [
+   58.1,
+   -12.8,
+   -2.9
+  ],
+  "cmyk": [
+   57,
+   28,
+   39,
+   8
+  ],
+  "lrv": 26,
+  "family": "green",
+  "gamut_delta_e": 0,
+  "combinations": [
+   293,
+   312,
+   350
+  ]
+ },
+ {
+  "id": 96,
+  "name": "Andover Green",
+  "hex": "#6D7E77",
+  "rgb": [
+   109,
+   126,
+   119
+  ],
+  "lab": [
+   51.2,
+   -7.8,
+   1.5
+  ],
+  "cmyk": [
+   60,
+   40,
+   50,
+   10
+  ],
+  "lrv": 20,
+  "family": "neutral",
+  "gamut_delta_e": 0,
+  "combinations": [
+   244,
+   346
+  ]
+ },
+ {
+  "id": 97,
+  "name": "Rainette Green",
+  "hex": "#8FA071",
+  "rgb": [
+   143,
+   160,
+   113
+  ],
+  "lab": [
+   63.7,
+   -12.5,
+   22.4
+  ],
+  "cmyk": [
+   42,
+   20,
+   62,
+   10
+  ],
+  "lrv": 32,
+  "family": "yellow-green/olive",
+  "gamut_delta_e": 0,
+  "combinations": [
+   73,
+   162,
+   188,
+   266,
+   301
+  ]
+ },
+ {
+  "id": 98,
+  "name": "Chromium Green",
+  "hex": "#719470",
+  "rgb": [
+   113,
+   148,
+   112
+  ],
+  "lab": [
+   57.9,
+   -18.1,
+   15.0
+  ],
+  "cmyk": [
+   50,
+   16,
+   58,
+   20
+  ],
+  "lrv": 26,
+  "family": "yellow-green/olive",
+  "gamut_delta_e": 0,
+  "combinations": [
+   105,
+   200,
+   219,
+   283
+  ]
+ },
+ {
+  "id": 99,
+  "name": "Pistachio Green",
+  "hex": "#648F7B",
+  "rgb": [
+   100,
+   143,
+   123
+  ],
+  "lab": [
+   55.8,
+   -18.6,
+   5.7
+  ],
+  "cmyk": [
+   64,
+   29,
+   56,
+   6
+  ],
+  "lrv": 24,
+  "family": "green",
+  "gamut_delta_e": 0,
+  "combinations": [
+   127,
+   137
+  ]
+ },
+ {
+  "id": 100,
+  "name": "Sea Green",
+  "hex": "#00B49B",
+  "rgb": [
+   0,
+   180,
+   155
+  ],
+  "lab": [
+   65.1,
+   -48.9,
+   0.5
+  ],
+  "cmyk": [
+   80,
+   0,
+   51,
+   0
+  ],
+  "lrv": 35,
+  "family": "green",
+  "gamut_delta_e": 5,
+  "combinations": [
+   17,
+   21,
+   58,
+   86,
+   133,
+   250,
+   260,
+   284,
+   291,
+   340,
+   347,
+   355
+  ]
+ },
+ {
+  "id": 101,
+  "name": "Benzol Green",
+  "hex": "#00978D",
+  "rgb": [
+   0,
+   151,
+   141
+  ],
+  "lab": [
+   53.6,
+   -54.6,
+   -8.3
+  ],
+  "cmyk": [
+   100,
+   15,
+   55,
+   0
+  ],
+  "lrv": 24,
+  "family": "green",
+  "gamut_delta_e": 20,
+  "combinations": [
+   15,
+   54,
+   92,
+   122,
+   155,
+   247,
+   266,
+   267,
+   281,
+   304,
+   306
+  ]
+ },
+ {
+  "id": 102,
+  "name": "Light Porcelain Green",
+  "hex": "#00908A",
+  "rgb": [
+   0,
+   144,
+   138
+  ],
+  "lab": [
+   53.3,
+   -37.5,
+   -6.8
+  ],
+  "cmyk": [
+   86,
+   22,
+   50,
+   3
+  ],
+  "lrv": 22,
+  "family": "green",
+  "gamut_delta_e": 4,
+  "combinations": [
+   44,
+   193,
+   328
+  ]
+ },
+ {
+  "id": 103,
+  "name": "Green",
+  "hex": "#489B6E",
+  "rgb": [
+   72,
+   155,
+   110
+  ],
+  "lab": [
+   57.8,
+   -34.5,
+   15.6
+  ],
+  "cmyk": [
+   75,
+   21,
+   73,
+   0
+  ],
+  "lrv": 26,
+  "family": "green",
+  "gamut_delta_e": 0,
+  "combinations": [
+   198,
+   216,
+   293
+  ]
+ },
+ {
+  "id": 104,
+  "name": "Dull Viridian Green",
+  "hex": "#009465",
+  "rgb": [
+   0,
+   148,
+   101
+  ],
+  "lab": [
+   53.5,
+   -49.0,
+   14.4
+  ],
+  "cmyk": [
+   90,
+   20,
+   80,
+   0
+  ],
+  "lrv": 22,
+  "family": "green",
+  "gamut_delta_e": 4,
+  "combinations": [
+   136,
+   256,
+   306,
+   316
+  ]
+ },
+ {
+  "id": 105,
+  "name": "Oil Green",
+  "hex": "#819238",
+  "rgb": [
+   129,
+   146,
+   56
+  ],
+  "lab": [
+   57.6,
+   -16.0,
+   43.8
+  ],
+  "cmyk": [
+   53,
+   28,
+   100,
+   8
+  ],
+  "lrv": 26,
+  "family": "yellow-green/olive",
+  "gamut_delta_e": 4,
+  "combinations": [
+   245,
+   299,
+   320
+  ]
+ },
+ {
+  "id": 106,
+  "name": "Diamine Green",
+  "hex": "#1A7444",
+  "rgb": [
+   26,
+   116,
+   68
+  ],
+  "lab": [
+   42.7,
+   -35.7,
+   18.6
+  ],
+  "cmyk": [
+   87,
+   32,
+   91,
+   18
+  ],
+  "lrv": 13,
+  "family": "green",
+  "gamut_delta_e": 0,
+  "combinations": [
+   38,
+   146,
+   217,
+   242,
+   251,
+   313
+  ]
+ },
+ {
+  "id": 107,
+  "name": "Cossack Green",
+  "hex": "#437742",
+  "rgb": [
+   67,
+   119,
+   66
+  ],
+  "lab": [
+   45.5,
+   -27.2,
+   23.4
+  ],
+  "cmyk": [
+   76,
+   32,
+   91,
+   18
+  ],
+  "lrv": 15,
+  "family": "yellow-green/olive",
+  "gamut_delta_e": 0,
+  "combinations": [
+   5,
+   135,
+   262,
+   270,
+   278,
+   294,
+   319,
+   341,
+   348
+  ]
+ },
+ {
+  "id": 108,
+  "name": "Lincoln Green",
+  "hex": "#555832",
+  "rgb": [
+   85,
+   88,
+   50
+  ],
+  "lab": [
+   36.3,
+   -5.9,
+   21.2
+  ],
+  "cmyk": [
+   60,
+   48,
+   86,
+   37
+  ],
+  "lrv": 9,
+  "family": "yellow-green/olive",
+  "gamut_delta_e": 0,
+  "combinations": [
+   70,
+   121,
+   203,
+   210,
+   280,
+   290
+  ]
+ },
+ {
+  "id": 109,
+  "name": "Blackish Olive",
+  "hex": "#42533E",
+  "rgb": [
+   66,
+   83,
+   62
+  ],
+  "lab": [
+   33.3,
+   -10.1,
+   9.7
+  ],
+  "cmyk": [
+   56,
+   32,
+   63,
+   55
+  ],
+  "lrv": 8,
+  "family": "yellow-green/olive",
+  "gamut_delta_e": 0,
+  "combinations": [
+   109,
+   318,
+   336
+  ]
+ },
+ {
+  "id": 110,
+  "name": "Deep Slate Olive",
+  "hex": "#253122",
+  "rgb": [
+   37,
+   49,
+   34
+  ],
+  "lab": [
+   18.8,
+   -7.7,
+   7.5
+  ],
+  "cmyk": [
+   76,
+   60,
+   80,
+   62
+  ],
+  "lrv": 3,
+  "family": "yellow-green/olive",
+  "gamut_delta_e": 0,
+  "combinations": [
+   189,
+   229,
+   268,
+   303,
+   310,
+   321,
+   332,
+   341,
+   342,
+   348
+  ]
+ },
+ {
+  "id": 111,
+  "name": "Nile Blue",
+  "hex": "#BCE4E5",
+  "rgb": [
+   188,
+   228,
+   229
+  ],
+  "lab": [
+   87.7,
+   -13.3,
+   -5.0
+  ],
+  "cmyk": [
+   25,
+   0,
+   10,
+   0
+  ],
+  "lrv": 72,
+  "family": "teal/blue-green",
+  "gamut_delta_e": 0,
+  "combinations": [
+   25,
+   250,
+   268,
+   302,
+   306,
+   330,
+   345,
+   354,
+   359
+  ]
+ },
+ {
+  "id": 112,
+  "name": "Pale King's Blue",
+  "hex": "#A7D4E4",
+  "rgb": [
+   167,
+   212,
+   228
+  ],
+  "lab": [
+   82.2,
+   -12.7,
+   -12.9
+  ],
+  "cmyk": [
+   33,
+   4,
+   7,
+   0
+  ],
+  "lrv": 61,
+  "family": "teal/blue-green",
+  "gamut_delta_e": 0,
+  "combinations": [
+   16,
+   49,
+   72,
+   75,
+   167,
+   196,
+   213,
+   234,
+   287,
+   351
+  ]
+ },
+ {
+  "id": 113,
+  "name": "Light Glaucous Blue",
+  "hex": "#A5C8D1",
+  "rgb": [
+   165,
+   200,
+   209
+  ],
+  "lab": [
+   78.2,
+   -10.6,
+   -8.7
+  ],
+  "cmyk": [
+   35,
+   10,
+   14,
+   0
+  ],
+  "lrv": 54,
+  "family": "teal/blue-green",
+  "gamut_delta_e": 0,
+  "combinations": [
+   54,
+   93,
+   119,
+   152,
+   178,
+   204,
+   227,
+   320,
+   339,
+   341,
+   356,
+   357
+  ]
+ },
+ {
+  "id": 114,
+  "name": "Salvia Blue",
+  "hex": "#97ACC8",
+  "rgb": [
+   151,
+   172,
+   200
+  ],
+  "lab": [
+   69.5,
+   -2.8,
+   -16.8
+  ],
+  "cmyk": [
+   41,
+   25,
+   10,
+   0
+  ],
+  "lrv": 40,
+  "family": "blue",
+  "gamut_delta_e": 0,
+  "combinations": [
+   29,
+   129,
+   135,
+   139,
+   142,
+   188,
+   209,
+   212,
+   237,
+   272,
+   294,
+   321,
+   330
+  ]
+ },
+ {
+  "id": 115,
+  "name": "Cobalt Green",
+  "hex": "#96D1AA",
+  "rgb": [
+   150,
+   209,
+   170
+  ],
+  "lab": [
+   79.0,
+   -25.6,
+   13.0
+  ],
+  "cmyk": [
+   42,
+   0,
+   42,
+   0
+  ],
+  "lrv": 55,
+  "family": "green",
+  "gamut_delta_e": 0,
+  "combinations": [
+   156,
+   188,
+   201,
+   202,
+   230,
+   271,
+   281,
+   282,
+   290,
+   291,
+   308,
+   333
+  ]
+ },
+ {
+  "id": 116,
+  "name": "Calamine BLue",
+  "hex": "#78CDD0",
+  "rgb": [
+   120,
+   205,
+   208
+  ],
+  "lab": [
+   77.1,
+   -26.2,
+   -10.4
+  ],
+  "cmyk": [
+   50,
+   0,
+   20,
+   0
+  ],
+  "lrv": 52,
+  "family": "teal/blue-green",
+  "gamut_delta_e": 0,
+  "combinations": [
+   20,
+   41,
+   65,
+   159,
+   176,
+   255,
+   261,
+   287,
+   291,
+   300,
+   352
+  ]
+ },
+ {
+  "id": 117,
+  "name": "Venice Green",
+  "hex": "#62C6BF",
+  "rgb": [
+   98,
+   198,
+   191
+  ],
+  "lab": [
+   73.7,
+   -31.7,
+   -6.1
+  ],
+  "cmyk": [
+   58,
+   0,
+   30,
+   0
+  ],
+  "lrv": 47,
+  "family": "green",
+  "gamut_delta_e": 0,
+  "combinations": [
+   78,
+   128,
+   138,
+   189,
+   283,
+   345
+  ]
+ },
+ {
+  "id": 118,
+  "name": "Cerulian Blue",
+  "hex": "#0093A5",
+  "rgb": [
+   0,
+   147,
+   165
+  ],
+  "lab": [
+   55.0,
+   -30.2,
+   -20.1
+  ],
+  "cmyk": [
+   84,
+   26,
+   32,
+   0
+  ],
+  "lrv": 24,
+  "family": "teal/blue-green",
+  "gamut_delta_e": 4,
+  "combinations": [
+   1,
+   63,
+   99,
+   125,
+   148,
+   227,
+   240,
+   264
+  ]
+ },
+ {
+  "id": 119,
+  "name": "Peacock Blue",
+  "hex": "#00939B",
+  "rgb": [
+   0,
+   147,
+   155
+  ],
+  "lab": [
+   52.8,
+   -48.9,
+   -17.5
+  ],
+  "cmyk": [
+   100,
+   19,
+   43,
+   0
+  ],
+  "lrv": 23,
+  "family": "green",
+  "gamut_delta_e": 20,
+  "combinations": [
+   131,
+   286
+  ]
+ },
+ {
+  "id": 120,
+  "name": "Green Blue",
+  "hex": "#099197",
+  "rgb": [
+   9,
+   145,
+   151
+  ],
+  "lab": [
+   54.1,
+   -31.3,
+   -12.9
+  ],
+  "cmyk": [
+   82,
+   24,
+   40,
+   3
+  ],
+  "lrv": 23,
+  "family": "teal/blue-green",
+  "gamut_delta_e": 0,
+  "combinations": [
+   12,
+   74,
+   79,
+   178,
+   208,
+   252,
+   259,
+   271,
+   330
+  ]
+ },
+ {
+  "id": 121,
+  "name": "Olympic Blue",
+  "hex": "#5A82B3",
+  "rgb": [
+   90,
+   130,
+   179
+  ],
+  "lab": [
+   53.1,
+   -3.6,
+   -30.7
+  ],
+  "cmyk": [
+   69,
+   44,
+   10,
+   0
+  ],
+  "lrv": 21,
+  "family": "blue",
+  "gamut_delta_e": 4,
+  "combinations": [
+   44,
+   67,
+   157,
+   194,
+   231,
+   274,
+   324,
+   360
+  ]
+ },
+ {
+  "id": 122,
+  "name": "Blue",
+  "hex": "#006EB8",
+  "rgb": [
+   0,
+   110,
+   184
+  ],
+  "lab": [
+   43.5,
+   -8.8,
+   -48.8
+  ],
+  "cmyk": [
+   95,
+   54,
+   0,
+   0
+  ],
+  "lrv": 15,
+  "family": "blue",
+  "gamut_delta_e": 11,
+  "combinations": [
+   49,
+   51,
+   88,
+   143,
+   154,
+   186,
+   191,
+   215,
+   257,
+   267,
+   295,
+   333,
+   354
+  ]
+ },
+ {
+  "id": 123,
+  "name": "Antwarp Blue",
+  "hex": "#007190",
+  "rgb": [
+   0,
+   113,
+   144
+  ],
+  "lab": [
+   42.0,
+   -29.1,
+   -27.7
+  ],
+  "cmyk": [
+   100,
+   40,
+   30,
+   10
+  ],
+  "lrv": 14,
+  "family": "teal/blue-green",
+  "gamut_delta_e": 14,
+  "combinations": [
+   85,
+   106,
+   114,
+   140,
+   163,
+   172,
+   208,
+   244,
+   258,
+   281,
+   299,
+   302,
+   334,
+   349,
+   355,
+   358
+  ]
+ },
+ {
+  "id": 124,
+  "name": "Helvetia Blue",
+  "hex": "#005B8D",
+  "rgb": [
+   0,
+   91,
+   141
+  ],
+  "lab": [
+   35.3,
+   -12.1,
+   -36.4
+  ],
+  "cmyk": [
+   100,
+   62,
+   19,
+   10
+  ],
+  "lrv": 9,
+  "family": "blue",
+  "gamut_delta_e": 9,
+  "combinations": [
+   39,
+   48,
+   161,
+   187,
+   218,
+   259,
+   312,
+   347
+  ]
+ },
+ {
+  "id": 125,
+  "name": "Dark Medici Blue",
+  "hex": "#547076",
+  "rgb": [
+   84,
+   112,
+   118
+  ],
+  "lab": [
+   45.1,
+   -9.2,
+   -6.9
+  ],
+  "cmyk": [
+   70,
+   45,
+   45,
+   15
+  ],
+  "lrv": 15,
+  "family": "teal/blue-green",
+  "gamut_delta_e": 0,
+  "combinations": [
+   160,
+   224,
+   241,
+   249
+  ]
+ },
+ {
+  "id": 126,
+  "name": "Dusky Green",
+  "hex": "#004F46",
+  "rgb": [
+   0,
+   79,
+   70
+  ],
+  "lab": [
+   28.0,
+   -36.3,
+   -3.3
+  ],
+  "cmyk": [
+   100,
+   30,
+   64,
+   50
+  ],
+  "lrv": 6,
+  "family": "green",
+  "gamut_delta_e": 13,
+  "combinations": [
+   94,
+   219,
+   225,
+   278,
+   284,
+   318,
+   332,
+   338
+  ]
+ },
+ {
+  "id": 127,
+  "name": "Deep Lyons Blue",
+  "hex": "#1C4286",
+  "rgb": [
+   28,
+   66,
+   134
+  ],
+  "lab": [
+   28.5,
+   6.6,
+   -42.7
+  ],
+  "cmyk": [
+   100,
+   85,
+   15,
+   6
+  ],
+  "lrv": 6,
+  "family": "blue",
+  "gamut_delta_e": 6,
+  "combinations": [
+   22,
+   38,
+   101,
+   126,
+   179,
+   199,
+   236,
+   247,
+   314,
+   344,
+   349
+  ]
+ },
+ {
+  "id": 128,
+  "name": "Violet Blue",
+  "hex": "#40456A",
+  "rgb": [
+   64,
+   69,
+   106
+  ],
+  "lab": [
+   30.1,
+   5.4,
+   -22.4
+  ],
+  "cmyk": [
+   85,
+   79,
+   38,
+   16
+  ],
+  "lrv": 6,
+  "family": "blue",
+  "gamut_delta_e": 0,
+  "combinations": [
+   75,
+   83,
+   89,
+   98,
+   125,
+   233,
+   286,
+   289,
+   297,
+   309,
+   339
+  ]
+ },
+ {
+  "id": 129,
+  "name": "Vandar Poel's Blue",
+  "hex": "#064F6E",
+  "rgb": [
+   6,
+   79,
+   110
+  ],
+  "lab": [
+   30.8,
+   -11.3,
+   -24.5
+  ],
+  "cmyk": [
+   100,
+   73,
+   43,
+   10
+  ],
+  "lrv": 7,
+  "family": "teal/blue-green",
+  "gamut_delta_e": 3,
+  "combinations": [
+   5,
+   77,
+   151,
+   167,
+   168,
+   309,
+   343,
+   351,
+   360
+  ]
+ },
+ {
+  "id": 130,
+  "name": "Dark Tyrian Blue",
+  "hex": "#12354E",
+  "rgb": [
+   18,
+   53,
+   78
+  ],
+  "lab": [
+   20.6,
+   -5.8,
+   -19.1
+  ],
+  "cmyk": [
+   90,
+   66,
+   36,
+   50
+  ],
+  "lrv": 3,
+  "family": "blue",
+  "gamut_delta_e": 0,
+  "combinations": [
+   2,
+   60,
+   67,
+   119,
+   141,
+   245,
+   279
+  ]
+ },
+ {
+  "id": 131,
+  "name": "Dull Violet Black",
+  "hex": "#1E0E3F",
+  "rgb": [
+   30,
+   14,
+   63
+  ],
+  "lab": [
+   8.1,
+   19.4,
+   -28.8
+  ],
+  "cmyk": [
+   95,
+   106,
+   38,
+   50
+  ],
+  "lrv": 1,
+  "family": "violet/purple",
+  "gamut_delta_e": 0,
+  "combinations": [
+   95,
+   106,
+   145,
+   265,
+   277,
+   289,
+   295,
+   331
+  ]
+ },
+ {
+  "id": 132,
+  "name": "Deep Indigo",
+  "hex": "#051230",
+  "rgb": [
+   5,
+   18,
+   48
+  ],
+  "lab": [
+   5.8,
+   4.1,
+   -21.8
+  ],
+  "cmyk": [
+   100,
+   92,
+   52,
+   60
+  ],
+  "lrv": 1,
+  "family": "blue",
+  "gamut_delta_e": 0,
+  "combinations": [
+   6,
+   28,
+   139,
+   155,
+   182,
+   211,
+   232
+  ]
+ },
+ {
+  "id": 133,
+  "name": "Deep Slate Green",
+  "hex": "#112F2C",
+  "rgb": [
+   17,
+   47,
+   44
+  ],
+  "lab": [
+   16.9,
+   -12.1,
+   -2.2
+  ],
+  "cmyk": [
+   80,
+   50,
+   60,
+   70
+  ],
+  "lrv": 2,
+  "family": "green",
+  "gamut_delta_e": 0,
+  "combinations": [
+   84,
+   149,
+   166,
+   271,
+   318,
+   325
+  ]
+ },
+ {
+  "id": 134,
+  "name": "Grayish Lavender - A",
+  "hex": "#B5B1D8",
+  "rgb": [
+   181,
+   177,
+   216
+  ],
+  "lab": [
+   73.4,
+   7.5,
+   -19.4
+  ],
+  "cmyk": [
+   28,
+   28,
+   0,
+   0
+  ],
+  "lrv": 46,
+  "family": "blue",
+  "gamut_delta_e": 0,
+  "combinations": [
+   8,
+   15,
+   159,
+   177,
+   218,
+   248,
+   307,
+   356
+  ]
+ },
+ {
+  "id": 135,
+  "name": "Grayish Lavender - B",
+  "hex": "#C0A9B3",
+  "rgb": [
+   192,
+   169,
+   179
+  ],
+  "lab": [
+   71.3,
+   10.0,
+   -2.2
+  ],
+  "cmyk": [
+   25,
+   33,
+   20,
+   0
+  ],
+  "lrv": 43,
+  "family": "red/pink",
+  "gamut_delta_e": 0,
+  "combinations": [
+   47,
+   56,
+   174,
+   187,
+   235,
+   327,
+   329,
+   338
+  ]
+ },
+ {
+  "id": 136,
+  "name": "Laelia Pink",
+  "hex": "#CA92A8",
+  "rgb": [
+   202,
+   146,
+   168
+  ],
+  "lab": [
+   66.5,
+   24.3,
+   -2.7
+  ],
+  "cmyk": [
+   20,
+   48,
+   18,
+   0
+  ],
+  "lrv": 36,
+  "family": "red/pink",
+  "gamut_delta_e": 0,
+  "combinations": [
+   20,
+   254,
+   280,
+   337
+  ]
+ },
+ {
+  "id": 137,
+  "name": "Lilac",
+  "hex": "#B984AF",
+  "rgb": [
+   185,
+   132,
+   175
+  ],
+  "lab": [
+   61.5,
+   25.9,
+   -14.3
+  ],
+  "cmyk": [
+   28,
+   54,
+   8,
+   0
+  ],
+  "lrv": 30,
+  "family": "violet/purple",
+  "gamut_delta_e": 0,
+  "combinations": [
+   143,
+   162,
+   282,
+   347
+  ]
+ },
+ {
+  "id": 138,
+  "name": "Eupatorium Purple",
+  "hex": "#BF5892",
+  "rgb": [
+   191,
+   88,
+   146
+  ],
+  "lab": [
+   52.2,
+   46.7,
+   -11.7
+  ],
+  "cmyk": [
+   25,
+   79,
+   12,
+   0
+  ],
+  "lrv": 20,
+  "family": "red/pink",
+  "gamut_delta_e": 0,
+  "combinations": [
+   215,
+   315,
+   322
+  ]
+ },
+ {
+  "id": 139,
+  "name": "Light Mauve",
+  "hex": "#9A72AA",
+  "rgb": [
+   154,
+   114,
+   170
+  ],
+  "lab": [
+   53.6,
+   23.9,
+   -24.0
+  ],
+  "cmyk": [
+   43,
+   62,
+   5,
+   0
+  ],
+  "lrv": 22,
+  "family": "violet/purple",
+  "gamut_delta_e": 0,
+  "combinations": [
+   23,
+   80,
+   128,
+   134,
+   180,
+   274,
+   331,
+   357
+  ]
+ },
+ {
+  "id": 140,
+  "name": "Aconite Violet",
+  "hex": "#A36AA5",
+  "rgb": [
+   163,
+   106,
+   165
+  ],
+  "lab": [
+   52.7,
+   30.7,
+   -22.4
+  ],
+  "cmyk": [
+   39,
+   68,
+   5,
+   0
+  ],
+  "lrv": 21,
+  "family": "violet/purple",
+  "gamut_delta_e": 0,
+  "combinations": [
+   43,
+   64,
+   90,
+   187,
+   220,
+   257,
+   269,
+   301,
+   307,
+   324,
+   344
+  ]
+ },
+ {
+  "id": 141,
+  "name": "Dull Blue Violet",
+  "hex": "#80719E",
+  "rgb": [
+   128,
+   113,
+   158
+  ],
+  "lab": [
+   50.2,
+   13.4,
+   -22.5
+  ],
+  "cmyk": [
+   57,
+   60,
+   17,
+   0
+  ],
+  "lrv": 19,
+  "family": "violet/purple",
+  "gamut_delta_e": 0,
+  "combinations": [
+   9,
+   100
+  ]
+ },
+ {
+  "id": 142,
+  "name": "Dark Soft Violet",
+  "hex": "#66629C",
+  "rgb": [
+   102,
+   98,
+   156
+  ],
+  "lab": [
+   44.0,
+   12.3,
+   -31.2
+  ],
+  "cmyk": [
+   70,
+   68,
+   13,
+   0
+  ],
+  "lrv": 14,
+  "family": "blue",
+  "gamut_delta_e": 3,
+  "combinations": [
+   64,
+   127,
+   197
+  ]
+ },
+ {
+  "id": 143,
+  "name": "Blue Violet",
+  "hex": "#6450A1",
+  "rgb": [
+   100,
+   80,
+   161
+  ],
+  "lab": [
+   39.1,
+   23.6,
+   -41.9
+  ],
+  "cmyk": [
+   72,
+   80,
+   0,
+   0
+  ],
+  "lrv": 11,
+  "family": "blue",
+  "gamut_delta_e": 4,
+  "combinations": [
+   116,
+   175,
+   196,
+   322,
+   345
+  ]
+ },
+ {
+  "id": 144,
+  "name": "Purple Drab",
+  "hex": "#84565B",
+  "rgb": [
+   132,
+   86,
+   91
+  ],
+  "lab": [
+   41.9,
+   19.9,
+   5.6
+  ],
+  "cmyk": [
+   38,
+   65,
+   49,
+   26
+  ],
+  "lrv": 12,
+  "family": "red/pink",
+  "gamut_delta_e": 0,
+  "combinations": [
+   236
+  ]
+ },
+ {
+  "id": 145,
+  "name": "Deep Violet / Plumbeous",
+  "hex": "#70727C",
+  "rgb": [
+   112,
+   114,
+   124
+  ],
+  "lab": [
+   48.0,
+   0.8,
+   -5.9
+  ],
+  "cmyk": [
+   61,
+   52,
+   43,
+   7
+  ],
+  "lrv": 17,
+  "family": "neutral",
+  "gamut_delta_e": 0,
+  "combinations": [
+   183,
+   192,
+   218
+  ]
+ },
+ {
+  "id": 146,
+  "name": "Veronia Purple",
+  "hex": "#8C4C62",
+  "rgb": [
+   140,
+   76,
+   98
+  ],
+  "lab": [
+   41.0,
+   29.6,
+   0.1
+  ],
+  "cmyk": [
+   42,
+   78,
+   46,
+   15
+  ],
+  "lrv": 12,
+  "family": "red/pink",
+  "gamut_delta_e": 0,
+  "combinations": [
+   13,
+   24,
+   168,
+   183
+  ]
+ },
+ {
+  "id": 147,
+  "name": "Dark Slate Purple",
+  "hex": "#704357",
+  "rgb": [
+   112,
+   67,
+   87
+  ],
+  "lab": [
+   34.3,
+   22.2,
+   -3.6
+  ],
+  "cmyk": [
+   64,
+   85,
+   60,
+   10
+  ],
+  "lrv": 8,
+  "family": "red/pink",
+  "gamut_delta_e": 0,
+  "combinations": [
+   225,
+   248,
+   350
+  ]
+ },
+ {
+  "id": 148,
+  "name": "Taupe Brown",
+  "hex": "#7A4456",
+  "rgb": [
+   122,
+   68,
+   86
+  ],
+  "lab": [
+   36.2,
+   25.6,
+   0.1
+  ],
+  "cmyk": [
+   30,
+   70,
+   35,
+   40
+  ],
+  "lrv": 9,
+  "family": "red/pink",
+  "gamut_delta_e": 0,
+  "combinations": [
+   57,
+   123,
+   174,
+   224,
+   275,
+   280,
+   288,
+   360
+  ]
+ },
+ {
+  "id": 149,
+  "name": "Violet Carmine",
+  "hex": "#713B4C",
+  "rgb": [
+   113,
+   59,
+   76
+  ],
+  "lab": [
+   32.3,
+   25.9,
+   0.8
+  ],
+  "cmyk": [
+   64,
+   90,
+   70,
+   10
+  ],
+  "lrv": 7,
+  "family": "red/pink",
+  "gamut_delta_e": 0,
+  "combinations": [
+   337
+  ]
+ },
+ {
+  "id": 150,
+  "name": "Violet",
+  "hex": "#4F4086",
+  "rgb": [
+   79,
+   64,
+   134
+  ],
+  "lab": [
+   31.5,
+   20.7,
+   -37.9
+  ],
+  "cmyk": [
+   85,
+   90,
+   18,
+   0
+  ],
+  "lrv": 7,
+  "family": "blue",
+  "gamut_delta_e": 4,
+  "combinations": [
+   42,
+   56,
+   130,
+   156,
+   164,
+   181,
+   205,
+   214,
+   226,
+   316,
+   331,
+   335,
+   360
+  ]
+ },
+ {
+  "id": 151,
+  "name": "Red Violet",
+  "hex": "#59256A",
+  "rgb": [
+   89,
+   37,
+   106
+  ],
+  "lab": [
+   25.1,
+   33.1,
+   -30.1
+  ],
+  "cmyk": [
+   76,
+   100,
+   25,
+   15
+  ],
+  "lrv": 4,
+  "family": "violet/purple",
+  "gamut_delta_e": 0,
+  "combinations": [
+   4,
+   37,
+   134,
+   136,
+   170,
+   172,
+   183,
+   316
+  ]
+ },
+ {
+  "id": 152,
+  "name": "Cotinga Purple",
+  "hex": "#501345",
+  "rgb": [
+   80,
+   19,
+   69
+  ],
+  "lab": [
+   18.4,
+   32.9,
+   -15.8
+  ],
+  "cmyk": [
+   66,
+   100,
+   42,
+   40
+  ],
+  "lrv": 3,
+  "family": "violet/purple",
+  "gamut_delta_e": 0,
+  "combinations": [
+   61,
+   181,
+   238,
+   253,
+   307,
+   329,
+   348
+  ]
+ },
+ {
+  "id": 153,
+  "name": "Dusky Madder Violet",
+  "hex": "#4E1D4C",
+  "rgb": [
+   78,
+   29,
+   76
+  ],
+  "lab": [
+   20.1,
+   28.6,
+   -18.3
+  ],
+  "cmyk": [
+   75,
+   100,
+   46,
+   30
+  ],
+  "lrv": 3,
+  "family": "violet/purple",
+  "gamut_delta_e": 0,
+  "combinations": [
+   18,
+   50,
+   53,
+   82,
+   103,
+   314
+  ]
+ },
+ {
+  "id": 154,
+  "name": "White",
+  "hex": "#FFFFFF",
+  "rgb": [
+   255,
+   255,
+   255
+  ],
+  "lab": [
+   100.0,
+   0.0,
+   0.0
+  ],
+  "cmyk": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lrv": 100,
+  "family": "neutral-light",
+  "gamut_delta_e": 0,
+  "combinations": [
+   55
+  ]
+ },
+ {
+  "id": 155,
+  "name": "Neutral Gray",
+  "hex": "#B6BFC1",
+  "rgb": [
+   182,
+   191,
+   193
+  ],
+  "lab": [
+   76.7,
+   -3.0,
+   -2.0
+  ],
+  "cmyk": [
+   29,
+   18,
+   20,
+   0
+  ],
+  "lrv": 51,
+  "family": "neutral",
+  "gamut_delta_e": 0,
+  "combinations": [
+   34,
+   139,
+   180,
+   195,
+   197,
+   221,
+   228,
+   229,
+   273,
+   303,
+   324,
+   340,
+   359
+  ]
+ },
+ {
+  "id": 156,
+  "name": "Mineral Gray",
+  "hex": "#A2B0AD",
+  "rgb": [
+   162,
+   176,
+   173
+  ],
+  "lab": [
+   70.8,
+   -5.6,
+   -0.1
+  ],
+  "cmyk": [
+   33,
+   18,
+   25,
+   7
+  ],
+  "lrv": 42,
+  "family": "neutral",
+  "gamut_delta_e": 0,
+  "combinations": [
+   11,
+   30
+  ]
+ },
+ {
+  "id": 157,
+  "name": "Warm Gray",
+  "hex": "#A1A39A",
+  "rgb": [
+   161,
+   163,
+   154
+  ],
+  "lab": [
+   66.7,
+   -2.2,
+   4.7
+  ],
+  "cmyk": [
+   37,
+   28,
+   36,
+   3
+  ],
+  "lrv": 36,
+  "family": "neutral",
+  "gamut_delta_e": 0,
+  "combinations": [
+   69,
+   76,
+   81,
+   143,
+   169,
+   238,
+   259,
+   261
+  ]
+ },
+ {
+  "id": 158,
+  "name": "Slate Color",
+  "hex": "#34454C",
+  "rgb": [
+   52,
+   69,
+   76
+  ],
+  "lab": [
+   27.8,
+   -5.4,
+   -7.0
+  ],
+  "cmyk": [
+   85,
+   70,
+   62,
+   30
+  ],
+  "lrv": 6,
+  "family": "teal/blue-green",
+  "gamut_delta_e": 0,
+  "combinations": [
+   27,
+   33,
+   57,
+   140,
+   202,
+   243,
+   245,
+   251,
+   253,
+   263,
+   296,
+   329,
+   335,
+   357
+  ]
+ },
+ {
+  "id": 159,
+  "name": "Black",
+  "hex": "#111314",
+  "rgb": [
+   17,
+   19,
+   20
+  ],
+  "lab": [
+   5.6,
+   -0.4,
+   -1.1
+  ],
+  "cmyk": [
+   20,
+   10,
+   15,
+   100
+  ],
+  "lrv": 1,
+  "family": "neutral-dark",
+  "gamut_delta_e": 0,
+  "combinations": [
+   46,
+   52,
+   62,
+   69,
+   112,
+   117,
+   144,
+   190,
+   207,
+   216,
+   221,
+   242,
+   255,
+   256,
+   269,
+   276,
+   288,
+   298,
+   313,
+   323,
+   337,
+   340,
+   344,
+   349,
+   352
+  ]
+ }
+]

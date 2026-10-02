@@ -1,0 +1,7257 @@
+[
+ {
+  "number": 1,
+  "colors": [
+   66,
+   118
+  ],
+  "best_text_pair": [
+   66,
+   118
+  ],
+  "best_contrast": 1.0,
+  "value": "tonal",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "apparel"
+  ]
+ },
+ {
+  "number": 2,
+  "colors": [
+   62,
+   130
+  ],
+  "best_text_pair": [
+   62,
+   130
+  ],
+  "best_contrast": 5.9,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web"
+  ]
+ },
+ {
+  "number": 3,
+  "colors": [
+   14,
+   40
+  ],
+  "best_text_pair": [
+   14,
+   40
+  ],
+  "best_contrast": 3.3,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*"
+  ]
+ },
+ {
+  "number": 4,
+  "colors": [
+   51,
+   151
+  ],
+  "best_text_pair": [
+   51,
+   151
+  ],
+  "best_contrast": 4.7,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 5,
+  "colors": [
+   107,
+   129
+  ],
+  "best_text_pair": [
+   107,
+   129
+  ],
+  "best_contrast": 1.6,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "cool",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 6,
+  "colors": [
+   8,
+   132
+  ],
+  "best_text_pair": [
+   8,
+   132
+  ],
+  "best_contrast": 7.1,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 7,
+  "colors": [
+   64,
+   89
+  ],
+  "best_text_pair": [
+   64,
+   89
+  ],
+  "best_contrast": 1.6,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "apparel"
+  ]
+ },
+ {
+  "number": 8,
+  "colors": [
+   67,
+   134
+  ],
+  "best_text_pair": [
+   67,
+   134
+  ],
+  "best_contrast": 1.7,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 9,
+  "colors": [
+   37,
+   141
+  ],
+  "best_text_pair": [
+   37,
+   141
+  ],
+  "best_contrast": 2.2,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "balanced",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 10,
+  "colors": [
+   67,
+   74
+  ],
+  "best_text_pair": [
+   67,
+   74
+  ],
+  "best_contrast": 1.0,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 11,
+  "colors": [
+   42,
+   156
+  ],
+  "best_text_pair": [
+   42,
+   156
+  ],
+  "best_contrast": 1.5,
+  "value": "tonal",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 12,
+  "colors": [
+   51,
+   120
+  ],
+  "best_text_pair": [
+   51,
+   120
+  ],
+  "best_contrast": 1.6,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "balanced",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 13,
+  "colors": [
+   14,
+   146
+  ],
+  "best_text_pair": [
+   14,
+   146
+  ],
+  "best_contrast": 1.6,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 14,
+  "colors": [
+   10,
+   41
+  ],
+  "best_text_pair": [
+   10,
+   41
+  ],
+  "best_contrast": 2.2,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior"
+  ]
+ },
+ {
+  "number": 15,
+  "colors": [
+   101,
+   134
+  ],
+  "best_text_pair": [
+   101,
+   134
+  ],
+  "best_contrast": 1.7,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "cool",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 16,
+  "colors": [
+   34,
+   112
+  ],
+  "best_text_pair": [
+   34,
+   112
+  ],
+  "best_contrast": 5.9,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 17,
+  "colors": [
+   13,
+   100
+  ],
+  "best_text_pair": [
+   13,
+   100
+  ],
+  "best_contrast": 1.4,
+  "value": "tonal",
+  "chroma": "vivid",
+  "temp": "balanced",
+  "fits": [
+   "apparel"
+  ]
+ },
+ {
+  "number": 18,
+  "colors": [
+   4,
+   153
+  ],
+  "best_text_pair": [
+   4,
+   153
+  ],
+  "best_contrast": 6.5,
+  "value": "high",
+  "chroma": "muted",
+  "temp": "balanced",
+  "fits": [
+   "web",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 19,
+  "colors": [
+   86,
+   93
+  ],
+  "best_text_pair": [
+   86,
+   93
+  ],
+  "best_contrast": 4.8,
+  "value": "mid",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "apparel-statement"
+  ]
+ },
+ {
+  "number": 20,
+  "colors": [
+   116,
+   136
+  ],
+  "best_text_pair": [
+   116,
+   136
+  ],
+  "best_contrast": 1.3,
+  "value": "tonal",
+  "chroma": "muted",
+  "temp": "balanced",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 21,
+  "colors": [
+   8,
+   100
+  ],
+  "best_text_pair": [
+   8,
+   100
+  ],
+  "best_contrast": 1.0,
+  "value": "tonal",
+  "chroma": "vivid",
+  "temp": "balanced",
+  "fits": [
+   "apparel"
+  ]
+ },
+ {
+  "number": 22,
+  "colors": [
+   55,
+   127
+  ],
+  "best_text_pair": [
+   55,
+   127
+  ],
+  "best_contrast": 8.2,
+  "value": "high",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "apparel-statement",
+   "print/brand"
+  ]
+ },
+ {
+  "number": 23,
+  "colors": [
+   46,
+   139
+  ],
+  "best_text_pair": [
+   46,
+   139
+  ],
+  "best_contrast": 2.5,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 24,
+  "colors": [
+   84,
+   146
+  ],
+  "best_text_pair": [
+   84,
+   146
+  ],
+  "best_contrast": 1.2,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 25,
+  "colors": [
+   19,
+   111
+  ],
+  "best_text_pair": [
+   19,
+   111
+  ],
+  "best_contrast": 3.2,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 26,
+  "colors": [
+   48,
+   83
+  ],
+  "best_text_pair": [
+   48,
+   83
+  ],
+  "best_contrast": 3.4,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "interior-accent"
+  ]
+ },
+ {
+  "number": 27,
+  "colors": [
+   2,
+   158
+  ],
+  "best_text_pair": [
+   2,
+   158
+  ],
+  "best_contrast": 5.8,
+  "value": "high",
+  "chroma": "muted",
+  "temp": "balanced",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 28,
+  "colors": [
+   85,
+   132
+  ],
+  "best_text_pair": [
+   85,
+   132
+  ],
+  "best_contrast": 1.8,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 29,
+  "colors": [
+   76,
+   114
+  ],
+  "best_text_pair": [
+   76,
+   114
+  ],
+  "best_contrast": 1.6,
+  "value": "tonal",
+  "chroma": "muted",
+  "temp": "balanced",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 30,
+  "colors": [
+   30,
+   156
+  ],
+  "best_text_pair": [
+   30,
+   156
+  ],
+  "best_contrast": 3.0,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 31,
+  "colors": [
+   18,
+   40
+  ],
+  "best_text_pair": [
+   18,
+   40
+  ],
+  "best_contrast": 3.7,
+  "value": "mid",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "apparel-statement"
+  ]
+ },
+ {
+  "number": 32,
+  "colors": [
+   50,
+   93
+  ],
+  "best_text_pair": [
+   50,
+   93
+  ],
+  "best_contrast": 1.0,
+  "value": "tonal",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "apparel"
+  ]
+ },
+ {
+  "number": 33,
+  "colors": [
+   14,
+   158
+  ],
+  "best_text_pair": [
+   14,
+   158
+  ],
+  "best_contrast": 2.6,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 34,
+  "colors": [
+   9,
+   155
+  ],
+  "best_text_pair": [
+   9,
+   155
+  ],
+  "best_contrast": 1.3,
+  "value": "tonal",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 35,
+  "colors": [
+   5,
+   29
+  ],
+  "best_text_pair": [
+   5,
+   29
+  ],
+  "best_contrast": 2.4,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 36,
+  "colors": [
+   69,
+   88
+  ],
+  "best_text_pair": [
+   69,
+   88
+  ],
+  "best_contrast": 1.7,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 37,
+  "colors": [
+   28,
+   151
+  ],
+  "best_text_pair": [
+   28,
+   151
+  ],
+  "best_contrast": 1.8,
+  "value": "tonal",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "apparel"
+  ]
+ },
+ {
+  "number": 38,
+  "colors": [
+   106,
+   127
+  ],
+  "best_text_pair": [
+   106,
+   127
+  ],
+  "best_contrast": 1.6,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "cool",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 39,
+  "colors": [
+   23,
+   124
+  ],
+  "best_text_pair": [
+   23,
+   124
+  ],
+  "best_contrast": 1.2,
+  "value": "tonal",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "apparel"
+  ]
+ },
+ {
+  "number": 40,
+  "colors": [
+   15,
+   71
+  ],
+  "best_text_pair": [
+   15,
+   71
+  ],
+  "best_contrast": 1.9,
+  "value": "tonal",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "apparel"
+  ]
+ },
+ {
+  "number": 41,
+  "colors": [
+   74,
+   116
+  ],
+  "best_text_pair": [
+   74,
+   116
+  ],
+  "best_contrast": 2.0,
+  "value": "tonal",
+  "chroma": "muted",
+  "temp": "balanced",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 42,
+  "colors": [
+   60,
+   150
+  ],
+  "best_text_pair": [
+   60,
+   150
+  ],
+  "best_contrast": 4.5,
+  "value": "mid",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "apparel-statement"
+  ]
+ },
+ {
+  "number": 43,
+  "colors": [
+   2,
+   140
+  ],
+  "best_text_pair": [
+   2,
+   140
+  ],
+  "best_contrast": 2.4,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 44,
+  "colors": [
+   102,
+   121
+  ],
+  "best_text_pair": [
+   102,
+   121
+  ],
+  "best_contrast": 1.0,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "cool",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 45,
+  "colors": [
+   43,
+   56
+  ],
+  "best_text_pair": [
+   43,
+   56
+  ],
+  "best_contrast": 1.1,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "apparel"
+  ]
+ },
+ {
+  "number": 46,
+  "colors": [
+   64,
+   159
+  ],
+  "best_text_pair": [
+   64,
+   159
+  ],
+  "best_contrast": 6.5,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior-accent"
+  ]
+ },
+ {
+  "number": 47,
+  "colors": [
+   19,
+   135
+  ],
+  "best_text_pair": [
+   19,
+   135
+  ],
+  "best_contrast": 2.0,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 48,
+  "colors": [
+   25,
+   124
+  ],
+  "best_text_pair": [
+   25,
+   124
+  ],
+  "best_contrast": 1.3,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "balanced",
+  "fits": [
+   "apparel"
+  ]
+ },
+ {
+  "number": 49,
+  "colors": [
+   112,
+   122
+  ],
+  "best_text_pair": [
+   112,
+   122
+  ],
+  "best_contrast": 3.3,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "cool",
+  "fits": [
+   "web*",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 50,
+  "colors": [
+   42,
+   153
+  ],
+  "best_text_pair": [
+   42,
+   153
+  ],
+  "best_contrast": 8.9,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 51,
+  "colors": [
+   29,
+   122
+  ],
+  "best_text_pair": [
+   29,
+   122
+  ],
+  "best_contrast": 1.2,
+  "value": "tonal",
+  "chroma": "vivid",
+  "temp": "balanced",
+  "fits": [
+   "apparel"
+  ]
+ },
+ {
+  "number": 52,
+  "colors": [
+   39,
+   159
+  ],
+  "best_text_pair": [
+   39,
+   159
+  ],
+  "best_contrast": 15.6,
+  "value": "high",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 53,
+  "colors": [
+   62,
+   153
+  ],
+  "best_text_pair": [
+   62,
+   153
+  ],
+  "best_contrast": 6.1,
+  "value": "high",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "apparel-statement",
+   "print/brand"
+  ]
+ },
+ {
+  "number": 54,
+  "colors": [
+   101,
+   113
+  ],
+  "best_text_pair": [
+   101,
+   113
+  ],
+  "best_contrast": 2.0,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "cool",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 55,
+  "colors": [
+   11,
+   154
+  ],
+  "best_text_pair": [
+   11,
+   154
+  ],
+  "best_contrast": 3.3,
+  "value": "mid",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 56,
+  "colors": [
+   135,
+   150
+  ],
+  "best_text_pair": [
+   135,
+   150
+  ],
+  "best_contrast": 3.9,
+  "value": "mid",
+  "chroma": "muted",
+  "temp": "cool",
+  "fits": [
+   "web*",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 57,
+  "colors": [
+   148,
+   158
+  ],
+  "best_text_pair": [
+   148,
+   158
+  ],
+  "best_contrast": 1.3,
+  "value": "tonal",
+  "chroma": "muted",
+  "temp": "balanced",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 58,
+  "colors": [
+   33,
+   100
+  ],
+  "best_text_pair": [
+   33,
+   100
+  ],
+  "best_contrast": 3.4,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "balanced",
+  "fits": [
+   "web*",
+   "interior-accent"
+  ]
+ },
+ {
+  "number": 59,
+  "colors": [
+   9,
+   72
+  ],
+  "best_text_pair": [
+   9,
+   72
+  ],
+  "best_contrast": 1.0,
+  "value": "tonal",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "apparel"
+  ]
+ },
+ {
+  "number": 60,
+  "colors": [
+   40,
+   130
+  ],
+  "best_text_pair": [
+   40,
+   130
+  ],
+  "best_contrast": 11.0,
+  "value": "high",
+  "chroma": "muted",
+  "temp": "balanced",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 61,
+  "colors": [
+   92,
+   152
+  ],
+  "best_text_pair": [
+   92,
+   152
+  ],
+  "best_contrast": 8.3,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web"
+  ]
+ },
+ {
+  "number": 62,
+  "colors": [
+   55,
+   159
+  ],
+  "best_text_pair": [
+   55,
+   159
+  ],
+  "best_contrast": 15.9,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web"
+  ]
+ },
+ {
+  "number": 63,
+  "colors": [
+   38,
+   118
+  ],
+  "best_text_pair": [
+   38,
+   118
+  ],
+  "best_contrast": 2.2,
+  "value": "tonal",
+  "chroma": "muted",
+  "temp": "balanced",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 64,
+  "colors": [
+   140,
+   142
+  ],
+  "best_text_pair": [
+   140,
+   142
+  ],
+  "best_contrast": 1.3,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "cool",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 65,
+  "colors": [
+   69,
+   116
+  ],
+  "best_text_pair": [
+   69,
+   116
+  ],
+  "best_contrast": 1.3,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 66,
+  "colors": [
+   59,
+   80
+  ],
+  "best_text_pair": [
+   59,
+   80
+  ],
+  "best_contrast": 2.5,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior-accent"
+  ]
+ },
+ {
+  "number": 67,
+  "colors": [
+   121,
+   130
+  ],
+  "best_text_pair": [
+   121,
+   130
+  ],
+  "best_contrast": 3.2,
+  "value": "mid",
+  "chroma": "muted",
+  "temp": "cool",
+  "fits": [
+   "web*",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 68,
+  "colors": [
+   5,
+   55
+  ],
+  "best_text_pair": [
+   5,
+   55
+  ],
+  "best_contrast": 2.3,
+  "value": "mid",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "apparel-statement"
+  ]
+ },
+ {
+  "number": 69,
+  "colors": [
+   157,
+   159
+  ],
+  "best_text_pair": [
+   157,
+   159
+  ],
+  "best_contrast": 7.2,
+  "value": "high",
+  "chroma": "muted",
+  "temp": "balanced",
+  "fits": [
+   "web",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 70,
+  "colors": [
+   14,
+   108
+  ],
+  "best_text_pair": [
+   14,
+   108
+  ],
+  "best_contrast": 1.9,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 71,
+  "colors": [
+   30,
+   50
+  ],
+  "best_text_pair": [
+   30,
+   50
+  ],
+  "best_contrast": 3.1,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*"
+  ]
+ },
+ {
+  "number": 72,
+  "colors": [
+   39,
+   112
+  ],
+  "best_text_pair": [
+   39,
+   112
+  ],
+  "best_contrast": 1.3,
+  "value": "tonal",
+  "chroma": "muted",
+  "temp": "balanced",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 73,
+  "colors": [
+   83,
+   97
+  ],
+  "best_text_pair": [
+   83,
+   97
+  ],
+  "best_contrast": 2.5,
+  "value": "mid",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 74,
+  "colors": [
+   88,
+   120
+  ],
+  "best_text_pair": [
+   88,
+   120
+  ],
+  "best_contrast": 2.5,
+  "value": "mid",
+  "chroma": "muted",
+  "temp": "cool",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 75,
+  "colors": [
+   112,
+   128
+  ],
+  "best_text_pair": [
+   112,
+   128
+  ],
+  "best_contrast": 5.7,
+  "value": "high",
+  "chroma": "muted",
+  "temp": "cool",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 76,
+  "colors": [
+   40,
+   157
+  ],
+  "best_text_pair": [
+   40,
+   157
+  ],
+  "best_contrast": 2.2,
+  "value": "mid",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 77,
+  "colors": [
+   13,
+   129
+  ],
+  "best_text_pair": [
+   13,
+   129
+  ],
+  "best_contrast": 2.2,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 78,
+  "colors": [
+   45,
+   117
+  ],
+  "best_text_pair": [
+   45,
+   117
+  ],
+  "best_contrast": 1.1,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "balanced",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 79,
+  "colors": [
+   85,
+   120
+  ],
+  "best_text_pair": [
+   85,
+   120
+  ],
+  "best_contrast": 2.5,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "balanced",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 80,
+  "colors": [
+   39,
+   139
+  ],
+  "best_text_pair": [
+   39,
+   139
+  ],
+  "best_contrast": 3.2,
+  "value": "mid",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 81,
+  "colors": [
+   48,
+   157
+  ],
+  "best_text_pair": [
+   48,
+   157
+  ],
+  "best_contrast": 1.2,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 82,
+  "colors": [
+   33,
+   153
+  ],
+  "best_text_pair": [
+   33,
+   153
+  ],
+  "best_contrast": 1.4,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 83,
+  "colors": [
+   53,
+   128
+  ],
+  "best_text_pair": [
+   53,
+   128
+  ],
+  "best_contrast": 5.0,
+  "value": "mid",
+  "chroma": "muted",
+  "temp": "cool",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 84,
+  "colors": [
+   43,
+   133
+  ],
+  "best_text_pair": [
+   43,
+   133
+  ],
+  "best_contrast": 10.4,
+  "value": "high",
+  "chroma": "muted",
+  "temp": "balanced",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 85,
+  "colors": [
+   15,
+   123
+  ],
+  "best_text_pair": [
+   15,
+   123
+  ],
+  "best_contrast": 1.3,
+  "value": "tonal",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "apparel"
+  ]
+ },
+ {
+  "number": 86,
+  "colors": [
+   14,
+   100
+  ],
+  "best_text_pair": [
+   14,
+   100
+  ],
+  "best_contrast": 1.4,
+  "value": "tonal",
+  "chroma": "vivid",
+  "temp": "balanced",
+  "fits": [
+   "apparel"
+  ]
+ },
+ {
+  "number": 87,
+  "colors": [
+   2,
+   71
+  ],
+  "best_text_pair": [
+   2,
+   71
+  ],
+  "best_contrast": 1.2,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 88,
+  "colors": [
+   43,
+   122
+  ],
+  "best_text_pair": [
+   43,
+   122
+  ],
+  "best_contrast": 3.9,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "cool",
+  "fits": [
+   "web*",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 89,
+  "colors": [
+   62,
+   128
+  ],
+  "best_text_pair": [
+   62,
+   128
+  ],
+  "best_contrast": 4.3,
+  "value": "mid",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "apparel-statement"
+  ]
+ },
+ {
+  "number": 90,
+  "colors": [
+   9,
+   140
+  ],
+  "best_text_pair": [
+   9,
+   140
+  ],
+  "best_contrast": 1.6,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 91,
+  "colors": [
+   38,
+   68
+  ],
+  "best_text_pair": [
+   38,
+   68
+  ],
+  "best_contrast": 2.1,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 92,
+  "colors": [
+   6,
+   101
+  ],
+  "best_text_pair": [
+   6,
+   101
+  ],
+  "best_contrast": 1.5,
+  "value": "tonal",
+  "chroma": "vivid",
+  "temp": "balanced",
+  "fits": [
+   "apparel"
+  ]
+ },
+ {
+  "number": 93,
+  "colors": [
+   72,
+   113
+  ],
+  "best_text_pair": [
+   72,
+   113
+  ],
+  "best_contrast": 1.4,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 94,
+  "colors": [
+   42,
+   126
+  ],
+  "best_text_pair": [
+   42,
+   126
+  ],
+  "best_contrast": 6.5,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "balanced",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 95,
+  "colors": [
+   33,
+   131
+  ],
+  "best_text_pair": [
+   33,
+   131
+  ],
+  "best_contrast": 1.9,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 96,
+  "colors": [
+   60,
+   77
+  ],
+  "best_text_pair": [
+   60,
+   77
+  ],
+  "best_contrast": 2.1,
+  "value": "tonal",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "apparel"
+  ]
+ },
+ {
+  "number": 97,
+  "colors": [
+   2,
+   19
+  ],
+  "best_text_pair": [
+   2,
+   19
+  ],
+  "best_contrast": 2.6,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior"
+  ]
+ },
+ {
+  "number": 98,
+  "colors": [
+   85,
+   128
+  ],
+  "best_text_pair": [
+   85,
+   128
+  ],
+  "best_contrast": 1.0,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 99,
+  "colors": [
+   40,
+   118
+  ],
+  "best_text_pair": [
+   40,
+   118
+  ],
+  "best_contrast": 3.1,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "balanced",
+  "fits": [
+   "web*",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 100,
+  "colors": [
+   73,
+   141
+  ],
+  "best_text_pair": [
+   73,
+   141
+  ],
+  "best_contrast": 1.2,
+  "value": "tonal",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 101,
+  "colors": [
+   3,
+   127
+  ],
+  "best_text_pair": [
+   3,
+   127
+  ],
+  "best_contrast": 5.1,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "cool",
+  "fits": [
+   "web",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 102,
+  "colors": [
+   42,
+   68
+  ],
+  "best_text_pair": [
+   42,
+   68
+  ],
+  "best_contrast": 2.6,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior"
+  ]
+ },
+ {
+  "number": 103,
+  "colors": [
+   67,
+   153
+  ],
+  "best_text_pair": [
+   67,
+   153
+  ],
+  "best_contrast": 3.6,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "interior-accent"
+  ]
+ },
+ {
+  "number": 104,
+  "colors": [
+   29,
+   39
+  ],
+  "best_text_pair": [
+   29,
+   39
+  ],
+  "best_contrast": 5.8,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 105,
+  "colors": [
+   3,
+   98
+  ],
+  "best_text_pair": [
+   3,
+   98
+  ],
+  "best_contrast": 1.8,
+  "value": "tonal",
+  "chroma": "muted",
+  "temp": "balanced",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 106,
+  "colors": [
+   123,
+   131
+  ],
+  "best_text_pair": [
+   123,
+   131
+  ],
+  "best_contrast": 3.1,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "cool",
+  "fits": [
+   "web*",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 107,
+  "colors": [
+   57,
+   75
+  ],
+  "best_text_pair": [
+   57,
+   75
+  ],
+  "best_contrast": 2.9,
+  "value": "mid",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "apparel-statement"
+  ]
+ },
+ {
+  "number": 108,
+  "colors": [
+   9,
+   28
+  ],
+  "best_text_pair": [
+   9,
+   28
+  ],
+  "best_contrast": 2.3,
+  "value": "tonal",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "apparel"
+  ]
+ },
+ {
+  "number": 109,
+  "colors": [
+   40,
+   109
+  ],
+  "best_text_pair": [
+   40,
+   109
+  ],
+  "best_contrast": 7.1,
+  "value": "high",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 110,
+  "colors": [
+   32,
+   87
+  ],
+  "best_text_pair": [
+   32,
+   87
+  ],
+  "best_contrast": 1.4,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 111,
+  "colors": [
+   40,
+   91
+  ],
+  "best_text_pair": [
+   40,
+   91
+  ],
+  "best_contrast": 1.4,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 112,
+  "colors": [
+   8,
+   159
+  ],
+  "best_text_pair": [
+   8,
+   159
+  ],
+  "best_contrast": 7.2,
+  "value": "high",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 113,
+  "colors": [
+   43,
+   87
+  ],
+  "best_text_pair": [
+   43,
+   87
+  ],
+  "best_contrast": 8.5,
+  "value": "high",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 114,
+  "colors": [
+   61,
+   123
+  ],
+  "best_text_pair": [
+   61,
+   123
+  ],
+  "best_contrast": 3.0,
+  "value": "mid",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "apparel-statement"
+  ]
+ },
+ {
+  "number": 115,
+  "colors": [
+   41,
+   65
+  ],
+  "best_text_pair": [
+   41,
+   65
+  ],
+  "best_contrast": 2.7,
+  "value": "mid",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "apparel-statement"
+  ]
+ },
+ {
+  "number": 116,
+  "colors": [
+   3,
+   143
+  ],
+  "best_text_pair": [
+   3,
+   143
+  ],
+  "best_contrast": 3.5,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "cool",
+  "fits": [
+   "web*",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 117,
+  "colors": [
+   23,
+   159
+  ],
+  "best_text_pair": [
+   23,
+   159
+  ],
+  "best_contrast": 3.2,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 118,
+  "colors": [
+   60,
+   87
+  ],
+  "best_text_pair": [
+   60,
+   87
+  ],
+  "best_contrast": 6.1,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior-accent"
+  ]
+ },
+ {
+  "number": 119,
+  "colors": [
+   113,
+   130
+  ],
+  "best_text_pair": [
+   113,
+   130
+  ],
+  "best_contrast": 7.1,
+  "value": "high",
+  "chroma": "muted",
+  "temp": "cool",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 120,
+  "colors": [
+   3,
+   30
+  ],
+  "best_text_pair": [
+   3,
+   30
+  ],
+  "best_contrast": 3.7,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 121,
+  "colors": [
+   32,
+   50,
+   108
+  ],
+  "best_text_pair": [
+   32,
+   50
+  ],
+  "best_contrast": 3.5,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 122,
+  "colors": [
+   23,
+   47,
+   101
+  ],
+  "best_text_pair": [
+   23,
+   47
+  ],
+  "best_contrast": 3.4,
+  "value": "mid",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "apparel-statement"
+  ]
+ },
+ {
+  "number": 123,
+  "colors": [
+   6,
+   56,
+   148
+  ],
+  "best_text_pair": [
+   56,
+   148
+  ],
+  "best_contrast": 6.1,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web"
+  ]
+ },
+ {
+  "number": 124,
+  "colors": [
+   36,
+   60,
+   94
+  ],
+  "best_text_pair": [
+   36,
+   60
+  ],
+  "best_contrast": 4.9,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web"
+  ]
+ },
+ {
+  "number": 125,
+  "colors": [
+   4,
+   118,
+   128
+  ],
+  "best_text_pair": [
+   4,
+   128
+  ],
+  "best_contrast": 4.6,
+  "value": "mid",
+  "chroma": "muted",
+  "temp": "cool",
+  "fits": [
+   "web",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 126,
+  "colors": [
+   42,
+   60,
+   127
+  ],
+  "best_text_pair": [
+   42,
+   127
+  ],
+  "best_contrast": 6.6,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior"
+  ]
+ },
+ {
+  "number": 127,
+  "colors": [
+   46,
+   99,
+   142
+  ],
+  "best_text_pair": [
+   46,
+   142
+  ],
+  "best_contrast": 3.5,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "balanced",
+  "fits": [
+   "web*",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 128,
+  "colors": [
+   2,
+   117,
+   139
+  ],
+  "best_text_pair": [
+   2,
+   139
+  ],
+  "best_contrast": 2.3,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "balanced",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 129,
+  "colors": [
+   57,
+   70,
+   114
+  ],
+  "best_text_pair": [
+   57,
+   70
+  ],
+  "best_contrast": 2.3,
+  "value": "mid",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "apparel-statement"
+  ]
+ },
+ {
+  "number": 130,
+  "colors": [
+   14,
+   29,
+   150
+  ],
+  "best_text_pair": [
+   14,
+   150
+  ],
+  "best_contrast": 2.2,
+  "value": "tonal",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "apparel"
+  ]
+ },
+ {
+  "number": 131,
+  "colors": [
+   14,
+   66,
+   119
+  ],
+  "best_text_pair": [
+   14,
+   66
+  ],
+  "best_contrast": 1.0,
+  "value": "tonal",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "apparel"
+  ]
+ },
+ {
+  "number": 132,
+  "colors": [
+   39,
+   48,
+   72
+  ],
+  "best_text_pair": [
+   39,
+   72
+  ],
+  "best_contrast": 2.2,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior"
+  ]
+ },
+ {
+  "number": 133,
+  "colors": [
+   34,
+   72,
+   100
+  ],
+  "best_text_pair": [
+   34,
+   100
+  ],
+  "best_contrast": 3.6,
+  "value": "mid",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "apparel-statement"
+  ]
+ },
+ {
+  "number": 134,
+  "colors": [
+   9,
+   139,
+   151
+  ],
+  "best_text_pair": [
+   9,
+   151
+  ],
+  "best_contrast": 4.3,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "interior-accent"
+  ]
+ },
+ {
+  "number": 135,
+  "colors": [
+   39,
+   107,
+   114
+  ],
+  "best_text_pair": [
+   39,
+   107
+  ],
+  "best_contrast": 4.4,
+  "value": "mid",
+  "chroma": "muted",
+  "temp": "balanced",
+  "fits": [
+   "web*",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 136,
+  "colors": [
+   22,
+   104,
+   151
+  ],
+  "best_text_pair": [
+   104,
+   151
+  ],
+  "best_contrast": 2.8,
+  "value": "mid",
+  "chroma": "vivid",
+  "temp": "balanced",
+  "fits": [
+   "apparel-statement"
+  ]
+ },
+ {
+  "number": 137,
+  "colors": [
+   19,
+   46,
+   99
+  ],
+  "best_text_pair": [
+   19,
+   46
+  ],
+  "best_contrast": 2.8,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior"
+  ]
+ },
+ {
+  "number": 138,
+  "colors": [
+   48,
+   56,
+   117
+  ],
+  "best_text_pair": [
+   48,
+   56
+  ],
+  "best_contrast": 1.6,
+  "value": "tonal",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "apparel"
+  ]
+ },
+ {
+  "number": 139,
+  "colors": [
+   114,
+   132,
+   155
+  ],
+  "best_text_pair": [
+   132,
+   155
+  ],
+  "best_contrast": 9.8,
+  "value": "high",
+  "chroma": "muted",
+  "temp": "cool",
+  "fits": [
+   "web",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 140,
+  "colors": [
+   48,
+   123,
+   158
+  ],
+  "best_text_pair": [
+   48,
+   158
+  ],
+  "best_contrast": 4.8,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "balanced",
+  "fits": [
+   "web",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 141,
+  "colors": [
+   64,
+   91,
+   130
+  ],
+  "best_text_pair": [
+   91,
+   130
+  ],
+  "best_contrast": 7.5,
+  "value": "high",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "apparel-statement",
+   "print/brand"
+  ]
+ },
+ {
+  "number": 142,
+  "colors": [
+   27,
+   69,
+   114
+  ],
+  "best_text_pair": [
+   27,
+   114
+  ],
+  "best_contrast": 2.5,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior-accent"
+  ]
+ },
+ {
+  "number": 143,
+  "colors": [
+   122,
+   137,
+   157
+  ],
+  "best_text_pair": [
+   122,
+   157
+  ],
+  "best_contrast": 2.0,
+  "value": "tonal",
+  "chroma": "muted",
+  "temp": "balanced",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 144,
+  "colors": [
+   25,
+   64,
+   159
+  ],
+  "best_text_pair": [
+   64,
+   159
+  ],
+  "best_contrast": 6.5,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior-accent"
+  ]
+ },
+ {
+  "number": 145,
+  "colors": [
+   32,
+   71,
+   131
+  ],
+  "best_text_pair": [
+   71,
+   131
+  ],
+  "best_contrast": 8.1,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior-accent"
+  ]
+ },
+ {
+  "number": 146,
+  "colors": [
+   70,
+   82,
+   106
+  ],
+  "best_text_pair": [
+   70,
+   82
+  ],
+  "best_contrast": 2.2,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 147,
+  "colors": [
+   10,
+   34,
+   88
+  ],
+  "best_text_pair": [
+   34,
+   88
+  ],
+  "best_contrast": 6.4,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 148,
+  "colors": [
+   59,
+   61,
+   118
+  ],
+  "best_text_pair": [
+   61,
+   118
+  ],
+  "best_contrast": 2.0,
+  "value": "tonal",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "apparel"
+  ]
+ },
+ {
+  "number": 149,
+  "colors": [
+   59,
+   64,
+   133
+  ],
+  "best_text_pair": [
+   59,
+   133
+  ],
+  "best_contrast": 7.1,
+  "value": "high",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "apparel-statement",
+   "print/brand"
+  ]
+ },
+ {
+  "number": 150,
+  "colors": [
+   43,
+   71,
+   89
+  ],
+  "best_text_pair": [
+   43,
+   71
+  ],
+  "best_contrast": 1.5,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "balanced",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 151,
+  "colors": [
+   39,
+   62,
+   129
+  ],
+  "best_text_pair": [
+   39,
+   129
+  ],
+  "best_contrast": 7.5,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior"
+  ]
+ },
+ {
+  "number": 152,
+  "colors": [
+   19,
+   33,
+   113
+  ],
+  "best_text_pair": [
+   33,
+   113
+  ],
+  "best_contrast": 5.0,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 153,
+  "colors": [
+   9,
+   61,
+   71
+  ],
+  "best_text_pair": [
+   9,
+   61
+  ],
+  "best_contrast": 1.4,
+  "value": "tonal",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "apparel"
+  ]
+ },
+ {
+  "number": 154,
+  "colors": [
+   23,
+   55,
+   122
+  ],
+  "best_text_pair": [
+   23,
+   55
+  ],
+  "best_contrast": 4.8,
+  "value": "high",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "apparel-statement",
+   "print/brand"
+  ]
+ },
+ {
+  "number": 155,
+  "colors": [
+   16,
+   101,
+   132
+  ],
+  "best_text_pair": [
+   101,
+   132
+  ],
+  "best_contrast": 5.1,
+  "value": "high",
+  "chroma": "vivid",
+  "temp": "balanced",
+  "fits": [
+   "web",
+   "apparel-statement",
+   "print/brand"
+  ]
+ },
+ {
+  "number": 156,
+  "colors": [
+   59,
+   115,
+   150
+  ],
+  "best_text_pair": [
+   115,
+   150
+  ],
+  "best_contrast": 4.9,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "balanced",
+  "fits": [
+   "web",
+   "interior"
+  ]
+ },
+ {
+  "number": 157,
+  "colors": [
+   35,
+   59,
+   121
+  ],
+  "best_text_pair": [
+   35,
+   59
+  ],
+  "best_contrast": 5.1,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web"
+  ]
+ },
+ {
+  "number": 158,
+  "colors": [
+   56,
+   67,
+   93
+  ],
+  "best_text_pair": [
+   56,
+   67
+  ],
+  "best_contrast": 2.9,
+  "value": "mid",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "apparel-statement"
+  ]
+ },
+ {
+  "number": 159,
+  "colors": [
+   70,
+   116,
+   134
+  ],
+  "best_text_pair": [
+   70,
+   116
+  ],
+  "best_contrast": 1.6,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "balanced",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 160,
+  "colors": [
+   69,
+   83,
+   125
+  ],
+  "best_text_pair": [
+   69,
+   83
+  ],
+  "best_contrast": 2.8,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 161,
+  "colors": [
+   32,
+   45,
+   124
+  ],
+  "best_text_pair": [
+   32,
+   45
+  ],
+  "best_contrast": 4.3,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 162,
+  "colors": [
+   11,
+   97,
+   137
+  ],
+  "best_text_pair": [
+   11,
+   97
+  ],
+  "best_contrast": 1.1,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 163,
+  "colors": [
+   57,
+   88,
+   123
+  ],
+  "best_text_pair": [
+   57,
+   123
+  ],
+  "best_contrast": 4.1,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*"
+  ]
+ },
+ {
+  "number": 164,
+  "colors": [
+   18,
+   61,
+   150
+  ],
+  "best_text_pair": [
+   61,
+   150
+  ],
+  "best_contrast": 4.8,
+  "value": "mid",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "apparel-statement"
+  ]
+ },
+ {
+  "number": 165,
+  "colors": [
+   3,
+   10,
+   38
+  ],
+  "best_text_pair": [
+   3,
+   38
+  ],
+  "best_contrast": 4.5,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 166,
+  "colors": [
+   8,
+   41,
+   133
+  ],
+  "best_text_pair": [
+   41,
+   133
+  ],
+  "best_contrast": 11.5,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 167,
+  "colors": [
+   54,
+   112,
+   129
+  ],
+  "best_text_pair": [
+   112,
+   129
+  ],
+  "best_contrast": 5.6,
+  "value": "high",
+  "chroma": "muted",
+  "temp": "cool",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 168,
+  "colors": [
+   56,
+   129,
+   146
+  ],
+  "best_text_pair": [
+   56,
+   129
+  ],
+  "best_contrast": 7.3,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior"
+  ]
+ },
+ {
+  "number": 169,
+  "colors": [
+   2,
+   40,
+   157
+  ],
+  "best_text_pair": [
+   40,
+   157
+  ],
+  "best_contrast": 2.2,
+  "value": "mid",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 170,
+  "colors": [
+   25,
+   61,
+   151
+  ],
+  "best_text_pair": [
+   61,
+   151
+  ],
+  "best_contrast": 6.1,
+  "value": "high",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "apparel-statement",
+   "print/brand"
+  ]
+ },
+ {
+  "number": 171,
+  "colors": [
+   36,
+   62,
+   89
+  ],
+  "best_text_pair": [
+   36,
+   89
+  ],
+  "best_contrast": 5.6,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior"
+  ]
+ },
+ {
+  "number": 172,
+  "colors": [
+   67,
+   123,
+   151
+  ],
+  "best_text_pair": [
+   67,
+   151
+  ],
+  "best_contrast": 3.1,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "balanced",
+  "fits": [
+   "web*",
+   "interior-accent"
+  ]
+ },
+ {
+  "number": 173,
+  "colors": [
+   56,
+   85,
+   88
+  ],
+  "best_text_pair": [
+   56,
+   85
+  ],
+  "best_contrast": 8.0,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web"
+  ]
+ },
+ {
+  "number": 174,
+  "colors": [
+   2,
+   135,
+   148
+  ],
+  "best_text_pair": [
+   2,
+   148
+  ],
+  "best_contrast": 4.4,
+  "value": "mid",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 175,
+  "colors": [
+   45,
+   53,
+   143
+  ],
+  "best_text_pair": [
+   53,
+   143
+  ],
+  "best_contrast": 3.6,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "balanced",
+  "fits": [
+   "web*",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 176,
+  "colors": [
+   1,
+   43,
+   116
+  ],
+  "best_text_pair": [
+   43,
+   116
+  ],
+  "best_contrast": 1.3,
+  "value": "tonal",
+  "chroma": "muted",
+  "temp": "balanced",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 177,
+  "colors": [
+   36,
+   73,
+   134
+  ],
+  "best_text_pair": [
+   36,
+   134
+  ],
+  "best_contrast": 4.6,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 178,
+  "colors": [
+   42,
+   113,
+   120
+  ],
+  "best_text_pair": [
+   42,
+   120
+  ],
+  "best_contrast": 2.6,
+  "value": "mid",
+  "chroma": "muted",
+  "temp": "cool",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 179,
+  "colors": [
+   18,
+   48,
+   127
+  ],
+  "best_text_pair": [
+   48,
+   127
+  ],
+  "best_contrast": 4.6,
+  "value": "mid",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "apparel-statement"
+  ]
+ },
+ {
+  "number": 180,
+  "colors": [
+   46,
+   139,
+   155
+  ],
+  "best_text_pair": [
+   46,
+   139
+  ],
+  "best_contrast": 2.5,
+  "value": "mid",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 181,
+  "colors": [
+   29,
+   150,
+   152
+  ],
+  "best_text_pair": [
+   29,
+   152
+  ],
+  "best_contrast": 1.9,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "apparel"
+  ]
+ },
+ {
+  "number": 182,
+  "colors": [
+   14,
+   87,
+   132
+  ],
+  "best_text_pair": [
+   14,
+   132
+  ],
+  "best_contrast": 4.8,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 183,
+  "colors": [
+   145,
+   146,
+   151
+  ],
+  "best_text_pair": [
+   145,
+   151
+  ],
+  "best_contrast": 2.3,
+  "value": "tonal",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 184,
+  "colors": [
+   10,
+   42,
+   75
+  ],
+  "best_text_pair": [
+   42,
+   75
+  ],
+  "best_contrast": 2.7,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 185,
+  "colors": [
+   5,
+   19,
+   40
+  ],
+  "best_text_pair": [
+   19,
+   40
+  ],
+  "best_contrast": 3.8,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 186,
+  "colors": [
+   33,
+   50,
+   122
+  ],
+  "best_text_pair": [
+   33,
+   50
+  ],
+  "best_contrast": 4.0,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "interior-accent"
+  ]
+ },
+ {
+  "number": 187,
+  "colors": [
+   124,
+   135,
+   140
+  ],
+  "best_text_pair": [
+   124,
+   135
+  ],
+  "best_contrast": 3.3,
+  "value": "mid",
+  "chroma": "muted",
+  "temp": "cool",
+  "fits": [
+   "web*",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 188,
+  "colors": [
+   97,
+   114,
+   115
+  ],
+  "best_text_pair": [
+   97,
+   115
+  ],
+  "best_contrast": 1.6,
+  "value": "tonal",
+  "chroma": "muted",
+  "temp": "cool",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 189,
+  "colors": [
+   56,
+   110,
+   117
+  ],
+  "best_text_pair": [
+   56,
+   110
+  ],
+  "best_contrast": 11.1,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior"
+  ]
+ },
+ {
+  "number": 190,
+  "colors": [
+   42,
+   66,
+   159
+  ],
+  "best_text_pair": [
+   42,
+   159
+  ],
+  "best_contrast": 12.7,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 191,
+  "colors": [
+   5,
+   60,
+   122
+  ],
+  "best_text_pair": [
+   60,
+   122
+  ],
+  "best_contrast": 2.7,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior-accent"
+  ]
+ },
+ {
+  "number": 192,
+  "colors": [
+   47,
+   87,
+   145
+  ],
+  "best_text_pair": [
+   47,
+   87
+  ],
+  "best_contrast": 7.1,
+  "value": "high",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 193,
+  "colors": [
+   8,
+   41,
+   102
+  ],
+  "best_text_pair": [
+   41,
+   102
+  ],
+  "best_contrast": 3.1,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "interior"
+  ]
+ },
+ {
+  "number": 194,
+  "colors": [
+   16,
+   43,
+   121
+  ],
+  "best_text_pair": [
+   43,
+   121
+  ],
+  "best_contrast": 2.9,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior"
+  ]
+ },
+ {
+  "number": 195,
+  "colors": [
+   10,
+   40,
+   155
+  ],
+  "best_text_pair": [
+   10,
+   40
+  ],
+  "best_contrast": 2.3,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 196,
+  "colors": [
+   71,
+   112,
+   143
+  ],
+  "best_text_pair": [
+   112,
+   143
+  ],
+  "best_contrast": 4.1,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "cool",
+  "fits": [
+   "web*",
+   "interior"
+  ]
+ },
+ {
+  "number": 197,
+  "colors": [
+   9,
+   142,
+   155
+  ],
+  "best_text_pair": [
+   142,
+   155
+  ],
+  "best_contrast": 2.9,
+  "value": "mid",
+  "chroma": "muted",
+  "temp": "balanced",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 198,
+  "colors": [
+   20,
+   57,
+   103
+  ],
+  "best_text_pair": [
+   20,
+   57
+  ],
+  "best_contrast": 3.8,
+  "value": "mid",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "apparel-statement"
+  ]
+ },
+ {
+  "number": 199,
+  "colors": [
+   21,
+   81,
+   127
+  ],
+  "best_text_pair": [
+   81,
+   127
+  ],
+  "best_contrast": 1.9,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 200,
+  "colors": [
+   29,
+   53,
+   98
+  ],
+  "best_text_pair": [
+   29,
+   53
+  ],
+  "best_contrast": 3.8,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 201,
+  "colors": [
+   8,
+   77,
+   115
+  ],
+  "best_text_pair": [
+   77,
+   115
+  ],
+  "best_contrast": 2.4,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior"
+  ]
+ },
+ {
+  "number": 202,
+  "colors": [
+   88,
+   115,
+   158
+  ],
+  "best_text_pair": [
+   88,
+   158
+  ],
+  "best_contrast": 6.7,
+  "value": "high",
+  "chroma": "muted",
+  "temp": "cool",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 203,
+  "colors": [
+   40,
+   49,
+   108
+  ],
+  "best_text_pair": [
+   40,
+   108
+  ],
+  "best_contrast": 6.4,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 204,
+  "colors": [
+   25,
+   67,
+   113
+  ],
+  "best_text_pair": [
+   25,
+   113
+  ],
+  "best_contrast": 2.9,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 205,
+  "colors": [
+   36,
+   49,
+   150
+  ],
+  "best_text_pair": [
+   36,
+   49
+  ],
+  "best_contrast": 4.7,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior-accent"
+  ]
+ },
+ {
+  "number": 206,
+  "colors": [
+   2,
+   48,
+   67
+  ],
+  "best_text_pair": [
+   2,
+   67
+  ],
+  "best_contrast": 2.0,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 207,
+  "colors": [
+   79,
+   89,
+   159
+  ],
+  "best_text_pair": [
+   89,
+   159
+  ],
+  "best_contrast": 11.0,
+  "value": "high",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 208,
+  "colors": [
+   39,
+   120,
+   123
+  ],
+  "best_text_pair": [
+   39,
+   123
+  ],
+  "best_contrast": 4.6,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "cool",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 209,
+  "colors": [
+   42,
+   62,
+   114
+  ],
+  "best_text_pair": [
+   42,
+   114
+  ],
+  "best_contrast": 1.5,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 210,
+  "colors": [
+   46,
+   56,
+   108
+  ],
+  "best_text_pair": [
+   56,
+   108
+  ],
+  "best_contrast": 6.0,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web"
+  ]
+ },
+ {
+  "number": 211,
+  "colors": [
+   63,
+   94,
+   132
+  ],
+  "best_text_pair": [
+   63,
+   132
+  ],
+  "best_contrast": 7.7,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior-accent"
+  ]
+ },
+ {
+  "number": 212,
+  "colors": [
+   30,
+   78,
+   114
+  ],
+  "best_text_pair": [
+   30,
+   114
+  ],
+  "best_contrast": 2.9,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior-accent"
+  ]
+ },
+ {
+  "number": 213,
+  "colors": [
+   49,
+   57,
+   112
+  ],
+  "best_text_pair": [
+   49,
+   57
+  ],
+  "best_contrast": 1.4,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "apparel"
+  ]
+ },
+ {
+  "number": 214,
+  "colors": [
+   42,
+   79,
+   150
+  ],
+  "best_text_pair": [
+   42,
+   150
+  ],
+  "best_contrast": 5.9,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "balanced",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 215,
+  "colors": [
+   47,
+   122,
+   138
+  ],
+  "best_text_pair": [
+   47,
+   122
+  ],
+  "best_contrast": 3.2,
+  "value": "mid",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "apparel-statement"
+  ]
+ },
+ {
+  "number": 216,
+  "colors": [
+   16,
+   103,
+   159
+  ],
+  "best_text_pair": [
+   103,
+   159
+  ],
+  "best_contrast": 5.4,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior-accent"
+  ]
+ },
+ {
+  "number": 217,
+  "colors": [
+   36,
+   50,
+   106
+  ],
+  "best_text_pair": [
+   36,
+   50
+  ],
+  "best_contrast": 4.2,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 218,
+  "colors": [
+   124,
+   134,
+   145
+  ],
+  "best_text_pair": [
+   124,
+   134
+  ],
+  "best_contrast": 3.5,
+  "value": "mid",
+  "chroma": "muted",
+  "temp": "cool",
+  "fits": [
+   "web*",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 219,
+  "colors": [
+   16,
+   98,
+   126
+  ],
+  "best_text_pair": [
+   98,
+   126
+  ],
+  "best_contrast": 2.7,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "general"
+  ]
+ },
+ {
+  "number": 220,
+  "colors": [
+   26,
+   50,
+   140
+  ],
+  "best_text_pair": [
+   26,
+   50
+  ],
+  "best_contrast": 2.8,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior-accent"
+  ]
+ },
+ {
+  "number": 221,
+  "colors": [
+   29,
+   155,
+   159
+  ],
+  "best_text_pair": [
+   155,
+   159
+  ],
+  "best_contrast": 9.9,
+  "value": "high",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 222,
+  "colors": [
+   60,
+   62,
+   68
+  ],
+  "best_text_pair": [
+   60,
+   68
+  ],
+  "best_contrast": 2.0,
+  "value": "tonal",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "apparel"
+  ]
+ },
+ {
+  "number": 223,
+  "colors": [
+   5,
+   50,
+   88
+  ],
+  "best_text_pair": [
+   5,
+   88
+  ],
+  "best_contrast": 1.8,
+  "value": "tonal",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 224,
+  "colors": [
+   10,
+   125,
+   148
+  ],
+  "best_text_pair": [
+   10,
+   148
+  ],
+  "best_contrast": 2.7,
+  "value": "mid",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 225,
+  "colors": [
+   23,
+   126,
+   147
+  ],
+  "best_text_pair": [
+   23,
+   126
+  ],
+  "best_contrast": 1.6,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 226,
+  "colors": [
+   38,
+   47,
+   150
+  ],
+  "best_text_pair": [
+   47,
+   150
+  ],
+  "best_contrast": 5.3,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 227,
+  "colors": [
+   1,
+   113,
+   118
+  ],
+  "best_text_pair": [
+   1,
+   118
+  ],
+  "best_contrast": 2.3,
+  "value": "mid",
+  "chroma": "muted",
+  "temp": "cool",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 228,
+  "colors": [
+   29,
+   40,
+   155
+  ],
+  "best_text_pair": [
+   29,
+   40
+  ],
+  "best_contrast": 5.9,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 229,
+  "colors": [
+   48,
+   110,
+   155
+  ],
+  "best_text_pair": [
+   110,
+   155
+  ],
+  "best_contrast": 7.2,
+  "value": "high",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 230,
+  "colors": [
+   8,
+   88,
+   115
+  ],
+  "best_text_pair": [
+   8,
+   88
+  ],
+  "best_contrast": 1.7,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "balanced",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 231,
+  "colors": [
+   3,
+   33,
+   121
+  ],
+  "best_text_pair": [
+   3,
+   33
+  ],
+  "best_contrast": 4.8,
+  "value": "mid",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 232,
+  "colors": [
+   23,
+   45,
+   132
+  ],
+  "best_text_pair": [
+   45,
+   132
+  ],
+  "best_contrast": 10.1,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web"
+  ]
+ },
+ {
+  "number": 233,
+  "colors": [
+   29,
+   73,
+   128
+  ],
+  "best_text_pair": [
+   73,
+   128
+  ],
+  "best_contrast": 2.5,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 234,
+  "colors": [
+   46,
+   83,
+   112
+  ],
+  "best_text_pair": [
+   46,
+   83
+  ],
+  "best_contrast": 4.6,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 235,
+  "colors": [
+   42,
+   62,
+   135
+  ],
+  "best_text_pair": [
+   42,
+   135
+  ],
+  "best_contrast": 1.5,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 236,
+  "colors": [
+   70,
+   127,
+   144
+  ],
+  "best_text_pair": [
+   70,
+   127
+  ],
+  "best_contrast": 3.1,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "interior-accent"
+  ]
+ },
+ {
+  "number": 237,
+  "colors": [
+   29,
+   85,
+   114
+  ],
+  "best_text_pair": [
+   85,
+   114
+  ],
+  "best_contrast": 4.2,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 238,
+  "colors": [
+   50,
+   152,
+   157
+  ],
+  "best_text_pair": [
+   50,
+   152
+  ],
+  "best_contrast": 6.2,
+  "value": "high",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 239,
+  "colors": [
+   5,
+   58,
+   89
+  ],
+  "best_text_pair": [
+   5,
+   89
+  ],
+  "best_contrast": 1.6,
+  "value": "tonal",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 240,
+  "colors": [
+   7,
+   55,
+   118
+  ],
+  "best_text_pair": [
+   55,
+   118
+  ],
+  "best_contrast": 3.1,
+  "value": "mid",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "apparel-statement"
+  ]
+ },
+ {
+  "number": 241,
+  "colors": [
+   18,
+   40,
+   51,
+   125
+  ],
+  "best_text_pair": [
+   40,
+   125
+  ],
+  "best_contrast": 4.6,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 242,
+  "colors": [
+   9,
+   20,
+   106,
+   159
+  ],
+  "best_text_pair": [
+   9,
+   159
+  ],
+  "best_contrast": 7.3,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 243,
+  "colors": [
+   14,
+   42,
+   80,
+   158
+  ],
+  "best_text_pair": [
+   42,
+   158
+  ],
+  "best_contrast": 6.8,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 244,
+  "colors": [
+   5,
+   15,
+   96,
+   123
+  ],
+  "best_text_pair": [
+   5,
+   123
+  ],
+  "best_contrast": 2.0,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 245,
+  "colors": [
+   29,
+   105,
+   130,
+   158
+  ],
+  "best_text_pair": [
+   105,
+   130
+  ],
+  "best_contrast": 3.7,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 246,
+  "colors": [
+   2,
+   28,
+   39,
+   46
+  ],
+  "best_text_pair": [
+   28,
+   39
+  ],
+  "best_contrast": 5.0,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 247,
+  "colors": [
+   14,
+   57,
+   101,
+   127
+  ],
+  "best_text_pair": [
+   57,
+   127
+  ],
+  "best_contrast": 7.1,
+  "value": "high",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "apparel-statement",
+   "print/brand"
+  ]
+ },
+ {
+  "number": 248,
+  "colors": [
+   9,
+   70,
+   134,
+   147
+  ],
+  "best_text_pair": [
+   134,
+   147
+  ],
+  "best_contrast": 3.8,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 249,
+  "colors": [
+   33,
+   54,
+   59,
+   125
+  ],
+  "best_text_pair": [
+   33,
+   59
+  ],
+  "best_contrast": 4.5,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 250,
+  "colors": [
+   58,
+   65,
+   100,
+   111
+  ],
+  "best_text_pair": [
+   65,
+   111
+  ],
+  "best_contrast": 2.4,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "general"
+  ]
+ },
+ {
+  "number": 251,
+  "colors": [
+   31,
+   55,
+   106,
+   158
+  ],
+  "best_text_pair": [
+   55,
+   158
+  ],
+  "best_contrast": 8.5,
+  "value": "high",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "apparel-statement",
+   "print/brand"
+  ]
+ },
+ {
+  "number": 252,
+  "colors": [
+   13,
+   14,
+   69,
+   120
+  ],
+  "best_text_pair": [
+   13,
+   69
+  ],
+  "best_contrast": 1.5,
+  "value": "tonal",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "apparel"
+  ]
+ },
+ {
+  "number": 253,
+  "colors": [
+   56,
+   63,
+   152,
+   158
+  ],
+  "best_text_pair": [
+   56,
+   152
+  ],
+  "best_contrast": 11.3,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web"
+  ]
+ },
+ {
+  "number": 254,
+  "colors": [
+   2,
+   39,
+   77,
+   136
+  ],
+  "best_text_pair": [
+   39,
+   77
+  ],
+  "best_contrast": 3.5,
+  "value": "mid",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 255,
+  "colors": [
+   14,
+   58,
+   116,
+   159
+  ],
+  "best_text_pair": [
+   116,
+   159
+  ],
+  "best_contrast": 10.1,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 256,
+  "colors": [
+   49,
+   64,
+   104,
+   159
+  ],
+  "best_text_pair": [
+   49,
+   159
+  ],
+  "best_contrast": 9.3,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior-accent"
+  ]
+ },
+ {
+  "number": 257,
+  "colors": [
+   17,
+   61,
+   122,
+   140
+  ],
+  "best_text_pair": [
+   61,
+   122
+  ],
+  "best_contrast": 2.9,
+  "value": "mid",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "apparel-statement"
+  ]
+ },
+ {
+  "number": 258,
+  "colors": [
+   36,
+   45,
+   77,
+   123
+  ],
+  "best_text_pair": [
+   36,
+   45
+  ],
+  "best_contrast": 5.1,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior-accent"
+  ]
+ },
+ {
+  "number": 259,
+  "colors": [
+   56,
+   120,
+   124,
+   157
+  ],
+  "best_text_pair": [
+   56,
+   124
+  ],
+  "best_contrast": 5.9,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "balanced",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 260,
+  "colors": [
+   11,
+   49,
+   89,
+   100
+  ],
+  "best_text_pair": [
+   11,
+   89
+  ],
+  "best_contrast": 1.9,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "balanced",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 261,
+  "colors": [
+   31,
+   40,
+   116,
+   157
+  ],
+  "best_text_pair": [
+   31,
+   40
+  ],
+  "best_contrast": 6.1,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 262,
+  "colors": [
+   13,
+   42,
+   72,
+   107
+  ],
+  "best_text_pair": [
+   42,
+   107
+  ],
+  "best_contrast": 3.6,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "interior"
+  ]
+ },
+ {
+  "number": 263,
+  "colors": [
+   20,
+   45,
+   88,
+   158
+  ],
+  "best_text_pair": [
+   88,
+   158
+  ],
+  "best_contrast": 6.7,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 264,
+  "colors": [
+   2,
+   18,
+   90,
+   118
+  ],
+  "best_text_pair": [
+   2,
+   18
+  ],
+  "best_contrast": 2.5,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 265,
+  "colors": [
+   11,
+   57,
+   94,
+   131
+  ],
+  "best_text_pair": [
+   57,
+   131
+  ],
+  "best_contrast": 13.1,
+  "value": "high",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "apparel-statement",
+   "print/brand"
+  ]
+ },
+ {
+  "number": 266,
+  "colors": [
+   17,
+   42,
+   97,
+   101
+  ],
+  "best_text_pair": [
+   17,
+   42
+  ],
+  "best_contrast": 3.2,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*"
+  ]
+ },
+ {
+  "number": 267,
+  "colors": [
+   47,
+   62,
+   101,
+   122
+  ],
+  "best_text_pair": [
+   47,
+   122
+  ],
+  "best_contrast": 3.2,
+  "value": "mid",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "apparel-statement"
+  ]
+ },
+ {
+  "number": 268,
+  "colors": [
+   5,
+   14,
+   110,
+   111
+  ],
+  "best_text_pair": [
+   110,
+   111
+  ],
+  "best_contrast": 9.9,
+  "value": "high",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 269,
+  "colors": [
+   14,
+   36,
+   140,
+   159
+  ],
+  "best_text_pair": [
+   14,
+   159
+  ],
+  "best_contrast": 4.8,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 270,
+  "colors": [
+   13,
+   39,
+   80,
+   107
+  ],
+  "best_text_pair": [
+   39,
+   107
+  ],
+  "best_contrast": 4.4,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 271,
+  "colors": [
+   26,
+   115,
+   120,
+   133
+  ],
+  "best_text_pair": [
+   115,
+   133
+  ],
+  "best_contrast": 8.1,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "balanced",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 272,
+  "colors": [
+   40,
+   64,
+   88,
+   114
+  ],
+  "best_text_pair": [
+   40,
+   64
+  ],
+  "best_contrast": 2.4,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 273,
+  "colors": [
+   1,
+   35,
+   79,
+   155
+  ],
+  "best_text_pair": [
+   1,
+   35
+  ],
+  "best_contrast": 6.6,
+  "value": "high",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 274,
+  "colors": [
+   65,
+   74,
+   121,
+   139
+  ],
+  "best_text_pair": [
+   65,
+   121
+  ],
+  "best_contrast": 1.1,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 275,
+  "colors": [
+   19,
+   54,
+   85,
+   148
+  ],
+  "best_text_pair": [
+   54,
+   85
+  ],
+  "best_contrast": 4.5,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 276,
+  "colors": [
+   9,
+   43,
+   91,
+   159
+  ],
+  "best_text_pair": [
+   43,
+   159
+  ],
+  "best_contrast": 13.6,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 277,
+  "colors": [
+   10,
+   25,
+   77,
+   131
+  ],
+  "best_text_pair": [
+   10,
+   131
+  ],
+  "best_contrast": 6.3,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web"
+  ]
+ },
+ {
+  "number": 278,
+  "colors": [
+   47,
+   59,
+   107,
+   126
+  ],
+  "best_text_pair": [
+   47,
+   126
+  ],
+  "best_contrast": 5.8,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web"
+  ]
+ },
+ {
+  "number": 279,
+  "colors": [
+   14,
+   49,
+   54,
+   130
+  ],
+  "best_text_pair": [
+   49,
+   130
+  ],
+  "best_contrast": 6.4,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 280,
+  "colors": [
+   13,
+   108,
+   136,
+   148
+  ],
+  "best_text_pair": [
+   136,
+   148
+  ],
+  "best_contrast": 2.9,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 281,
+  "colors": [
+   40,
+   101,
+   115,
+   123
+  ],
+  "best_text_pair": [
+   40,
+   123
+  ],
+  "best_contrast": 4.8,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "cool",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 282,
+  "colors": [
+   13,
+   52,
+   115,
+   137
+  ],
+  "best_text_pair": [
+   13,
+   115
+  ],
+  "best_contrast": 2.2,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 283,
+  "colors": [
+   21,
+   36,
+   98,
+   117
+  ],
+  "best_text_pair": [
+   36,
+   117
+  ],
+  "best_contrast": 4.6,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 284,
+  "colors": [
+   12,
+   57,
+   100,
+   126
+  ],
+  "best_text_pair": [
+   57,
+   126
+  ],
+  "best_contrast": 7.0,
+  "value": "high",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "apparel-statement",
+   "print/brand"
+  ]
+ },
+ {
+  "number": 285,
+  "colors": [
+   5,
+   20,
+   65,
+   88
+  ],
+  "best_text_pair": [
+   20,
+   88
+  ],
+  "best_contrast": 3.5,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "interior"
+  ]
+ },
+ {
+  "number": 286,
+  "colors": [
+   20,
+   61,
+   119,
+   128
+  ],
+  "best_text_pair": [
+   61,
+   128
+  ],
+  "best_contrast": 5.0,
+  "value": "mid",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "apparel-statement"
+  ]
+ },
+ {
+  "number": 287,
+  "colors": [
+   9,
+   58,
+   112,
+   116
+  ],
+  "best_text_pair": [
+   9,
+   112
+  ],
+  "best_contrast": 1.5,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 288,
+  "colors": [
+   62,
+   84,
+   148,
+   159
+  ],
+  "best_text_pair": [
+   62,
+   159
+  ],
+  "best_contrast": 8.7,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 289,
+  "colors": [
+   56,
+   92,
+   128,
+   131
+  ],
+  "best_text_pair": [
+   56,
+   131
+  ],
+  "best_contrast": 14.4,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web"
+  ]
+ },
+ {
+  "number": 290,
+  "colors": [
+   38,
+   40,
+   108,
+   115
+  ],
+  "best_text_pair": [
+   38,
+   40
+  ],
+  "best_contrast": 7.3,
+  "value": "high",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 291,
+  "colors": [
+   92,
+   100,
+   115,
+   116
+  ],
+  "best_text_pair": [
+   92,
+   100
+  ],
+  "best_contrast": 1.5,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "cool",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 292,
+  "colors": [
+   40,
+   45,
+   51,
+   54
+  ],
+  "best_text_pair": [
+   40,
+   51
+  ],
+  "best_contrast": 2.0,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 293,
+  "colors": [
+   14,
+   88,
+   95,
+   103
+  ],
+  "best_text_pair": [
+   14,
+   88
+  ],
+  "best_contrast": 2.5,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "balanced",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 294,
+  "colors": [
+   39,
+   47,
+   107,
+   114
+  ],
+  "best_text_pair": [
+   39,
+   107
+  ],
+  "best_contrast": 4.4,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 295,
+  "colors": [
+   47,
+   55,
+   122,
+   131
+  ],
+  "best_text_pair": [
+   55,
+   131
+  ],
+  "best_contrast": 15.0,
+  "value": "high",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "apparel-statement",
+   "print/brand"
+  ]
+ },
+ {
+  "number": 296,
+  "colors": [
+   39,
+   50,
+   83,
+   158
+  ],
+  "best_text_pair": [
+   39,
+   158
+  ],
+  "best_contrast": 8.4,
+  "value": "high",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 297,
+  "colors": [
+   20,
+   62,
+   80,
+   128
+  ],
+  "best_text_pair": [
+   62,
+   128
+  ],
+  "best_contrast": 4.3,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*"
+  ]
+ },
+ {
+  "number": 298,
+  "colors": [
+   14,
+   56,
+   65,
+   159
+  ],
+  "best_text_pair": [
+   56,
+   159
+  ],
+  "best_contrast": 15.2,
+  "value": "high",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "apparel-statement",
+   "print/brand"
+  ]
+ },
+ {
+  "number": 299,
+  "colors": [
+   24,
+   49,
+   105,
+   123
+  ],
+  "best_text_pair": [
+   49,
+   123
+  ],
+  "best_contrast": 2.8,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior-accent"
+  ]
+ },
+ {
+  "number": 300,
+  "colors": [
+   8,
+   47,
+   88,
+   116
+  ],
+  "best_text_pair": [
+   8,
+   88
+  ],
+  "best_contrast": 1.7,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 301,
+  "colors": [
+   17,
+   42,
+   97,
+   140
+  ],
+  "best_text_pair": [
+   17,
+   42
+  ],
+  "best_contrast": 3.2,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "interior"
+  ]
+ },
+ {
+  "number": 302,
+  "colors": [
+   47,
+   54,
+   111,
+   123
+  ],
+  "best_text_pair": [
+   111,
+   123
+  ],
+  "best_contrast": 4.0,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "balanced",
+  "fits": [
+   "web*",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 303,
+  "colors": [
+   41,
+   65,
+   110,
+   155
+  ],
+  "best_text_pair": [
+   41,
+   110
+  ],
+  "best_contrast": 10.9,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 304,
+  "colors": [
+   33,
+   47,
+   74,
+   101
+  ],
+  "best_text_pair": [
+   33,
+   47
+  ],
+  "best_contrast": 5.5,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior"
+  ]
+ },
+ {
+  "number": 305,
+  "colors": [
+   45,
+   57,
+   71,
+   88
+  ],
+  "best_text_pair": [
+   57,
+   71
+  ],
+  "best_contrast": 1.6,
+  "value": "tonal",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "apparel"
+  ]
+ },
+ {
+  "number": 306,
+  "colors": [
+   56,
+   101,
+   104,
+   111
+  ],
+  "best_text_pair": [
+   56,
+   104
+  ],
+  "best_contrast": 3.1,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "cool",
+  "fits": [
+   "web*"
+  ]
+ },
+ {
+  "number": 307,
+  "colors": [
+   23,
+   134,
+   140,
+   152
+  ],
+  "best_text_pair": [
+   134,
+   152
+  ],
+  "best_contrast": 6.7,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior-accent"
+  ]
+ },
+ {
+  "number": 308,
+  "colors": [
+   4,
+   22,
+   66,
+   115
+  ],
+  "best_text_pair": [
+   22,
+   115
+  ],
+  "best_contrast": 2.9,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "general"
+  ]
+ },
+ {
+  "number": 309,
+  "colors": [
+   48,
+   63,
+   128,
+   129
+  ],
+  "best_text_pair": [
+   48,
+   128
+  ],
+  "best_contrast": 4.4,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "interior-accent"
+  ]
+ },
+ {
+  "number": 310,
+  "colors": [
+   39,
+   45,
+   77,
+   110
+  ],
+  "best_text_pair": [
+   39,
+   110
+  ],
+  "best_contrast": 11.4,
+  "value": "high",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 311,
+  "colors": [
+   30,
+   47,
+   90,
+   92
+  ],
+  "best_text_pair": [
+   30,
+   47
+  ],
+  "best_contrast": 4.2,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*"
+  ]
+ },
+ {
+  "number": 312,
+  "colors": [
+   20,
+   62,
+   95,
+   124
+  ],
+  "best_text_pair": [
+   62,
+   124
+  ],
+  "best_contrast": 3.4,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*"
+  ]
+ },
+ {
+  "number": 313,
+  "colors": [
+   23,
+   55,
+   106,
+   159
+  ],
+  "best_text_pair": [
+   55,
+   159
+  ],
+  "best_contrast": 15.9,
+  "value": "high",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "apparel-statement",
+   "print/brand"
+  ]
+ },
+ {
+  "number": 314,
+  "colors": [
+   9,
+   33,
+   127,
+   153
+  ],
+  "best_text_pair": [
+   9,
+   153
+  ],
+  "best_contrast": 5.1,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior-accent"
+  ]
+ },
+ {
+  "number": 315,
+  "colors": [
+   8,
+   39,
+   48,
+   138
+  ],
+  "best_text_pair": [
+   39,
+   138
+  ],
+  "best_contrast": 3.5,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*"
+  ]
+ },
+ {
+  "number": 316,
+  "colors": [
+   34,
+   104,
+   150,
+   151
+  ],
+  "best_text_pair": [
+   104,
+   151
+  ],
+  "best_contrast": 2.8,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "cool",
+  "fits": [
+   "general"
+  ]
+ },
+ {
+  "number": 317,
+  "colors": [
+   44,
+   54,
+   56,
+   88
+  ],
+  "best_text_pair": [
+   54,
+   56
+  ],
+  "best_contrast": 1.7,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 318,
+  "colors": [
+   81,
+   109,
+   126,
+   133
+  ],
+  "best_text_pair": [
+   81,
+   133
+  ],
+  "best_contrast": 2.8,
+  "value": "mid",
+  "chroma": "muted",
+  "temp": "cool",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 319,
+  "colors": [
+   14,
+   57,
+   62,
+   107
+  ],
+  "best_text_pair": [
+   57,
+   107
+  ],
+  "best_contrast": 3.9,
+  "value": "mid",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "apparel-statement"
+  ]
+ },
+ {
+  "number": 320,
+  "colors": [
+   6,
+   39,
+   105,
+   113
+  ],
+  "best_text_pair": [
+   39,
+   105
+  ],
+  "best_contrast": 2.8,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 321,
+  "colors": [
+   5,
+   39,
+   110,
+   114
+  ],
+  "best_text_pair": [
+   39,
+   110
+  ],
+  "best_contrast": 11.4,
+  "value": "high",
+  "chroma": "muted",
+  "temp": "balanced",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 322,
+  "colors": [
+   17,
+   28,
+   138,
+   143
+  ],
+  "best_text_pair": [
+   138,
+   143
+  ],
+  "best_contrast": 1.5,
+  "value": "tonal",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "apparel"
+  ]
+ },
+ {
+  "number": 323,
+  "colors": [
+   46,
+   71,
+   85,
+   159
+  ],
+  "best_text_pair": [
+   46,
+   159
+  ],
+  "best_contrast": 11.9,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 324,
+  "colors": [
+   30,
+   121,
+   140,
+   155
+  ],
+  "best_text_pair": [
+   30,
+   155
+  ],
+  "best_contrast": 3.6,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 325,
+  "colors": [
+   13,
+   41,
+   60,
+   133
+  ],
+  "best_text_pair": [
+   41,
+   133
+  ],
+  "best_contrast": 11.5,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior"
+  ]
+ },
+ {
+  "number": 326,
+  "colors": [
+   39,
+   65,
+   91,
+   93
+  ],
+  "best_text_pair": [
+   39,
+   65
+  ],
+  "best_contrast": 2.8,
+  "value": "mid",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "apparel-statement"
+  ]
+ },
+ {
+  "number": 327,
+  "colors": [
+   9,
+   14,
+   54,
+   135
+  ],
+  "best_text_pair": [
+   14,
+   54
+  ],
+  "best_contrast": 1.7,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 328,
+  "colors": [
+   28,
+   63,
+   87,
+   102
+  ],
+  "best_text_pair": [
+   63,
+   87
+  ],
+  "best_contrast": 4.9,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web"
+  ]
+ },
+ {
+  "number": 329,
+  "colors": [
+   47,
+   135,
+   152,
+   158
+  ],
+  "best_text_pair": [
+   47,
+   152
+  ],
+  "best_contrast": 8.4,
+  "value": "high",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 330,
+  "colors": [
+   53,
+   111,
+   114,
+   120
+  ],
+  "best_text_pair": [
+   111,
+   120
+  ],
+  "best_contrast": 2.7,
+  "value": "mid",
+  "chroma": "muted",
+  "temp": "cool",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 331,
+  "colors": [
+   24,
+   131,
+   139,
+   150
+  ],
+  "best_text_pair": [
+   131,
+   139
+  ],
+  "best_contrast": 4.5,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "balanced",
+  "fits": [
+   "web",
+   "interior-accent"
+  ]
+ },
+ {
+  "number": 332,
+  "colors": [
+   6,
+   22,
+   110,
+   126
+  ],
+  "best_text_pair": [
+   6,
+   110
+  ],
+  "best_contrast": 5.8,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior-accent"
+  ]
+ },
+ {
+  "number": 333,
+  "colors": [
+   20,
+   56,
+   115,
+   122
+  ],
+  "best_text_pair": [
+   56,
+   122
+  ],
+  "best_contrast": 4.3,
+  "value": "mid",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "apparel-statement"
+  ]
+ },
+ {
+  "number": 334,
+  "colors": [
+   43,
+   77,
+   91,
+   123
+  ],
+  "best_text_pair": [
+   43,
+   123
+  ],
+  "best_contrast": 4.0,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 335,
+  "colors": [
+   34,
+   62,
+   150,
+   158
+  ],
+  "best_text_pair": [
+   62,
+   158
+  ],
+  "best_contrast": 4.6,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior-accent"
+  ]
+ },
+ {
+  "number": 336,
+  "colors": [
+   9,
+   33,
+   40,
+   109
+  ],
+  "best_text_pair": [
+   33,
+   40
+  ],
+  "best_contrast": 7.8,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 337,
+  "colors": [
+   38,
+   136,
+   149,
+   159
+  ],
+  "best_text_pair": [
+   136,
+   159
+  ],
+  "best_contrast": 7.2,
+  "value": "high",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 338,
+  "colors": [
+   29,
+   61,
+   126,
+   135
+  ],
+  "best_text_pair": [
+   61,
+   126
+  ],
+  "best_contrast": 5.2,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web"
+  ]
+ },
+ {
+  "number": 339,
+  "colors": [
+   50,
+   66,
+   113,
+   128
+  ],
+  "best_text_pair": [
+   113,
+   128
+  ],
+  "best_contrast": 5.1,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 340,
+  "colors": [
+   65,
+   100,
+   155,
+   159
+  ],
+  "best_text_pair": [
+   155,
+   159
+  ],
+  "best_contrast": 9.9,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 341,
+  "colors": [
+   8,
+   107,
+   110,
+   113
+  ],
+  "best_text_pair": [
+   110,
+   113
+  ],
+  "best_contrast": 7.6,
+  "value": "high",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 342,
+  "colors": [
+   2,
+   47,
+   78,
+   110
+  ],
+  "best_text_pair": [
+   47,
+   110
+  ],
+  "best_contrast": 8.3,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 343,
+  "colors": [
+   20,
+   42,
+   82,
+   129
+  ],
+  "best_text_pair": [
+   42,
+   129
+  ],
+  "best_contrast": 6.1,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 344,
+  "colors": [
+   46,
+   127,
+   140,
+   159
+  ],
+  "best_text_pair": [
+   46,
+   159
+  ],
+  "best_contrast": 11.9,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "balanced",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 345,
+  "colors": [
+   33,
+   111,
+   117,
+   143
+  ],
+  "best_text_pair": [
+   33,
+   111
+  ],
+  "best_contrast": 6.6,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "cool",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 346,
+  "colors": [
+   25,
+   88,
+   92,
+   96
+  ],
+  "best_text_pair": [
+   25,
+   88
+  ],
+  "best_contrast": 3.5,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 347,
+  "colors": [
+   94,
+   100,
+   124,
+   137
+  ],
+  "best_text_pair": [
+   100,
+   124
+  ],
+  "best_contrast": 2.7,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "balanced",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 348,
+  "colors": [
+   53,
+   107,
+   110,
+   152
+  ],
+  "best_text_pair": [
+   53,
+   152
+  ],
+  "best_contrast": 7.6,
+  "value": "high",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 349,
+  "colors": [
+   26,
+   123,
+   127,
+   159
+  ],
+  "best_text_pair": [
+   123,
+   159
+  ],
+  "best_contrast": 3.3,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "cool",
+  "fits": [
+   "web*",
+   "interior-accent",
+   "apparel"
+  ]
+ },
+ {
+  "number": 350,
+  "colors": [
+   61,
+   73,
+   95,
+   147
+  ],
+  "best_text_pair": [
+   61,
+   147
+  ],
+  "best_contrast": 4.4,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 351,
+  "colors": [
+   9,
+   43,
+   112,
+   129
+  ],
+  "best_text_pair": [
+   43,
+   129
+  ],
+  "best_contrast": 6.5,
+  "value": "high",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 352,
+  "colors": [
+   24,
+   56,
+   116,
+   159
+  ],
+  "best_text_pair": [
+   56,
+   159
+  ],
+  "best_contrast": 15.2,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior"
+  ]
+ },
+ {
+  "number": 353,
+  "colors": [
+   44,
+   58,
+   68,
+   90
+  ],
+  "best_text_pair": [
+   44,
+   68
+  ],
+  "best_contrast": 2.5,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 354,
+  "colors": [
+   17,
+   48,
+   111,
+   122
+  ],
+  "best_text_pair": [
+   111,
+   122
+  ],
+  "best_contrast": 3.9,
+  "value": "mid",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "web*",
+   "apparel-statement"
+  ]
+ },
+ {
+  "number": 355,
+  "colors": [
+   25,
+   87,
+   100,
+   123
+  ],
+  "best_text_pair": [
+   87,
+   100
+  ],
+  "best_contrast": 4.4,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "balanced",
+  "fits": [
+   "web*",
+   "interior-accent"
+  ]
+ },
+ {
+  "number": 356,
+  "colors": [
+   56,
+   72,
+   113,
+   134
+  ],
+  "best_text_pair": [
+   56,
+   72
+  ],
+  "best_contrast": 2.1,
+  "value": "mid",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "interior"
+  ]
+ },
+ {
+  "number": 357,
+  "colors": [
+   58,
+   113,
+   139,
+   158
+  ],
+  "best_text_pair": [
+   113,
+   158
+  ],
+  "best_contrast": 5.6,
+  "value": "high",
+  "chroma": "muted",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 358,
+  "colors": [
+   56,
+   64,
+   89,
+   123
+  ],
+  "best_text_pair": [
+   56,
+   123
+  ],
+  "best_contrast": 4.5,
+  "value": "high",
+  "chroma": "vivid",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "apparel-statement",
+   "print/brand"
+  ]
+ },
+ {
+  "number": 359,
+  "colors": [
+   56,
+   85,
+   111,
+   155
+  ],
+  "best_text_pair": [
+   56,
+   85
+  ],
+  "best_contrast": 8.0,
+  "value": "high",
+  "chroma": "medium",
+  "temp": "warm",
+  "fits": [
+   "web",
+   "interior",
+   "apparel"
+  ]
+ },
+ {
+  "number": 360,
+  "colors": [
+   121,
+   129,
+   148,
+   150
+  ],
+  "best_text_pair": [
+   121,
+   129
+  ],
+  "best_contrast": 2.2,
+  "value": "tonal",
+  "chroma": "medium",
+  "temp": "cool",
+  "fits": [
+   "interior-accent",
+   "apparel"
+  ]
+ }
+]

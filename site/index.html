@@ -1,0 +1,396 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><style>html{color-scheme:light}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style></head><body><title>Wada Sanzo Palette Atlas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Shippori+Mincho+B1:wght@600;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap">
+<style>
+/* Layout: specimen-book index — a quiet filter rail over a dense grid of swatch plates; a detail sheet slides in per plate. */
+:root{
+  --bg:#ECEEEA; --panel:#F8F9F6; --ink:#1B1D1F; --muted:#5B615C; --line:#D2D6CF; --accent:#005B8D; --accent-ink:#FFFFFF;
+  --good:#1F7A4D; --warn:#9A6400; --bad:#B23A3A; --shadow:0 18px 50px rgba(20,25,22,.18);
+  --f-display:"Shippori Mincho B1","Hiragino Mincho ProN","Yu Mincho",Georgia,serif;
+  --f-body:"Zen Kaku Gothic New","Hiragino Sans","Segoe UI",system-ui,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#131514; --panel:#1B1E1C; --ink:#E7E9E4; --muted:#9AA19B; --line:#2E3330; --accent:#7DB3DD; --accent-ink:#0E1A24;
+  --good:#5CC08C; --warn:#E0A84A; --bad:#EA7C7C; --shadow:0 18px 50px rgba(0,0,0,.5); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#131514; --panel:#1B1E1C; --ink:#E7E9E4; --muted:#9AA19B; --line:#2E3330; --accent:#7DB3DD; --accent-ink:#0E1A24;
+  --good:#5CC08C; --warn:#E0A84A; --bad:#EA7C7C; --shadow:0 18px 50px rgba(0,0,0,.5); color-scheme:dark}
+*{box-sizing:border-box}
+html,body{background:var(--bg);color:var(--ink)}
+body{font-family:var(--f-body);font-size:14px;line-height:1.5}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1360px;margin:0 auto;padding-inline:20px;padding-block:20px 60px}
+header.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 24px;padding-bottom:16px;border-bottom:1px solid var(--line)}
+h1{font-family:var(--f-display);font-weight:800;font-size:clamp(26px,4vw,40px);line-height:1.05;margin:0;letter-spacing:.01em;text-wrap:balance}
+.sub{color:var(--muted);margin:6px 0 0;max-width:62ch}
+.tabs{display:flex;gap:4px;background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:4px}
+.tab{border:0;background:transparent;padding:6px 14px;border-radius:999px;cursor:pointer;color:var(--muted);font-weight:500}
+.tab[aria-selected="true"]{background:var(--ink);color:var(--bg)}
+.tab .n{font-family:var(--f-mono);font-size:11px;opacity:.7;margin-left:4px}
+
+.rail{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;padding-block:14px;position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);z-index:5;border-bottom:1px solid var(--line)}
+.grp{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.lab{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-right:2px}
+.chip{border:1px solid var(--line);background:var(--panel);padding:3px 10px;border-radius:999px;cursor:pointer;font-size:13px}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.search{display:flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--panel);border-radius:8px;padding:3px 6px 3px 10px}
+.search input{border:0;background:transparent;outline:none;width:150px}
+.search .dot{width:16px;height:16px;border-radius:4px;border:1px solid var(--line)}
+.clear{border:0;background:none;color:var(--accent);cursor:pointer;font-size:13px;text-decoration:underline}
+.status{font-size:13px;color:var(--muted);padding-block:12px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.status b{color:var(--ink);font-family:var(--f-mono);font-weight:500}
+.pin{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:2px 4px 2px 2px;font-size:12px}
+.pin i{width:18px;height:18px;border-radius:50%;display:inline-block}
+.pin button{border:0;background:none;cursor:pointer;color:var(--muted);padding:0 4px}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:6px;overflow:hidden;cursor:pointer;display:flex;flex-direction:column;text-align:left;padding:0;transition:transform .15s ease, box-shadow .15s ease}
+.card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.08)}
+.plate{display:flex;aspect-ratio:4/3;width:100%}
+.plate span{flex:1}
+.meta{display:flex;justify-content:space-between;align-items:center;gap:6px;padding:8px 10px}
+.no{font-family:var(--f-display);font-weight:600;font-size:15px}
+.no small{font-family:var(--f-mono);font-size:10px;color:var(--muted);margin-left:4px;font-weight:400}
+.tags{display:flex;gap:3px;flex-wrap:wrap;justify-content:flex-end}
+.t{font-size:10px;font-family:var(--f-mono);padding:0 5px;border-radius:3px;border:1px solid var(--line);color:var(--muted)}
+.t.ok{border-color:var(--good);color:var(--good)}
+.star{color:var(--warn);font-size:13px}
+
+.cgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.cc{border:1px solid var(--line);background:var(--panel);border-radius:6px;overflow:hidden;cursor:pointer;padding:0;text-align:left;display:flex;flex-direction:column}
+.cc .sw{height:64px}
+.cc .ci{padding:6px 8px;display:grid;gap:1px}
+.cc .nm{font-weight:500;font-size:13px;line-height:1.25}
+.cc .hx{font-family:var(--f-mono);font-size:11px;color:var(--muted)}
+.famh{font-family:var(--f-display);font-size:18px;margin:22px 0 10px;text-transform:capitalize}
+
+.empty{border:1px dashed var(--line);border-radius:8px;padding:28px;color:var(--muted);text-align:center;max-width:560px;margin:30px auto}
+
+/* sheet */
+.scrim{position:fixed;inset:0;background:rgba(10,12,11,.35);z-index:20}
+.sheet{position:fixed;top:0;right:0;bottom:0;width:min(620px,100%);background:var(--panel);z-index:21;box-shadow:var(--shadow);overflow-y:auto;padding-bottom:env(safe-area-inset-bottom,0px)}
+.sheet .bigplate{display:flex;height:180px}
+.sheet .bigplate div{flex:1;display:flex;align-items:flex-end;padding:8px;font-family:var(--f-mono);font-size:11px}
+.shead{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;padding:16px 20px 4px}
+.shead h2{font-family:var(--f-display);font-size:28px;margin:0;line-height:1.1}
+.shead p{margin:4px 0 0;color:var(--muted);font-size:13px}
+.x{border:1px solid var(--line);background:var(--bg);border-radius:999px;width:34px;height:34px;cursor:pointer;font-size:18px;line-height:1;flex:none}
+.sec{padding:14px 20px;border-top:1px solid var(--line);display:grid;gap:10px}
+.sec h3{margin:0;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.tblw{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:12.5px;font-variant-numeric:tabular-nums}
+th{font-weight:500;color:var(--muted);text-align:left;font-size:11px;padding:4px 6px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:6px;border-bottom:1px solid var(--line);vertical-align:middle;white-space:nowrap}
+td.m{font-family:var(--f-mono);font-size:12px}
+.cp{cursor:pointer;border:0;background:none;padding:0;font:inherit;color:inherit;border-bottom:1px dotted var(--muted)}
+.cp:hover{color:var(--accent)}
+.sw16{width:22px;height:22px;border-radius:4px;border:1px solid rgba(0,0,0,.12);display:inline-block;vertical-align:middle}
+.gam{color:var(--warn);font-size:11px;font-family:var(--f-mono)}
+.badge{font-family:var(--f-mono);font-size:11px;padding:1px 6px;border-radius:3px;font-weight:500}
+.b-aa{background:var(--good);color:var(--panel)}
+.b-lg{background:var(--warn);color:var(--panel)}
+.b-no{border:1px solid var(--line);color:var(--muted)}
+.mtabs{display:flex;gap:6px;flex-wrap:wrap}
+.preview{border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.note{font-size:12.5px;color:var(--muted);margin:0}
+.roles{display:grid;grid-template-columns:auto 1fr auto;gap:6px 10px;align-items:center;font-size:13px}
+.roles .r{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.code{position:relative}
+pre{margin:0;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:10px 12px;font-family:var(--f-mono);font-size:12px;overflow-x:auto;white-space:pre}
+.btn{border:1px solid var(--line);background:var(--bg);border-radius:6px;padding:5px 12px;cursor:pointer;font-size:13px}
+.btn.pri{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.field{display:grid;gap:4px;font-size:12px;color:var(--muted)}
+.field input,.field textarea{border:1px solid var(--line);background:var(--bg);border-radius:6px;padding:6px 8px;color:var(--ink);font:inherit;font-size:13px;width:100%}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:6px;font-size:13px;z-index:40}
+.store{font-size:12px;color:var(--muted)}
+/* previews */
+.web{padding:18px;display:grid;gap:10px}
+.web .nav{display:flex;justify-content:space-between;font-size:12px;font-weight:700;letter-spacing:.04em}
+.web h4{font-family:var(--f-display);font-size:22px;margin:4px 0 0;line-height:1.15}
+.web p{margin:0;font-size:13px;max-width:44ch}
+.web .cta{display:inline-block;padding:7px 14px;border-radius:4px;font-size:13px;font-weight:700;justify-self:start}
+.web .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.web .cards div{height:44px;border-radius:4px}
+.room{display:grid;grid-template-rows:1fr auto;height:200px;position:relative}
+.room .wall{position:relative}
+.room .trim{height:10px}
+.room .floor{height:34px}
+.room .sofa{position:absolute;left:12%;right:30%;bottom:0;height:46%;border-radius:10px 10px 0 0}
+.room .art{position:absolute;right:12%;top:16%;width:16%;aspect-ratio:3/4;border:5px solid}
+.room .pill{position:absolute;left:20%;bottom:30%;width:14%;height:22%;border-radius:8px}
+.fit{display:flex;gap:10px;align-items:flex-end;padding:16px;justify-content:center;flex-wrap:wrap}
+.fit svg{width:min(240px,100%);height:auto}
+@media (max-width:640px){.rail{position:static}.search input{width:110px}.sheet .bigplate{height:130px}}
+@media (prefers-reduced-motion:reduce){.card{transition:none}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>Wada Sanzo Palette Atlas</h1>
+      <p class="sub">All 360 combinations from Sanzo Wada's <em>A Dictionary of Color Combinations</em> (1933), with codes for screen and print and a quick read on where each one works.</p>
+    </div>
+    <div class="tabs" role="tablist">
+      <button class="tab" role="tab" id="tab-combos" aria-selected="true" data-view="combos">Combinations<span class="n">360</span></button>
+      <button class="tab" role="tab" id="tab-colors" aria-selected="false" data-view="colors">Colors<span class="n">159</span></button>
+      <button class="tab" role="tab" id="tab-saved" aria-selected="false" data-view="saved">Saved<span class="n" id="savedCount">0</span></button>
+    </div>
+  </header>
+
+  <div class="rail" id="rail">
+    <div class="grp"><span class="lab">Use</span>
+      <button class="chip" data-f="fit" data-v="web">Web</button>
+      <button class="chip" data-f="fit" data-v="interior">Interior</button>
+      <button class="chip" data-f="fit" data-v="apparel">Apparel</button>
+      <button class="chip" data-f="fit" data-v="print/brand">Print / brand</button>
+    </div>
+    <div class="grp"><span class="lab">Colors</span>
+      <button class="chip" data-f="size" data-v="2">2</button>
+      <button class="chip" data-f="size" data-v="3">3</button>
+      <button class="chip" data-f="size" data-v="4">4</button>
+    </div>
+    <div class="grp"><span class="lab">Temp</span>
+      <button class="chip" data-f="temp" data-v="warm">Warm</button>
+      <button class="chip" data-f="temp" data-v="balanced">Balanced</button>
+      <button class="chip" data-f="temp" data-v="cool">Cool</button>
+    </div>
+    <div class="grp"><span class="lab">Chroma</span>
+      <button class="chip" data-f="chroma" data-v="muted">Muted</button>
+      <button class="chip" data-f="chroma" data-v="medium">Medium</button>
+      <button class="chip" data-f="chroma" data-v="vivid">Vivid</button>
+    </div>
+    <div class="grp"><span class="lab">Value</span>
+      <button class="chip" data-f="value" data-v="tonal">Tonal</button>
+      <button class="chip" data-f="value" data-v="mid">Mid</button>
+      <button class="chip" data-f="value" data-v="high">High contrast</button>
+    </div>
+    <label class="search" for="q"><span class="dot" id="qdot"></span><input id="q" placeholder="Name or #hex" autocomplete="off"></label>
+    <button class="clear" id="clearAll">Clear</button>
+  </div>
+
+  <div class="status" id="status"></div>
+  <main id="view"></main>
+</div>
+
+<div class="scrim" id="scrim" hidden></div>
+<aside class="sheet" id="sheet" hidden aria-modal="true" role="dialog" aria-labelledby="sheetTitle"></aside>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+const COLORS=[["Hermosa Pink","#F9C1CE",[249,193,206],[83.4,22.1,1.6],[0,30,6,0],63,"red/pink",0],["Corinthian Pink","#F8B6BA",[248,182,186],[80.3,25.4,7.9],[0,35,15,0],57,"red/pink",0],["Cameo Pink","#E0B3B6",[224,179,182],[77.2,17.2,4.9],[10,32,19,0],51,"red/pink",0],["Fawn","#D1B0A7",[209,176,167],[74.5,11.2,9.4],[18,31,30,0],47,"peach/salmon",0],["Light Brown Drab","#B59392",[181,147,146],[64.1,13.0,5.3],[8,30,20,25],33,"peach/salmon",0],["Coral Red","#F58E84",[245,142,132],[70.3,39.3,23.2],[0,55,40,0],40,"red-orange",0],["Fresh Color","#F6917E",[246,145,126],[71.0,37.5,27.3],[0,53,45,0],41,"red-orange",0],["Grenadine Pink","#F48067",[244,128,103],[66.9,43.8,34.7],[0,62,58,0],36,"red-orange",0],["Eosine Pink","#F37F94",[243,127,148],[67.3,46.7,10.3],[0,63,23,0],36,"red/pink",0],["Spinel Red","#F27291",[242,114,145],[64.5,52.2,8.3],[0,70,21,0],33,"red/pink",0],["Old Rose","#D46D7A",[212,109,122],[58.8,42.1,12.3],[15,70,40,0],26,"red/pink",0],["Eugenia Red A","#E2625E",[226,98,94],[58.4,50.8,28.5],[7,76,60,0],26,"red-orange",0],["Eugenia Red B","#DA525D",[218,82,93],[54.3,54.7,23.7],[0,80,50,10],22,"red-orange",0],["Raw Sienna","#BB7125",[187,113,37],[55.1,25.5,52.2],[18,58,100,12],23,"orange",0],["Vinaceous Tawny","#C56127",[197,97,39],[53.2,38.2,50.2],[17,72,100,6],21,"brown/tan",0],["Jasper Red","#EB5324",[235,83,36],[56.8,58.4,57.6],[2,83,100,0],24,"red-orange",0],["Spectrum Red","#E31F26",[227,31,38],[49.6,70.9,50.1],[5,100,100,0],17,"red-orange",0],["Red Orange","#DD4027",[221,64,39],[51.8,60.6,50.9],[9,90,100,0],19,"red-orange",0],["Etruscan Red","#C55347",[197,83,71],[50.7,45.9,31.1],[16,80,74,6],19,"red-orange",0],["Burnt Sienna","#AE5224",[174,82,36],[46.4,36.2,43.8],[22,76,100,15],15,"brown/tan",0],["Ochre Red","#AB544D",[171,84,77],[46.8,35.7,21.8],[18,73,63,20],16,"red-orange",0],["Scarlet","#CB2F43",[203,47,67],[46.5,61.5,28.9],[10,95,72,7],15,"red-orange",0],["Carmine","#CC1236",[204,18,54],[44.3,67.2,33.7],[0,100,75,16],14,"red-orange",0],["Indian Lake","#C53C69",[197,60,105],[47.5,57.2,6.7],[12,89,35,9],16,"red/pink",0],["Rosolanc Purple","#B73F74",[183,63,116],[45.9,52.4,-3.2],[30,90,33,0],15,"red/pink",0],["Pomegranite Purple","#B71F57",[183,31,87],[41.4,61.0,8.4],[23,100,50,6],12,"red/pink",0],["Hydrangea Red","#A94151",[169,65,81],[43.1,44.4,14.2],[38,90,70,0],13,"red/pink",0],["Brick Red","#A84222",[168,66,34],[42.5,41.5,40.7],[22,84,100,18],12,"red-orange",0],["Carmine Red","#A62C37",[166,44,55],[38.7,50.2,24.7],[25,95,80,16],10,"red-orange",0],["Pompeian Red","#AB2439",[171,36,57],[38.9,54.8,23.8],[18,97,74,19],10,"red-orange",0],["Red","#A72144",[167,33,68],[37.9,54.6,15.4],[30,100,70,10],10,"red/pink",0],["Brown","#7C4226",[124,66,38],[35.1,23.5,28.6],[35,74,90,35],8,"brown/tan",0],["Hay's Russet","#793327",[121,51,39],[31.2,30.7,23.5],[37,85,87,35],7,"brown/terracotta",0],["Vandyke Red","#82241F",[130,36,31],[30.2,40.6,27.6],[32,95,95,33],6,"red-orange",0],["Pansy Purple","#7D133A",[125,19,58],[27.6,45.9,6.1],[34,100,60,34],5,"red/pink",0],["Pale Burnt Lake","#802626",[128,38,38],[30.2,39.0,22.7],[25,90,80,40],6,"red-orange",0],["Violet Red","#642D5E",[100,45,94],[27.8,30.4,-17.7],[75,100,50,5],5,"violet/purple",0],["Vistoris Lake","#6D4145",[109,65,69],[33.1,20.3,6.1],[40,71,55,40],7,"red/pink",0],["Sulpher Yellow","#F5ECC2",[245,236,194],[93.2,-1.7,21.6],[4,4,28,0],83,"yellow",0],["Pale Lemon Yellow","#FFEFAE",[255,239,174],[94.9,-0.1,34.1],[0,4,38,0],86,"yellow",4],["Naples Yellow","#FBE6A0",[251,230,160],[91.7,0.3,36.6],[2,7,44,0],80,"yellow",0],["Ivory Buff","#EBD3A2",[235,211,162],[85.6,3.4,27.3],[8,15,40,0],67,"yellow",0],["Seashell Pink","#FDD4BD",[253,212,189],[88.1,12.1,17.3],[0,19,23,0],72,"brown/tan",0],["Light Pinkish Cinnamon","#FCC79B",[252,199,155],[84.2,15.6,29.8],[0,25,40,0],64,"brown/tan",0],["Pinkish Cinnamon","#EEB480",[238,180,128],[77.8,17.2,34.7],[5,32,53,0],52,"brown/tan",0],["Cinnamon Buff","#FDC57E",[253,197,126],[83.5,14.7,43.7],[0,25,57,0],62,"orange",3],["Cream Yellow","#FDBF68",[253,191,104],[81.8,16.5,52.0],[0,28,68,0],59,"orange",3],["Golden Yellow","#F3A257",[243,162,87],[73.9,25.9,51.2],[2,42,74,0],46,"orange",3],["Vinaceous Cinnamon","#EEA78C",[238,167,140],[75.0,24.7,24.8],[4,40,42,0],48,"peach/salmon",0],["Ochraceous Salmon","#D8A37B",[216,163,123],[71.4,16.5,29.1],[15,38,55,0],42,"brown/tan",0],["Isabella Color","#C5A56E",[197,165,110],[69.7,7.1,33.0],[15,28,60,10],40,"olive/ochre",0],["Maple","#C59F6B",[197,159,107],[68.2,9.6,32.9],[5,26,56,20],38,"brown/tan",0],["Olive Buff","#C1C494",[193,196,148],[78.0,-7.1,23.7],[16,6,42,12],53,"yellow-green/olive",0],["Ecru","#C2AE93",[194,174,147],[72.2,4.2,16.7],[20,25,40,6],44,"yellow",0],["Yellow","#FFF200",[255,242,0],[95.0,-6.5,95.6],[0,0,100,0],85,"yellow",10],["Lemon Yellow","#F8ED43",[248,237,67],[92.7,-9.4,77.8],[5,0,85,0],81,"yellow",5],["Apricot Yellow","#FFDD00",[255,221,0],[89.4,1.9,89.5],[0,10,100,0],73,"yellow",7],["Pyrite Yellow","#CAB356",[202,179,86],[73.6,0.4,49.8],[23,25,80,0],45,"yellow",4],["Olive Ocher","#D6B43E",[214,180,62],[74.9,3.6,61.8],[18,26,90,0],47,"yellow",4],["Yellow Ocher","#E2B540",[226,181,64],[76.2,8.4,62.8],[12,28,88,0],50,"yellow",4],["Orange Yellow","#FCB315",[252,179,21],[78.5,19.6,78.2],[0,33,100,0],53,"yellow",4],["Yellow Orange","#F99D1B",[249,157,27],[73.0,29.4,72.9],[0,45,100,0],44,"orange",4],["Apricot Orange","#F68C50",[246,140,80],[69.4,37.7,49.6],[0,55,75,0],39,"orange",0],["Orange","#F37420",[243,116,32],[63.8,47.2,64.7],[0,68,100,0],32,"orange",0],["Peach Red","#F15A30",[241,90,48],[59.1,57.5,54.4],[0,80,90,0],26,"red-orange",0],["English Red","#D96629",[217,102,41],[57.2,43.3,54.4],[13,73,100,0],24,"orange",0],["Cinnamon Rufous","#C27544",[194,117,68],[57.2,27.8,40.2],[20,60,82,5],25,"orange",0],["Orange Rufous","#C16B27",[193,107,39],[54.6,31.6,51.2],[18,65,100,8],22,"brown/tan",0],["Sulphine Yellow","#C19F2C",[193,159,44],[67.2,4.3,60.6],[24,32,100,4],36,"olive/ochre",3],["Khaki","#BC892B",[188,137,43],[61.0,13.9,55.1],[24,45,100,6],29,"olive/ochre",3],["Citron Yellow","#B2B73E",[178,183,62],[72.5,-13.1,58.2],[35,17,95,0],44,"yellow-green/olive",4],["Citrine","#B09F36",[176,159,54],[65.6,-2.6,54.5],[36,32,100,0],34,"olive/ochre",3],["Buffy Citrine","#96874D",[150,135,77],[56.6,0.0,33.3],[42,40,82,8],24,"olive/ochre",0],["Dark Citrine","#8B835B",[139,131,91],[54.7,-1.4,23.1],[38,34,67,20],22,"olive/ochre",0],["Light Grayish Olive","#848061",[132,128,97],[53.2,-2.3,17.0],[43,36,62,19],21,"olive/ochre",0],["Krongbergs Green","#84875E",[132,135,94],[55.1,-6.2,21.5],[48,35,70,12],23,"yellow-green/olive",0],["Olive","#837E31",[131,126,49],[52.2,-5.7,41.5],[48,38,100,15],20,"olive/ochre",0],["Orange Citrine","#986F2D",[152,111,45],[50.2,11.5,42.0],[28,48,92,24],18,"brown/tan",0],["Sudan Brown","#A36752",[163,103,82],[49.9,23.0,22.5],[25,60,65,19],18,"brown/terracotta",0],["Olive Green","#6B7140",[107,113,64],[46.4,-8.5,26.5],[56,40,85,22],15,"yellow-green/olive",0],["Light Brownish Olive","#806E4B",[128,110,75],[47.5,3.7,22.2],[42,46,73,24],16,"olive/ochre",0],["Deep Grayish Olive","#635A3A",[99,90,58],[38.6,-0.3,19.9],[50,48,78,37],10,"olive/ochre",0],["Pale Raw Umber","#71502F",[113,80,47],[37.1,11.2,25.0],[46,63,87,32],9,"brown/tan",0],["Sepia","#644B1E",[100,75,30],[33.8,6.9,30.2],[48,60,100,40],8,"olive/ochre",0],["Madder Brown","#762C19",[118,44,25],[29.1,32.0,29.3],[36,88,100,38],6,"red-orange",0],["Mars Brown Tobacco","#653514",[101,53,20],[28.0,20.5,29.8],[39,76,100,47],5,"brown/tan",0],["Vandyke Brown","#4B3317",[75,51,23],[23.8,8.5,22.1],[56,71,97,52],4,"brown/tan",0],["Turquoise Green","#B5DECC",[181,222,204],[85.3,-16.9,4.6],[29,0,24,0],66,"green",0],["Glaucous Green","#B4CDC2",[180,205,194],[80.3,-10.2,2.3],[30,9,24,0],57,"green",0],["Dark Greenish Glaucous","#B7C2A9",[183,194,169],[77.1,-7.6,11.4],[30,15,36,0],52,"yellow-green/olive",0],["Yellow Green","#AFD472",[175,212,114],[80.6,-24.6,43.9],[35,0,72,0],57,"yellow-green/olive",3],["Light Green Yellow","#C7D14F",[199,209,79],[81.1,-15.9,60.6],[26,5,85,0],58,"yellow-green/olive",4],["Night Green","#87C540",[135,197,64],[73.3,-36.0,57.0],[52,0,100,0],45,"yellow-green/olive",5],["Olive Yellow","#A6A159",[166,161,89],[65.5,-6.1,37.8],[40,30,80,0],34,"olive/ochre",0],["Artemesia Green","#709390",[112,147,144],[58.1,-12.8,-2.9],[57,28,39,8],26,"green",0],["Andover Green","#6D7E77",[109,126,119],[51.2,-7.8,1.5],[60,40,50,10],20,"neutral",0],["Rainette Green","#8FA071",[143,160,113],[63.7,-12.5,22.4],[42,20,62,10],32,"yellow-green/olive",0],["Chromium Green","#719470",[113,148,112],[57.9,-18.1,15.0],[50,16,58,20],26,"yellow-green/olive",0],["Pistachio Green","#648F7B",[100,143,123],[55.8,-18.6,5.7],[64,29,56,6],24,"green",0],["Sea Green","#00B49B",[0,180,155],[65.1,-48.9,0.5],[80,0,51,0],35,"green",5],["Benzol Green","#00978D",[0,151,141],[53.6,-54.6,-8.3],[100,15,55,0],24,"green",20],["Light Porcelain Green","#00908A",[0,144,138],[53.3,-37.5,-6.8],[86,22,50,3],22,"green",4],["Green","#489B6E",[72,155,110],[57.8,-34.5,15.6],[75,21,73,0],26,"green",0],["Dull Viridian Green","#009465",[0,148,101],[53.5,-49.0,14.4],[90,20,80,0],22,"green",4],["Oil Green","#819238",[129,146,56],[57.6,-16.0,43.8],[53,28,100,8],26,"yellow-green/olive",4],["Diamine Green","#1A7444",[26,116,68],[42.7,-35.7,18.6],[87,32,91,18],13,"green",0],["Cossack Green","#437742",[67,119,66],[45.5,-27.2,23.4],[76,32,91,18],15,"yellow-green/olive",0],["Lincoln Green","#555832",[85,88,50],[36.3,-5.9,21.2],[60,48,86,37],9,"yellow-green/olive",0],["Blackish Olive","#42533E",[66,83,62],[33.3,-10.1,9.7],[56,32,63,55],8,"yellow-green/olive",0],["Deep Slate Olive","#253122",[37,49,34],[18.8,-7.7,7.5],[76,60,80,62],3,"yellow-green/olive",0],["Nile Blue","#BCE4E5",[188,228,229],[87.7,-13.3,-5.0],[25,0,10,0],72,"teal/blue-green",0],["Pale King's Blue","#A7D4E4",[167,212,228],[82.2,-12.7,-12.9],[33,4,7,0],61,"teal/blue-green",0],["Light Glaucous Blue","#A5C8D1",[165,200,209],[78.2,-10.6,-8.7],[35,10,14,0],54,"teal/blue-green",0],["Salvia Blue","#97ACC8",[151,172,200],[69.5,-2.8,-16.8],[41,25,10,0],40,"blue",0],["Cobalt Green","#96D1AA",[150,209,170],[79.0,-25.6,13.0],[42,0,42,0],55,"green",0],["Calamine BLue","#78CDD0",[120,205,208],[77.1,-26.2,-10.4],[50,0,20,0],52,"teal/blue-green",0],["Venice Green","#62C6BF",[98,198,191],[73.7,-31.7,-6.1],[58,0,30,0],47,"green",0],["Cerulian Blue","#0093A5",[0,147,165],[55.0,-30.2,-20.1],[84,26,32,0],24,"teal/blue-green",4],["Peacock Blue","#00939B",[0,147,155],[52.8,-48.9,-17.5],[100,19,43,0],23,"green",20],["Green Blue","#099197",[9,145,151],[54.1,-31.3,-12.9],[82,24,40,3],23,"teal/blue-green",0],["Olympic Blue","#5A82B3",[90,130,179],[53.1,-3.6,-30.7],[69,44,10,0],21,"blue",4],["Blue","#006EB8",[0,110,184],[43.5,-8.8,-48.8],[95,54,0,0],15,"blue",11],["Antwarp Blue","#007190",[0,113,144],[42.0,-29.1,-27.7],[100,40,30,10],14,"teal/blue-green",14],["Helvetia Blue","#005B8D",[0,91,141],[35.3,-12.1,-36.4],[100,62,19,10],9,"blue",9],["Dark Medici Blue","#547076",[84,112,118],[45.1,-9.2,-6.9],[70,45,45,15],15,"teal/blue-green",0],["Dusky Green","#004F46",[0,79,70],[28.0,-36.3,-3.3],[100,30,64,50],6,"green",13],["Deep Lyons Blue","#1C4286",[28,66,134],[28.5,6.6,-42.7],[100,85,15,6],6,"blue",6],["Violet Blue","#40456A",[64,69,106],[30.1,5.4,-22.4],[85,79,38,16],6,"blue",0],["Vandar Poel's Blue","#064F6E",[6,79,110],[30.8,-11.3,-24.5],[100,73,43,10],7,"teal/blue-green",3],["Dark Tyrian Blue","#12354E",[18,53,78],[20.6,-5.8,-19.1],[90,66,36,50],3,"blue",0],["Dull Violet Black","#1E0E3F",[30,14,63],[8.1,19.4,-28.8],[95,106,38,50],1,"violet/purple",0],["Deep Indigo","#051230",[5,18,48],[5.8,4.1,-21.8],[100,92,52,60],1,"blue",0],["Deep Slate Green","#112F2C",[17,47,44],[16.9,-12.1,-2.2],[80,50,60,70],2,"green",0],["Grayish Lavender - A","#B5B1D8",[181,177,216],[73.4,7.5,-19.4],[28,28,0,0],46,"blue",0],["Grayish Lavender - B","#C0A9B3",[192,169,179],[71.3,10.0,-2.2],[25,33,20,0],43,"red/pink",0],["Laelia Pink","#CA92A8",[202,146,168],[66.5,24.3,-2.7],[20,48,18,0],36,"red/pink",0],["Lilac","#B984AF",[185,132,175],[61.5,25.9,-14.3],[28,54,8,0],30,"violet/purple",0],["Eupatorium Purple","#BF5892",[191,88,146],[52.2,46.7,-11.7],[25,79,12,0],20,"red/pink",0],["Light Mauve","#9A72AA",[154,114,170],[53.6,23.9,-24.0],[43,62,5,0],22,"violet/purple",0],["Aconite Violet","#A36AA5",[163,106,165],[52.7,30.7,-22.4],[39,68,5,0],21,"violet/purple",0],["Dull Blue Violet","#80719E",[128,113,158],[50.2,13.4,-22.5],[57,60,17,0],19,"violet/purple",0],["Dark Soft Violet","#66629C",[102,98,156],[44.0,12.3,-31.2],[70,68,13,0],14,"blue",3],["Blue Violet","#6450A1",[100,80,161],[39.1,23.6,-41.9],[72,80,0,0],11,"blue",4],["Purple Drab","#84565B",[132,86,91],[41.9,19.9,5.6],[38,65,49,26],12,"red/pink",0],["Deep Violet / Plumbeous","#70727C",[112,114,124],[48.0,0.8,-5.9],[61,52,43,7],17,"neutral",0],["Veronia Purple","#8C4C62",[140,76,98],[41.0,29.6,0.1],[42,78,46,15],12,"red/pink",0],["Dark Slate Purple","#704357",[112,67,87],[34.3,22.2,-3.6],[64,85,60,10],8,"red/pink",0],["Taupe Brown","#7A4456",[122,68,86],[36.2,25.6,0.1],[30,70,35,40],9,"red/pink",0],["Violet Carmine","#713B4C",[113,59,76],[32.3,25.9,0.8],[64,90,70,10],7,"red/pink",0],["Violet","#4F4086",[79,64,134],[31.5,20.7,-37.9],[85,90,18,0],7,"blue",4],["Red Violet","#59256A",[89,37,106],[25.1,33.1,-30.1],[76,100,25,15],4,"violet/purple",0],["Cotinga Purple","#501345",[80,19,69],[18.4,32.9,-15.8],[66,100,42,40],3,"violet/purple",0],["Dusky Madder Violet","#4E1D4C",[78,29,76],[20.1,28.6,-18.3],[75,100,46,30],3,"violet/purple",0],["White","#FFFFFF",[255,255,255],[100.0,0.0,0.0],[0,0,0,0],100,"neutral-light",0],["Neutral Gray","#B6BFC1",[182,191,193],[76.7,-3.0,-2.0],[29,18,20,0],51,"neutral",0],["Mineral Gray","#A2B0AD",[162,176,173],[70.8,-5.6,-0.1],[33,18,25,7],42,"neutral",0],["Warm Gray","#A1A39A",[161,163,154],[66.7,-2.2,4.7],[37,28,36,3],36,"neutral",0],["Slate Color","#34454C",[52,69,76],[27.8,-5.4,-7.0],[85,70,62,30],6,"teal/blue-green",0],["Black","#111314",[17,19,20],[5.6,-0.4,-1.1],[20,10,15,100],1,"neutral-dark",0]];
+const COMBOS=[[[66,118],[66,118],1.0,"tonal","vivid","warm",["apparel"]],[[62,130],[62,130],5.9,"high","medium","warm",["web"]],[[14,40],[14,40],3.3,"mid","medium","warm",["web*"]],[[51,151],[51,151],4.7,"mid","medium","warm",["web","interior-accent","apparel"]],[[107,129],[107,129],1.6,"tonal","medium","cool",["interior-accent","apparel"]],[[8,132],[8,132],7.1,"high","medium","warm",["web","interior-accent","apparel"]],[[64,89],[64,89],1.6,"tonal","medium","warm",["apparel"]],[[67,134],[67,134],1.7,"tonal","medium","warm",["interior-accent","apparel"]],[[37,141],[37,141],2.2,"tonal","medium","balanced",["interior-accent","apparel"]],[[67,74],[67,74],1.0,"tonal","medium","warm",["interior-accent","apparel"]],[[42,156],[42,156],1.5,"tonal","muted","warm",["interior","apparel"]],[[51,120],[51,120],1.6,"tonal","medium","balanced",["interior-accent","apparel"]],[[14,146],[14,146],1.6,"tonal","medium","warm",["interior-accent","apparel"]],[[10,41],[10,41],2.2,"mid","medium","warm",["interior"]],[[101,134],[101,134],1.7,"tonal","medium","cool",["interior-accent","apparel"]],[[34,112],[34,112],5.9,"high","medium","warm",["web","interior","apparel"]],[[13,100],[13,100],1.4,"tonal","vivid","balanced",["apparel"]],[[4,153],[4,153],6.5,"high","muted","balanced",["web","interior-accent","apparel"]],[[86,93],[86,93],4.8,"mid","vivid","warm",["web","apparel-statement"]],[[116,136],[116,136],1.3,"tonal","muted","balanced",["interior-accent","apparel"]],[[8,100],[8,100],1.0,"tonal","vivid","balanced",["apparel"]],[[55,127],[55,127],8.2,"high","vivid","warm",["web","apparel-statement","print/brand"]],[[46,139],[46,139],2.5,"mid","medium","warm",["interior","apparel"]],[[84,146],[84,146],1.2,"tonal","medium","warm",["interior-accent","apparel"]],[[19,111],[19,111],3.2,"mid","medium","warm",["web*","interior","apparel"]],[[48,83],[48,83],3.4,"mid","medium","warm",["web*","interior-accent"]],[[2,158],[2,158],5.8,"high","muted","balanced",["web","interior","apparel"]],[[85,132],[85,132],1.8,"tonal","medium","warm",["interior-accent","apparel"]],[[76,114],[76,114],1.6,"tonal","muted","balanced",["interior-accent","apparel"]],[[30,156],[30,156],3.0,"mid","medium","warm",["web*","interior-accent","apparel"]],[[18,40],[18,40],3.7,"mid","vivid","warm",["web*","apparel-statement"]],[[50,93],[50,93],1.0,"tonal","vivid","warm",["apparel"]],[[14,158],[14,158],2.6,"mid","medium","warm",["interior-accent","apparel"]],[[9,155],[9,155],1.3,"tonal","muted","warm",["interior-accent","apparel"]],[[5,29],[5,29],2.4,"mid","medium","warm",["interior-accent","apparel"]],[[69,88],[69,88],1.7,"tonal","medium","warm",["interior","apparel"]],[[28,151],[28,151],1.8,"tonal","vivid","warm",["apparel"]],[[106,127],[106,127],1.6,"tonal","medium","cool",["interior-accent","apparel"]],[[23,124],[23,124],1.2,"tonal","vivid","warm",["apparel"]],[[15,71],[15,71],1.9,"tonal","vivid","warm",["apparel"]],[[74,116],[74,116],2.0,"tonal","muted","balanced",["interior-accent","apparel"]],[[60,150],[60,150],4.5,"mid","vivid","warm",["web","apparel-statement"]],[[2,140],[2,140],2.4,"mid","medium","warm",["interior","apparel"]],[[102,121],[102,121],1.0,"tonal","medium","cool",["interior-accent","apparel"]],[[43,56],[43,56],1.1,"tonal","medium","warm",["apparel"]],[[64,159],[64,159],6.5,"high","medium","warm",["web","interior-accent"]],[[19,135],[19,135],2.0,"tonal","medium","warm",["interior-accent","apparel"]],[[25,124],[25,124],1.3,"tonal","medium","balanced",["apparel"]],[[112,122],[112,122],3.3,"mid","medium","cool",["web*","interior","apparel"]],[[42,153],[42,153],8.9,"high","medium","warm",["web","interior","apparel"]],[[29,122],[29,122],1.2,"tonal","vivid","balanced",["apparel"]],[[39,159],[39,159],15.6,"high","muted","warm",["web","interior","apparel"]],[[62,153],[62,153],6.1,"high","vivid","warm",["web","apparel-statement","print/brand"]],[[101,113],[101,113],2.0,"tonal","medium","cool",["interior","apparel"]],[[11,154],[11,154],3.3,"mid","muted","warm",["web*","interior","apparel"]],[[135,150],[135,150],3.9,"mid","muted","cool",["web*","interior-accent","apparel"]],[[148,158],[148,158],1.3,"tonal","muted","balanced",["interior-accent","apparel"]],[[33,100],[33,100],3.4,"mid","medium","balanced",["web*","interior-accent"]],[[9,72],[9,72],1.0,"tonal","vivid","warm",["apparel"]],[[40,130],[40,130],11.0,"high","muted","balanced",["web","interior","apparel"]],[[92,152],[92,152],8.3,"high","medium","warm",["web"]],[[55,159],[55,159],15.9,"high","medium","warm",["web"]],[[38,118],[38,118],2.2,"tonal","muted","balanced",["interior-accent","apparel"]],[[140,142],[140,142],1.3,"tonal","medium","cool",["interior-accent","apparel"]],[[69,116],[69,116],1.3,"tonal","medium","warm",["interior-accent","apparel"]],[[59,80],[59,80],2.5,"mid","medium","warm",["interior-accent"]],[[121,130],[121,130],3.2,"mid","muted","cool",["web*","interior-accent","apparel"]],[[5,55],[5,55],2.3,"mid","vivid","warm",["apparel-statement"]],[[157,159],[157,159],7.2,"high","muted","balanced",["web","interior-accent","apparel"]],[[14,108],[14,108],1.9,"tonal","medium","warm",["interior-accent","apparel"]],[[30,50],[30,50],3.1,"mid","medium","warm",["web*"]],[[39,112],[39,112],1.3,"tonal","muted","balanced",["interior","apparel"]],[[83,97],[83,97],2.5,"mid","muted","warm",["interior-accent","apparel"]],[[88,120],[88,120],2.5,"mid","muted","cool",["interior","apparel"]],[[112,128],[112,128],5.7,"high","muted","cool",["web","interior","apparel"]],[[40,157],[40,157],2.2,"mid","muted","warm",["interior","apparel"]],[[13,129],[13,129],2.2,"tonal","medium","warm",["interior-accent","apparel"]],[[45,117],[45,117],1.1,"tonal","medium","balanced",["interior-accent","apparel"]],[[85,120],[85,120],2.5,"mid","medium","balanced",["interior-accent","apparel"]],[[39,139],[39,139],3.2,"mid","muted","warm",["web*","interior","apparel"]],[[48,157],[48,157],1.2,"tonal","medium","warm",["interior-accent","apparel"]],[[33,153],[33,153],1.4,"tonal","medium","warm",["interior-accent","apparel"]],[[53,128],[53,128],5.0,"mid","muted","cool",["web","interior","apparel"]],[[43,133],[43,133],10.4,"high","muted","balanced",["web","interior","apparel"]],[[15,123],[15,123],1.3,"tonal","vivid","warm",["apparel"]],[[14,100],[14,100],1.4,"tonal","vivid","balanced",["apparel"]],[[2,71],[2,71],1.2,"tonal","medium","warm",["interior","apparel"]],[[43,122],[43,122],3.9,"mid","medium","cool",["web*","interior","apparel"]],[[62,128],[62,128],4.3,"mid","vivid","warm",["web*","apparel-statement"]],[[9,140],[9,140],1.6,"tonal","medium","warm",["interior-accent","apparel"]],[[38,68],[38,68],2.1,"tonal","medium","warm",["interior-accent","apparel"]],[[6,101],[6,101],1.5,"tonal","vivid","balanced",["apparel"]],[[72,113],[72,113],1.4,"tonal","medium","warm",["interior","apparel"]],[[42,126],[42,126],6.5,"high","medium","balanced",["web","interior","apparel"]],[[33,131],[33,131],1.9,"tonal","medium","warm",["interior-accent","apparel"]],[[60,77],[60,77],2.1,"tonal","vivid","warm",["apparel"]],[[2,19],[2,19],2.6,"mid","medium","warm",["interior"]],[[85,128],[85,128],1.0,"tonal","medium","warm",["interior-accent","apparel"]],[[40,118],[40,118],3.1,"mid","medium","balanced",["web*","interior","apparel"]],[[73,141],[73,141],1.2,"tonal","muted","warm",["interior-accent","apparel"]],[[3,127],[3,127],5.1,"mid","medium","cool",["web","interior-accent","apparel"]],[[42,68],[42,68],2.6,"mid","medium","warm",["interior"]],[[67,153],[67,153],3.6,"mid","medium","warm",["web*","interior-accent"]],[[29,39],[29,39],5.8,"high","medium","warm",["web","interior","apparel"]],[[3,98],[3,98],1.8,"tonal","muted","balanced",["interior-accent","apparel"]],[[123,131],[123,131],3.1,"mid","medium","cool",["web*","interior-accent","apparel"]],[[57,75],[57,75],2.9,"mid","vivid","warm",["apparel-statement"]],[[9,28],[9,28],2.3,"tonal","vivid","warm",["apparel"]],[[40,109],[40,109],7.1,"high","muted","warm",["web","interior","apparel"]],[[32,87],[32,87],1.4,"tonal","medium","warm",["interior-accent","apparel"]],[[40,91],[40,91],1.4,"tonal","medium","warm",["interior","apparel"]],[[8,159],[8,159],7.2,"high","muted","warm",["web","interior-accent","apparel"]],[[43,87],[43,87],8.5,"high","muted","warm",["web","interior","apparel"]],[[61,123],[61,123],3.0,"mid","vivid","warm",["web*","apparel-statement"]],[[41,65],[41,65],2.7,"mid","vivid","warm",["apparel-statement"]],[[3,143],[3,143],3.5,"mid","medium","cool",["web*","interior-accent","apparel"]],[[23,159],[23,159],3.2,"mid","medium","warm",["web*","interior-accent","apparel"]],[[60,87],[60,87],6.1,"high","medium","warm",["web","interior-accent"]],[[113,130],[113,130],7.1,"high","muted","cool",["web","interior","apparel"]],[[3,30],[3,30],3.7,"mid","medium","warm",["web*","interior-accent","apparel"]],[[32,50,108],[32,50],3.5,"mid","medium","warm",["web*","interior-accent","apparel"]],[[23,47,101],[23,47],3.4,"mid","vivid","warm",["web*","apparel-statement"]],[[6,56,148],[56,148],6.1,"high","medium","warm",["web"]],[[36,60,94],[36,60],4.9,"mid","medium","warm",["web"]],[[4,118,128],[4,128],4.6,"mid","muted","cool",["web","interior-accent","apparel"]],[[42,60,127],[42,127],6.6,"high","medium","warm",["web","interior"]],[[46,99,142],[46,142],3.5,"mid","medium","balanced",["web*","interior","apparel"]],[[2,117,139],[2,139],2.3,"mid","medium","balanced",["interior","apparel"]],[[57,70,114],[57,70],2.3,"mid","vivid","warm",["apparel-statement"]],[[14,29,150],[14,150],2.2,"tonal","vivid","warm",["apparel"]],[[14,66,119],[14,66],1.0,"tonal","vivid","warm",["apparel"]],[[39,48,72],[39,72],2.2,"mid","medium","warm",["interior"]],[[34,72,100],[34,100],3.6,"mid","vivid","warm",["web*","apparel-statement"]],[[9,139,151],[9,151],4.3,"mid","medium","warm",["web*","interior-accent"]],[[39,107,114],[39,107],4.4,"mid","muted","balanced",["web*","interior","apparel"]],[[22,104,151],[104,151],2.8,"mid","vivid","balanced",["apparel-statement"]],[[19,46,99],[19,46],2.8,"mid","medium","warm",["interior"]],[[48,56,117],[48,56],1.6,"tonal","vivid","warm",["apparel"]],[[114,132,155],[132,155],9.8,"high","muted","cool",["web","interior-accent","apparel"]],[[48,123,158],[48,158],4.8,"mid","medium","balanced",["web","interior-accent","apparel"]],[[64,91,130],[91,130],7.5,"high","vivid","warm",["web","apparel-statement","print/brand"]],[[27,69,114],[27,114],2.5,"mid","medium","warm",["interior-accent"]],[[122,137,157],[122,157],2.0,"tonal","muted","balanced",["interior-accent","apparel"]],[[25,64,159],[64,159],6.5,"high","medium","warm",["web","interior-accent"]],[[32,71,131],[71,131],8.1,"high","medium","warm",["web","interior-accent"]],[[70,82,106],[70,82],2.2,"tonal","medium","warm",["interior-accent","apparel"]],[[10,34,88],[34,88],6.4,"high","medium","warm",["web","interior","apparel"]],[[59,61,118],[61,118],2.0,"tonal","vivid","warm",["apparel"]],[[59,64,133],[59,133],7.1,"high","vivid","warm",["web","apparel-statement","print/brand"]],[[43,71,89],[43,71],1.5,"tonal","medium","balanced",["interior","apparel"]],[[39,62,129],[39,129],7.5,"high","medium","warm",["web","interior"]],[[19,33,113],[33,113],5.0,"mid","medium","warm",["web","interior","apparel"]],[[9,61,71],[9,61],1.4,"tonal","vivid","warm",["apparel"]],[[23,55,122],[23,55],4.8,"high","vivid","warm",["web","apparel-statement","print/brand"]],[[16,101,132],[101,132],5.1,"high","vivid","balanced",["web","apparel-statement","print/brand"]],[[59,115,150],[115,150],4.9,"mid","medium","balanced",["web","interior"]],[[35,59,121],[35,59],5.1,"mid","medium","warm",["web"]],[[56,67,93],[56,67],2.9,"mid","vivid","warm",["apparel-statement"]],[[70,116,134],[70,116],1.6,"tonal","medium","balanced",["interior-accent","apparel"]],[[69,83,125],[69,83],2.8,"mid","medium","warm",["interior-accent","apparel"]],[[32,45,124],[32,45],4.3,"mid","medium","warm",["web*","interior-accent","apparel"]],[[11,97,137],[11,97],1.1,"tonal","medium","warm",["interior-accent","apparel"]],[[57,88,123],[57,123],4.1,"mid","medium","warm",["web*"]],[[18,61,150],[61,150],4.8,"mid","vivid","warm",["web","apparel-statement"]],[[3,10,38],[3,38],4.5,"mid","medium","warm",["web","interior-accent","apparel"]],[[8,41,133],[41,133],11.5,"high","medium","warm",["web","interior","apparel"]],[[54,112,129],[112,129],5.6,"high","muted","cool",["web","interior","apparel"]],[[56,129,146],[56,129],7.3,"high","medium","warm",["web","interior"]],[[2,40,157],[40,157],2.2,"mid","muted","warm",["interior","apparel"]],[[25,61,151],[61,151],6.1,"high","vivid","warm",["web","apparel-statement","print/brand"]],[[36,62,89],[36,89],5.6,"high","medium","warm",["web","interior"]],[[67,123,151],[67,151],3.1,"mid","medium","balanced",["web*","interior-accent"]],[[56,85,88],[56,85],8.0,"high","medium","warm",["web"]],[[2,135,148],[2,148],4.4,"mid","muted","warm",["web*","interior","apparel"]],[[45,53,143],[53,143],3.6,"mid","medium","balanced",["web*","interior","apparel"]],[[1,43,116],[43,116],1.3,"tonal","muted","balanced",["interior","apparel"]],[[36,73,134],[36,134],4.6,"mid","medium","warm",["web","interior-accent","apparel"]],[[42,113,120],[42,120],2.6,"mid","muted","cool",["interior","apparel"]],[[18,48,127],[48,127],4.6,"mid","vivid","warm",["web","apparel-statement"]],[[46,139,155],[46,139],2.5,"mid","muted","warm",["interior","apparel"]],[[29,150,152],[29,152],1.9,"tonal","medium","warm",["apparel"]],[[14,87,132],[14,132],4.8,"mid","medium","warm",["web","interior-accent","apparel"]],[[145,146,151],[145,151],2.3,"tonal","muted","warm",["interior-accent","apparel"]],[[10,42,75],[42,75],2.7,"mid","medium","warm",["interior","apparel"]],[[5,19,40],[19,40],3.8,"mid","medium","warm",["web*","interior","apparel"]],[[33,50,122],[33,50],4.0,"mid","medium","warm",["web*","interior-accent"]],[[124,135,140],[124,135],3.3,"mid","muted","cool",["web*","interior-accent","apparel"]],[[97,114,115],[97,115],1.6,"tonal","muted","cool",["interior","apparel"]],[[56,110,117],[56,110],11.1,"high","medium","warm",["web","interior"]],[[42,66,159],[42,159],12.7,"high","medium","warm",["web","interior","apparel"]],[[5,60,122],[60,122],2.7,"mid","medium","warm",["interior-accent"]],[[47,87,145],[47,87],7.1,"high","muted","warm",["web","interior","apparel"]],[[8,41,102],[41,102],3.1,"mid","medium","warm",["web*","interior"]],[[16,43,121],[43,121],2.9,"mid","medium","warm",["interior"]],[[10,40,155],[10,40],2.3,"mid","medium","warm",["interior","apparel"]],[[71,112,143],[112,143],4.1,"mid","medium","cool",["web*","interior"]],[[9,142,155],[142,155],2.9,"mid","muted","balanced",["interior-accent","apparel"]],[[20,57,103],[20,57],3.8,"mid","vivid","warm",["web*","apparel-statement"]],[[21,81,127],[81,127],1.9,"tonal","medium","warm",["interior-accent","apparel"]],[[29,53,98],[29,53],3.8,"mid","medium","warm",["web*","interior","apparel"]],[[8,77,115],[77,115],2.4,"mid","medium","warm",["interior"]],[[88,115,158],[88,158],6.7,"high","muted","cool",["web","interior","apparel"]],[[40,49,108],[40,108],6.4,"high","medium","warm",["web","interior","apparel"]],[[25,67,113],[25,113],2.9,"mid","medium","warm",["interior","apparel"]],[[36,49,150],[36,49],4.7,"mid","medium","warm",["web","interior-accent"]],[[2,48,67],[2,67],2.0,"tonal","medium","warm",["interior","apparel"]],[[79,89,159],[89,159],11.0,"high","muted","warm",["web","interior","apparel"]],[[39,120,123],[39,123],4.6,"high","medium","cool",["web","interior","apparel"]],[[42,62,114],[42,114],1.5,"tonal","medium","warm",["interior","apparel"]],[[46,56,108],[56,108],6.0,"high","medium","warm",["web"]],[[63,94,132],[63,132],7.7,"high","medium","warm",["web","interior-accent"]],[[30,78,114],[30,114],2.9,"mid","medium","warm",["interior-accent"]],[[49,57,112],[49,57],1.4,"tonal","medium","warm",["apparel"]],[[42,79,150],[42,150],5.9,"high","medium","balanced",["web","interior","apparel"]],[[47,122,138],[47,122],3.2,"mid","vivid","warm",["web*","apparel-statement"]],[[16,103,159],[103,159],5.4,"high","medium","warm",["web","interior-accent"]],[[36,50,106],[36,50],4.2,"mid","medium","warm",["web*","interior-accent","apparel"]],[[124,134,145],[124,134],3.5,"mid","muted","cool",["web*","interior-accent","apparel"]],[[16,98,126],[98,126],2.7,"mid","medium","warm",["general"]],[[26,50,140],[26,50],2.8,"mid","medium","warm",["interior-accent"]],[[29,155,159],[155,159],9.9,"high","muted","warm",["web","interior-accent","apparel"]],[[60,62,68],[60,68],2.0,"tonal","vivid","warm",["apparel"]],[[5,50,88],[5,88],1.8,"tonal","muted","warm",["interior","apparel"]],[[10,125,148],[10,148],2.7,"mid","muted","warm",["interior-accent","apparel"]],[[23,126,147],[23,126],1.6,"tonal","medium","warm",["interior-accent","apparel"]],[[38,47,150],[47,150],5.3,"high","medium","warm",["web","interior","apparel"]],[[1,113,118],[1,118],2.3,"mid","muted","cool",["interior","apparel"]],[[29,40,155],[29,40],5.9,"high","medium","warm",["web","interior","apparel"]],[[48,110,155],[110,155],7.2,"high","muted","warm",["web","interior-accent","apparel"]],[[8,88,115],[8,88],1.7,"tonal","medium","balanced",["interior","apparel"]],[[3,33,121],[3,33],4.8,"mid","muted","warm",["web","interior-accent","apparel"]],[[23,45,132],[45,132],10.1,"high","medium","warm",["web"]],[[29,73,128],[73,128],2.5,"mid","medium","warm",["interior-accent","apparel"]],[[46,83,112],[46,83],4.6,"mid","medium","warm",["web","interior","apparel"]],[[42,62,135],[42,135],1.5,"tonal","medium","warm",["interior","apparel"]],[[70,127,144],[70,127],3.1,"mid","medium","warm",["web*","interior-accent"]],[[29,85,114],[85,114],4.2,"mid","medium","warm",["web*","interior-accent","apparel"]],[[50,152,157],[50,152],6.2,"high","muted","warm",["web","interior-accent","apparel"]],[[5,58,89],[5,89],1.6,"tonal","muted","warm",["interior","apparel"]],[[7,55,118],[55,118],3.1,"mid","vivid","warm",["web*","apparel-statement"]],[[18,40,51,125],[40,125],4.6,"mid","medium","warm",["web","interior","apparel"]],[[9,20,106,159],[9,159],7.3,"high","medium","warm",["web","interior-accent","apparel"]],[[14,42,80,158],[42,158],6.8,"high","medium","warm",["web","interior","apparel"]],[[5,15,96,123],[5,123],2.0,"tonal","medium","warm",["interior-accent","apparel"]],[[29,105,130,158],[105,130],3.7,"mid","medium","warm",["web*","interior-accent","apparel"]],[[2,28,39,46],[28,39],5.0,"high","medium","warm",["web","interior","apparel"]],[[14,57,101,127],[57,127],7.1,"high","vivid","warm",["web","apparel-statement","print/brand"]],[[9,70,134,147],[134,147],3.8,"mid","medium","warm",["web*","interior-accent","apparel"]],[[33,54,59,125],[33,59],4.5,"mid","medium","warm",["web","interior-accent","apparel"]],[[58,65,100,111],[65,111],2.4,"mid","medium","warm",["general"]],[[31,55,106,158],[55,158],8.5,"high","vivid","warm",["web","apparel-statement","print/brand"]],[[13,14,69,120],[13,69],1.5,"tonal","vivid","warm",["apparel"]],[[56,63,152,158],[56,152],11.3,"high","medium","warm",["web"]],[[2,39,77,136],[39,77],3.5,"mid","muted","warm",["web*","interior","apparel"]],[[14,58,116,159],[116,159],10.1,"high","medium","warm",["web","interior-accent","apparel"]],[[49,64,104,159],[49,159],9.3,"high","medium","warm",["web","interior-accent"]],[[17,61,122,140],[61,122],2.9,"mid","vivid","warm",["apparel-statement"]],[[36,45,77,123],[36,45],5.1,"mid","medium","warm",["web","interior-accent"]],[[56,120,124,157],[56,124],5.9,"high","medium","balanced",["web","interior","apparel"]],[[11,49,89,100],[11,89],1.9,"tonal","medium","balanced",["interior","apparel"]],[[31,40,116,157],[31,40],6.1,"high","medium","warm",["web","interior","apparel"]],[[13,42,72,107],[42,107],3.6,"mid","medium","warm",["web*","interior"]],[[20,45,88,158],[88,158],6.7,"high","medium","warm",["web","interior","apparel"]],[[2,18,90,118],[2,18],2.5,"mid","medium","warm",["interior","apparel"]],[[11,57,94,131],[57,131],13.1,"high","vivid","warm",["web","apparel-statement","print/brand"]],[[17,42,97,101],[17,42],3.2,"mid","medium","warm",["web*"]],[[47,62,101,122],[47,122],3.2,"mid","vivid","warm",["web*","apparel-statement"]],[[5,14,110,111],[110,111],9.9,"high","muted","warm",["web","interior","apparel"]],[[14,36,140,159],[14,159],4.8,"mid","medium","warm",["web","interior-accent","apparel"]],[[13,39,80,107],[39,107],4.4,"mid","medium","warm",["web*","interior","apparel"]],[[26,115,120,133],[115,133],8.1,"high","medium","balanced",["web","interior","apparel"]],[[40,64,88,114],[40,64],2.4,"mid","medium","warm",["interior","apparel"]],[[1,35,79,155],[1,35],6.6,"high","muted","warm",["web","interior","apparel"]],[[65,74,121,139],[65,121],1.1,"tonal","medium","warm",["interior-accent","apparel"]],[[19,54,85,148],[54,85],4.5,"mid","medium","warm",["web","interior-accent","apparel"]],[[9,43,91,159],[43,159],13.6,"high","medium","warm",["web","interior","apparel"]],[[10,25,77,131],[10,131],6.3,"high","medium","warm",["web"]],[[47,59,107,126],[47,126],5.8,"high","medium","warm",["web"]],[[14,49,54,130],[49,130],6.4,"high","medium","warm",["web","interior-accent","apparel"]],[[13,108,136,148],[136,148],2.9,"mid","medium","warm",["interior-accent","apparel"]],[[40,101,115,123],[40,123],4.8,"high","medium","cool",["web","interior","apparel"]],[[13,52,115,137],[13,115],2.2,"tonal","medium","warm",["interior","apparel"]],[[21,36,98,117],[36,117],4.6,"mid","medium","warm",["web","interior-accent","apparel"]],[[12,57,100,126],[57,126],7.0,"high","vivid","warm",["web","apparel-statement","print/brand"]],[[5,20,65,88],[20,88],3.5,"mid","medium","warm",["web*","interior"]],[[20,61,119,128],[61,128],5.0,"mid","vivid","warm",["web","apparel-statement"]],[[9,58,112,116],[9,112],1.5,"tonal","medium","warm",["interior","apparel"]],[[62,84,148,159],[62,159],8.7,"high","medium","warm",["web","interior-accent","apparel"]],[[56,92,128,131],[56,131],14.4,"high","medium","warm",["web"]],[[38,40,108,115],[38,40],7.3,"high","muted","warm",["web","interior","apparel"]],[[92,100,115,116],[92,100],1.5,"tonal","medium","cool",["interior","apparel"]],[[40,45,51,54],[40,51],2.0,"mid","medium","warm",["interior","apparel"]],[[14,88,95,103],[14,88],2.5,"mid","medium","balanced",["interior","apparel"]],[[39,47,107,114],[39,107],4.4,"mid","medium","warm",["web*","interior","apparel"]],[[47,55,122,131],[55,131],15.0,"high","vivid","warm",["web","apparel-statement","print/brand"]],[[39,50,83,158],[39,158],8.4,"high","muted","warm",["web","interior","apparel"]],[[20,62,80,128],[62,128],4.3,"mid","medium","warm",["web*"]],[[14,56,65,159],[56,159],15.2,"high","vivid","warm",["web","apparel-statement","print/brand"]],[[24,49,105,123],[49,123],2.8,"mid","medium","warm",["interior-accent"]],[[8,47,88,116],[8,88],1.7,"tonal","medium","warm",["interior","apparel"]],[[17,42,97,140],[17,42],3.2,"mid","medium","warm",["web*","interior"]],[[47,54,111,123],[111,123],4.0,"mid","medium","balanced",["web*","interior","apparel"]],[[41,65,110,155],[41,110],10.9,"high","medium","warm",["web","interior","apparel"]],[[33,47,74,101],[33,47],5.5,"high","medium","warm",["web","interior"]],[[45,57,71,88],[57,71],1.6,"tonal","vivid","warm",["apparel"]],[[56,101,104,111],[56,104],3.1,"mid","medium","cool",["web*"]],[[23,134,140,152],[134,152],6.7,"high","medium","warm",["web","interior-accent"]],[[4,22,66,115],[22,115],2.9,"mid","medium","warm",["general"]],[[48,63,128,129],[48,128],4.4,"mid","medium","warm",["web*","interior-accent"]],[[39,45,77,110],[39,110],11.4,"high","muted","warm",["web","interior","apparel"]],[[30,47,90,92],[30,47],4.2,"mid","medium","warm",["web*"]],[[20,62,95,124],[62,124],3.4,"mid","medium","warm",["web*"]],[[23,55,106,159],[55,159],15.9,"high","vivid","warm",["web","apparel-statement","print/brand"]],[[9,33,127,153],[9,153],5.1,"mid","medium","warm",["web","interior-accent"]],[[8,39,48,138],[39,138],3.5,"mid","medium","warm",["web*"]],[[34,104,150,151],[104,151],2.8,"mid","medium","cool",["general"]],[[44,54,56,88],[54,56],1.7,"tonal","medium","warm",["interior","apparel"]],[[81,109,126,133],[81,133],2.8,"mid","muted","cool",["interior-accent","apparel"]],[[14,57,62,107],[57,107],3.9,"mid","vivid","warm",["web*","apparel-statement"]],[[6,39,105,113],[39,105],2.8,"mid","medium","warm",["interior","apparel"]],[[5,39,110,114],[39,110],11.4,"high","muted","balanced",["web","interior","apparel"]],[[17,28,138,143],[138,143],1.5,"tonal","vivid","warm",["apparel"]],[[46,71,85,159],[46,159],11.9,"high","medium","warm",["web","interior","apparel"]],[[30,121,140,155],[30,155],3.6,"mid","medium","warm",["web*","interior-accent","apparel"]],[[13,41,60,133],[41,133],11.5,"high","medium","warm",["web","interior"]],[[39,65,91,93],[39,65],2.8,"mid","vivid","warm",["apparel-statement"]],[[9,14,54,135],[14,54],1.7,"tonal","medium","warm",["interior-accent","apparel"]],[[28,63,87,102],[63,87],4.9,"mid","medium","warm",["web"]],[[47,135,152,158],[47,152],8.4,"high","muted","warm",["web","interior","apparel"]],[[53,111,114,120],[111,120],2.7,"mid","muted","cool",["interior","apparel"]],[[24,131,139,150],[131,139],4.5,"mid","medium","balanced",["web","interior-accent"]],[[6,22,110,126],[6,110],5.8,"high","medium","warm",["web","interior-accent"]],[[20,56,115,122],[56,122],4.3,"mid","vivid","warm",["web*","apparel-statement"]],[[43,77,91,123],[43,123],4.0,"mid","medium","warm",["web*","interior","apparel"]],[[34,62,150,158],[62,158],4.6,"mid","medium","warm",["web","interior-accent"]],[[9,33,40,109],[33,40],7.8,"high","medium","warm",["web","interior","apparel"]],[[38,136,149,159],[136,159],7.2,"high","muted","warm",["web","interior-accent","apparel"]],[[29,61,126,135],[61,126],5.2,"high","medium","warm",["web"]],[[50,66,113,128],[113,128],5.1,"mid","medium","warm",["web","interior","apparel"]],[[65,100,155,159],[155,159],9.9,"high","medium","warm",["web","interior-accent","apparel"]],[[8,107,110,113],[110,113],7.6,"high","muted","warm",["web","interior","apparel"]],[[2,47,78,110],[47,110],8.3,"high","medium","warm",["web","interior","apparel"]],[[20,42,82,129],[42,129],6.1,"high","medium","warm",["web","interior","apparel"]],[[46,127,140,159],[46,159],11.9,"high","medium","balanced",["web","interior","apparel"]],[[33,111,117,143],[33,111],6.6,"high","medium","cool",["web","interior","apparel"]],[[25,88,92,96],[25,88],3.5,"mid","medium","warm",["web*","interior","apparel"]],[[94,100,124,137],[100,124],2.7,"mid","medium","balanced",["interior-accent","apparel"]],[[53,107,110,152],[53,152],7.6,"high","muted","warm",["web","interior","apparel"]],[[26,123,127,159],[123,159],3.3,"mid","medium","cool",["web*","interior-accent","apparel"]],[[61,73,95,147],[61,147],4.4,"mid","medium","warm",["web*","interior","apparel"]],[[9,43,112,129],[43,129],6.5,"high","muted","warm",["web","interior","apparel"]],[[24,56,116,159],[56,159],15.2,"high","medium","warm",["web","interior"]],[[44,58,68,90],[44,68],2.5,"mid","medium","warm",["interior","apparel"]],[[17,48,111,122],[111,122],3.9,"mid","vivid","warm",["web*","apparel-statement"]],[[25,87,100,123],[87,100],4.4,"mid","medium","balanced",["web*","interior-accent"]],[[56,72,113,134],[56,72],2.1,"mid","medium","warm",["interior"]],[[58,113,139,158],[113,158],5.6,"high","muted","warm",["web","interior","apparel"]],[[56,64,89,123],[56,123],4.5,"high","vivid","warm",["web","apparel-statement","print/brand"]],[[56,85,111,155],[56,85],8.0,"high","medium","warm",["web","interior","apparel"]],[[121,129,148,150],[121,129],2.2,"tonal","medium","cool",["interior-accent","apparel"]]];
+
+// ---------- color math ----------
+const s2l=c=>{c/=255;return c<=.04045?c/12.92:Math.pow((c+.055)/1.055,2.4)};
+const l2s=c=>{c=c<=.0031308?12.92*c:1.055*Math.pow(c,1/2.4)-.055;return Math.max(0,Math.min(255,Math.round(c*255)))};
+const lum=rgb=>{const[r,g,b]=rgb.map(s2l);return .2126*r+.7152*g+.0722*b};
+const contrast=(a,b)=>{const x=lum(a),y=lum(b);return(Math.max(x,y)+.05)/(Math.min(x,y)+.05)};
+function rgb2lab(rgb){const[r,g,b]=rgb.map(s2l);const X=(.4124*r+.3576*g+.1805*b)/.95047,Y=.2126*r+.7152*g+.0722*b,Z=(.0193*r+.1192*g+.9505*b)/1.08883;const f=t=>t>.008856?Math.cbrt(t):7.787*t+16/116;return[116*f(Y)-16,500*(f(X)-f(Y)),200*(f(Y)-f(Z))]}
+function lab2rgb([L,a,b]){const fy=(L+16)/116,fx=fy+a/500,fz=fy-b/200;const g=t=>t**3>.008856?t**3:(t-16/116)/7.787;const X=g(fx)*.95047,Y=g(fy),Z=g(fz)*1.08883;return[3.2406*X-1.5372*Y-.4986*Z,-.9689*X+1.8758*Y+.0415*Z,.0557*X-.204*Y+1.057*Z].map(v=>l2s(Math.max(0,v)))}
+const hex=rgb=>'#'+rgb.map(v=>v.toString(16).padStart(2,'0')).join('').toUpperCase();
+const parseHex=s=>{const m=s.trim().replace('#','');if(!/^[0-9a-f]{3}([0-9a-f]{3})?$/i.test(m))return null;const h=m.length==3?m.split('').map(c=>c+c).join(''):m;return[0,2,4].map(i=>parseInt(h.slice(i,i+2),16))};
+const chromaOf=lab=>Math.hypot(lab[1],lab[2]);
+
+const C=COLORS.map((c,i)=>{const lab=rgb2lab(c[2]);return{id:i+1,name:c[0],hex:c[1],rgb:c[2],lab:c[3],cmyk:c[4],lrv:c[5],fam:c[6],gam:c[7],slab:lab,ch:chromaOf(lab)}});
+const K=COMBOS.map((k,i)=>({n:i+1,ids:k[0],best:k[1],ratio:k[2],value:k[3],chroma:k[4],temp:k[5],fits:k[6]}));
+const byId=id=>C[id-1];
+
+// ---------- state ----------
+const state={view:'combos',f:{fit:new Set(),size:new Set(),temp:new Set(),chroma:new Set(),value:new Set()},colorPin:null,q:'',open:null,medium:'web'};
+let saved={}; // n -> {combo, projects:[], note, at}
+let store={kind:'none',db:null,uid:null};
+const $=s=>document.querySelector(s);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+function toast(msg){const t=$('#toast');t.textContent=msg;t.hidden=false;clearTimeout(toast._t);toast._t=setTimeout(()=>t.hidden=true,1600)}
+async function copy(text,label){try{await navigator.clipboard.writeText(text);toast(`Copied ${label||text}`)}catch(e){toast('Copy blocked — select the text instead')}}
+
+// ---------- filtering ----------
+function fitMatch(k,v){return v==='web'?k.fits.includes('web'):v==='interior'?k.fits.some(f=>f.startsWith('interior')):v==='apparel'?k.fits.some(f=>f.startsWith('apparel')):k.fits.includes(v)}
+function nearest(rgb){const lab=rgb2lab(rgb);let best=null,d=1e9;for(const c of C){const e=Math.hypot(...c.slab.map((v,i)=>v-lab[i]));if(e<d){d=e;best=c}}return{c:best,de:d}}
+function resolveQuery(){
+  const q=state.q.trim();if(!q)return null;
+  const rgb=parseHex(q);
+  if(rgb&&q.replace('#','').length>=3&&/^#?[0-9a-f]+$/i.test(q)){const r=nearest(rgb);return{kind:'hex',rgb,...r}}
+  const lc=q.toLowerCase();const hits=C.filter(c=>c.name.toLowerCase().includes(lc));
+  return{kind:'name',hits};
+}
+function filtered(){
+  const F=state.f,rq=resolveQuery();
+  let pinIds=state.colorPin?[state.colorPin]:null;
+  if(!pinIds&&rq){pinIds=rq.kind==='hex'?[rq.c.id]:rq.hits.map(c=>c.id)}
+  return K.filter(k=>{
+    if(F.size.size&&!F.size.has(String(k.ids.length)))return false;
+    if(F.temp.size&&!F.temp.has(k.temp))return false;
+    if(F.chroma.size&&!F.chroma.has(k.chroma))return false;
+    if(F.value.size&&!F.value.has(k.value))return false;
+    if(F.fit.size&&![...F.fit].every(v=>fitMatch(k,v)))return false;
+    if(pinIds&&!k.ids.some(id=>pinIds.includes(id)))return false;
+    return true});
+}
+
+// ---------- render ----------
+function plate(ids,cls='plate'){return `<div class="${cls}">${ids.map(id=>`<span style="background:${byId(id).hex}"></span>`).join('')}</div>`}
+function tagChips(k){const out=[];if(k.fits.includes('web'))out.push('<span class="t ok">AA</span>');else if(k.fits.includes('web*'))out.push('<span class="t">AA-lg</span>');out.push(`<span class="t">${k.temp[0].toUpperCase()}</span>`);return out.join('')}
+function card(k){return `<button class="card" data-open="${k.n}" aria-label="Combination ${k.n}: ${k.ids.map(i=>byId(i).name).join(', ')}">${plate(k.ids)}<div class="meta"><span class="no">No.&nbsp;${k.n}${saved[k.n]?' <span class="star" aria-label="saved">★</span>':''}</span><span class="tags">${tagChips(k)}</span></div></button>`}
+
+function renderStatus(list){
+  const rq=resolveQuery();let extra='';
+  if(state.colorPin){const c=byId(state.colorPin);extra=`<span class="pin"><i style="background:${c.hex}"></i>${esc(c.name)}<button data-unpin aria-label="Remove color filter">×</button></span>`}
+  else if(rq&&rq.kind==='hex'){extra=`<span class="pin"><i style="background:${hex(rq.rgb)}"></i>→ <i style="background:${rq.c.hex}"></i>${esc(rq.c.name)} <span class="m">ΔE ${rq.de.toFixed(1)}</span></span>`}
+  else if(rq&&rq.kind==='name'){extra=rq.hits.length?`<span>matching ${rq.hits.length} color${rq.hits.length>1?'s':''}</span>`:'<span>no color with that name</span>'}
+  $('#status').innerHTML=`<span><b>${list.length}</b> of 360 combinations</span>${extra}`;
+}
+function render(){
+  $('#qdot').style.background=(()=>{const r=resolveQuery();return r&&r.kind==='hex'?hex(r.rgb):'transparent'})();
+  document.querySelectorAll('.tab').forEach(t=>t.setAttribute('aria-selected',t.dataset.view===state.view));
+  $('#rail').hidden=state.view==='colors';
+  $('#savedCount').textContent=Object.keys(saved).length;
+  const v=$('#view');
+  if(state.view==='combos'){const list=filtered();renderStatus(list);
+    v.innerHTML=list.length?`<div class="grid">${list.map(card).join('')}</div>`:`<div class="empty">No combinations match all of these filters. Try removing one, or clear them all.</div>`}
+  else if(state.view==='colors'){
+    $('#status').innerHTML=`<span>Pick a color to see every combination it appears in. <span class="gam">✱</span> marks colors whose printed version is more vivid than a screen can show.</span>`;
+    const fams={};C.forEach(c=>{const f=c.fam.replace(/-(light|dark)$/,'');(fams[f]=fams[f]||[]).push(c)});
+    const order=['red/pink','red-orange','peach/salmon','orange','brown/tan','brown/terracotta','yellow','olive/ochre','yellow-green/olive','green','teal/blue-green','blue','violet/purple','neutral'];
+    v.innerHTML=order.filter(f=>fams[f]).map(f=>`<h2 class="famh">${f.replace('/',' / ')}</h2><div class="cgrid">${fams[f].sort((a,b)=>b.lab[0]-a.lab[0]).map(c=>`<button class="cc" data-pin="${c.id}"><div class="sw" style="background:${c.hex}"></div><div class="ci"><span class="nm">${esc(c.name)}${c.gam?' <span class="gam">✱</span>':''}</span><span class="hx">${c.hex} · LRV ${c.lrv} · in ${K.filter(k=>k.ids.includes(c.id)).length}</span></div></button>`).join('')}</div>`).join('')}
+  else{
+    const list=K.filter(k=>saved[k.n]);
+    const projects=[...new Set(list.flatMap(k=>saved[k.n].projects||[]))].sort();
+    $('#status').innerHTML=`<span><b>${list.length}</b> saved</span><span class="store">${store.kind==='db'?'Saved to your account':store.kind==='local'?'Saved in this browser only':''}</span>`;
+    if(!list.length){v.innerHTML=`<div class="empty">Nothing saved yet. Open any combination and press <b>Save</b>, then tag it with a project like “Spring hoodie drop” to group it here.</div>`;return}
+    const groups=projects.map(p=>[p,list.filter(k=>(saved[k.n].projects||[]).includes(p))]);
+    const loose=list.filter(k=>!(saved[k.n].projects||[]).length);if(loose.length)groups.push(['Untagged',loose]);
+    v.innerHTML=groups.map(([p,ks])=>`<h2 class="famh">${esc(p)} <span class="hx">${ks.length}</span></h2><div class="grid">${ks.map(card).join('')}</div>`).join('');
+  }
+}
+
+// ---------- roles & previews ----------
+function roles(k){
+  const cs=k.ids.map(byId);
+  const byL=[...cs].sort((a,b)=>b.slab[0]-a.slab[0]);
+  const bg=byL[0];
+  let text=[...cs].filter(c=>c!==bg).sort((a,b)=>contrast(b.rgb,bg.rgb)-contrast(a.rgb,bg.rgb))[0];
+  let textRgb=text.rgb,derived=false;
+  if(contrast(textRgb,bg.rgb)<4.5){ // derive darker (or lighter) version keeping hue
+    const dark=bg.slab[0]>50;let lab=[...rgb2lab(text.rgb)];
+    for(let i=0;i<100&&contrast(textRgb,bg.rgb)<4.5;i++){lab[0]+=dark?-1:1;lab[1]*=.985;lab[2]*=.985;textRgb=lab2rgb(lab)}
+    derived=true}
+  const rest=cs.filter(c=>c!==bg&&c!==text);
+  const accent=(rest.length?rest:[text]).sort((a,b)=>b.ch-a.ch)[0];
+  const second=rest.find(c=>c!==accent)||accent;
+  return{bg,text,textRgb,derived,accent,second,byL,cs};
+}
+function webPreview(k){const r=roles(k);const t=hex(r.textRgb);const aTxt=contrast(r.accent.rgb,[255,255,255])>contrast(r.accent.rgb,[20,20,20])?'#FFFFFF':'#141414';
+  return `<div class="preview"><div class="web" style="background:${r.bg.hex};color:${t}">
+  <div class="nav"><span>STUDIO</span><span>Work · About · Contact</span></div>
+  <h4>Color that was printed first</h4>
+  <p>Body copy set in the darkest usable color. ${contrast(r.textRgb,r.bg.rgb).toFixed(1)}:1 against the background.</p>
+  <span class="cta" style="background:${r.accent.hex};color:${aTxt}">Get started</span>
+  <div class="cards">${r.cs.map(c=>`<div style="background:${c.hex}"></div>`).join('')}</div></div></div>
+  <div class="roles"><span class="sw16" style="background:${r.bg.hex}"></span><span>${esc(r.bg.name)}</span><span class="r">Background</span>
+  <span class="sw16" style="background:${t}"></span><span>${r.derived?`${t} <span class="note">derived from ${esc(r.text.name)} to reach 4.5:1</span>`:esc(r.text.name)}</span><span class="r">Text</span>
+  <span class="sw16" style="background:${r.accent.hex}"></span><span>${esc(r.accent.name)}</span><span class="r">Accent</span></div>`}
+function roomPreview(k){const r=roles(k);const wall=r.byL[0],trim=r.byL[r.byL.length-1];const mids=r.cs.filter(c=>c!==wall&&c!==trim);const sofa=mids[0]||trim,acc=mids[1]||null,artFill=(acc||trim).hex;
+  const wallNote=wall.lrv>=55?`Wall LRV ${wall.lrv} — good for main walls.`:`Wall LRV ${wall.lrv} is dark for a whole room; use it on one wall or in a well-lit space.`;
+  return `<div class="preview"><div class="room"><div class="wall" style="background:${wall.hex}"><div class="art" style="background:${artFill};border-color:${acc?trim.hex:sofa.hex}"></div><div class="sofa" style="background:${sofa.hex}"></div></div><div><div class="trim" style="background:${trim.hex}"></div><div class="floor" style="background:${hex(lab2rgb([Math.max(25,trim.slab[0]+20),trim.slab[1]*.4,trim.slab[2]*.4+6]))}"></div></div></div></div>
+  <div class="roles"><span class="sw16" style="background:${wall.hex}"></span><span>${esc(wall.name)} · LRV ${wall.lrv}</span><span class="r">Walls</span>
+  <span class="sw16" style="background:${sofa.hex}"></span><span>${esc(sofa.name)} · LRV ${sofa.lrv}</span><span class="r">Large pieces</span>
+  ${acc?`<span class="sw16" style="background:${acc.hex}"></span><span>${esc(acc.name)} · LRV ${acc.lrv}</span><span class="r">Accent ≤10%</span>`:''}
+  <span class="sw16" style="background:${trim.hex}"></span><span>${esc(trim.name)} · LRV ${trim.lrv}</span><span class="r">${acc?'Trim / anchor':'Trim & accent'}</span></div>
+  <p class="note">${wallNote} Floor is a derived neutral. Match paint to the LAB values with a physical chip before buying.</p>`}
+function fitPreview(k){const cs=k.ids.map(byId);const base=[...cs].sort((a,b)=>a.ch-b.ch)[0];const others=cs.filter(c=>c!==base);const top=others[0]||base,acc=others[others.length-1]||top;
+  return `<div class="preview"><div class="fit"><svg viewBox="0 0 200 220" role="img" aria-label="Outfit color blocking">
+  <path d="M60 30 L85 18 Q100 30 115 18 L140 30 L170 70 L150 82 L140 70 L140 120 L60 120 L60 70 L50 82 L30 70 Z" fill="${top.hex}" stroke="rgba(0,0,0,.15)"/>
+  <path d="M62 120 L138 120 L142 210 L108 210 L100 140 L92 210 L58 210 Z" fill="${base.hex}" stroke="rgba(0,0,0,.15)"/>
+  <rect x="60" y="116" width="80" height="8" fill="${acc.hex}"/><path d="M85 18 Q100 30 115 18 L112 26 Q100 36 88 26 Z" fill="${acc.hex}"/>
+  ${cs.length>3?`<rect x="55" y="205" width="40" height="12" rx="4" fill="${others[1].hex}"/><rect x="105" y="205" width="40" height="12" rx="4" fill="${others[1].hex}"/>`:''}
+  </svg></div></div>
+  <div class="roles"><span class="sw16" style="background:${base.hex}"></span><span>${esc(base.name)}</span><span class="r">Base</span>
+  <span class="sw16" style="background:${top.hex}"></span><span>${esc(top.name)}</span><span class="r">Top / hero</span>
+  <span class="sw16" style="background:${acc.hex}"></span><span>${esc(acc.name)}</span><span class="r">Accent</span></div>
+  <p class="note">${k.value==='tonal'?'Tonal set: colors sit close in lightness, so it reads soft and refined.':k.value==='high'?'High value contrast: graphic and sharp.':'Moderate contrast: easy to wear.'} For printed garments, use the ${byId(k.best[0]).name} / ${byId(k.best[1]).name} pair for ink on fabric (${k.ratio}:1).</p>`}
+function printPreview(k){const cs=k.ids.map(byId);
+  return `<div class="tblw"><table><thead><tr><th></th><th>Color</th><th>C</th><th>M</th><th>Y</th><th>K</th><th>LAB target</th></tr></thead><tbody>${cs.map(c=>`<tr><td><span class="sw16" style="background:${c.hex}"></span></td><td>${esc(c.name)}${c.gam?' <span class="gam">✱</span>':''}</td>${c.cmyk.map(v=>`<td class="m">${v}</td>`).join('')}<td class="m">${c.lab.map(v=>v.toFixed(1)).join(', ')}</td></tr>`).join('')}</tbody></table></div>
+  <p class="note">CMYK is the book's build. Coated and uncoated stock shift the result, so proof first. ${cs.some(c=>c.gam)?'✱ colors print more vivid than their hex shows on screen; match to the LAB target.':''}</p>`}
+
+function exports(k){const cs=k.ids.map(byId);const slug=c=>c.name.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+  const css=`/* Wada Sanzo No. ${k.n} */\n:root {\n${cs.map(c=>`  --${slug(c)}: ${c.hex};`).join('\n')}\n}`;
+  const tw=`// tailwind.config.js → theme.extend.colors\nwada${k.n}: {\n${cs.map(c=>`  '${slug(c)}': '${c.hex}',`).join('\n')}\n}`;
+  const json=JSON.stringify({combination:k.n,colors:cs.map(c=>({name:c.name,hex:c.hex,rgb:c.rgb,lab:c.lab,cmyk:c.cmyk,lrv:c.lrv}))},null,2);
+  return{css,tw,json}}
+
+function openSheet(n){state.open=n;const k=K[n-1];const cs=k.ids.map(byId);const ex=exports(k);const sv=saved[n];
+  const pairs=[];for(let i=0;i<cs.length;i++)for(let j=i+1;j<cs.length;j++)pairs.push([cs[i],cs[j],contrast(cs[i].rgb,cs[j].rgb)]);
+  pairs.sort((a,b)=>b[2]-a[2]);
+  const fitsTxt=k.fits.map(f=>({web:'web text','web*':'web (large text only)',interior:'interior','interior-accent':'interior accents',apparel:'apparel','apparel-statement':'statement apparel','print/brand':'print & brand',general:'accents & illustration'}[f])).join(' · ');
+  const sh=$('#sheet');
+  sh.innerHTML=`<div class="bigplate">${cs.map(c=>`<div style="background:${c.hex};color:${contrast(c.rgb,[255,255,255])>contrast(c.rgb,[17,19,20])?'#fff':'#111'}">${c.hex}</div>`).join('')}</div>
+  <div class="shead"><div><h2 id="sheetTitle">No. ${n}</h2><p>${cs.map(c=>esc(c.name)).join(' · ')}</p><p>${k.value} contrast · ${k.chroma} · ${k.temp} · best for ${fitsTxt}</p></div><button class="x" data-close aria-label="Close">×</button></div>
+  <div class="sec"><h3>Colors</h3><div class="tblw"><table><thead><tr><th></th><th>Name</th><th>HEX</th><th>RGB</th><th>LAB</th><th>CMYK</th><th>LRV</th></tr></thead><tbody>
+  ${cs.map(c=>`<tr><td><span class="sw16" style="background:${c.hex}"></span></td><td>${esc(c.name)}${c.gam?` <span class="gam" title="Printed color is outside screen gamut">✱ΔE${c.gam}</span>`:''}</td>
+  <td class="m"><button class="cp" data-copy="${c.hex}">${c.hex}</button></td><td class="m"><button class="cp" data-copy="rgb(${c.rgb.join(', ')})">${c.rgb.join(', ')}</button></td>
+  <td class="m"><button class="cp" data-copy="lab(${c.lab.map(v=>v.toFixed(1)).join(' ')})">${c.lab.map(v=>v.toFixed(1)).join(', ')}</button></td><td class="m">${c.cmyk.join(',')}</td><td class="m">${c.lrv}</td></tr>`).join('')}
+  </tbody></table></div>${cs.some(c=>c.gam)?'<p class="note">✱ The printed color is more vivid than a screen can show. For paint, fabric or print, match the LAB values.</p>':''}</div>
+  <div class="sec"><h3>In use</h3><div class="mtabs">${['web','interior','apparel','print'].map(m=>`<button class="chip" data-medium="${m}" aria-pressed="${state.medium===m}">${m[0].toUpperCase()+m.slice(1)}</button>`).join('')}</div><div id="mview" style="display:grid;gap:10px"></div></div>
+  <div class="sec"><h3>Contrast pairs</h3><div class="tblw"><table><tbody>${pairs.map(([a,b,r])=>`<tr><td><span class="sw16" style="background:${a.hex}"></span> <span class="sw16" style="background:${b.hex}"></span></td><td>${esc(a.name)} / ${esc(b.name)}</td><td class="m">${(Math.floor(r*10)/10).toFixed(1)}:1</td><td>${r>=4.5?'<span class="badge b-aa">AA text</span>':r>=3?'<span class="badge b-lg">AA large</span>':'<span class="badge b-no">blocks only</span>'}</td></tr>`).join('')}</tbody></table></div></div>
+  <div class="sec"><h3>Export</h3><div class="row"><button class="btn" data-ex="css">Copy CSS variables</button><button class="btn" data-ex="tw">Copy Tailwind</button><button class="btn" data-ex="json">Copy JSON</button></div><pre id="expre">${esc(ex.css)}</pre></div>
+  <div class="sec"><h3>Save</h3>
+   <div class="row"><button class="btn ${sv?'':'pri'}" id="saveBtn">${sv?'★ Saved — remove':'☆ Save'}</button><span class="store">${store.kind==='db'?'Saved to your account':store.kind==='local'?'Saved in this browser only':''}</span></div>
+   <label class="field" for="projIn">Projects (comma separated)<input id="projIn" value="${esc((sv?.projects||[]).join(', '))}" placeholder="Spartan Beard tees, Office refresh"></label>
+   <label class="field" for="noteIn">Note<textarea id="noteIn" rows="2" placeholder="What you'd use it for">${esc(sv?.note||'')}</textarea></label>
+   <div class="row"><button class="btn" id="saveMeta">Update tags & note</button></div></div>`;
+  sh._ex=ex;sh.hidden=false;$('#scrim').hidden=false;sh.scrollTop=0;renderMedium(k);sh.querySelector('[data-close]').focus();
+}
+function renderMedium(k){const m=state.medium;$('#mview').innerHTML=m==='web'?webPreview(k):m==='interior'?roomPreview(k):m==='apparel'?fitPreview(k):printPreview(k);
+  document.querySelectorAll('[data-medium]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.medium===m))}
+function closeSheet(){state.open=null;$('#sheet').hidden=true;$('#scrim').hidden=true}
+
+// ---------- storage ----------
+async function persist(n,body){ // body null = delete
+  if(body)saved[n]=body;else delete saved[n];
+  render();
+  try{
+    if(store.kind==='db'){const ref=store.db.collection('data/users/'+store.uid).doc('combo-'+n);body?await ref.set(body):await ref.delete()}
+    else if(store.kind==='local'){localStorage.setItem('wada-saved',JSON.stringify(saved))}
+  }catch(e){toast('Could not save — '+(e&&e.code||'try again'))}
+}
+async function initStore(){
+  try{const raw=localStorage.getItem('wada-saved');if(raw){saved=JSON.parse(raw)||{};store.kind='local'}else store.kind='local'}catch(e){store.kind='none'}
+  render();
+  try{
+    const db=await window.claude?.use?.('db');const user=db?await window.claude.use('user'):null;const uid=user?await user.id():null;
+    if(db&&uid){store={kind:'db',db,uid};
+      db.collection('data/users/'+uid).onSnapshot(snap=>{const next={};snap.docs.forEach(d=>{const b=d.data();if(b&&b.combo)next[b.combo]={...b,projects:[...(b.projects||[])]}});saved=next;render();if(state.open){const sb=$('#saveBtn');if(sb){sb.textContent=saved[state.open]?'★ Saved — remove':'☆ Save';sb.classList.toggle('pri',!saved[state.open])}}},()=>{});
+    }
+  }catch(e){}
+  render();
+}
+
+// ---------- events ----------
+document.addEventListener('click',e=>{
+  const t=e.target.closest('button,[data-close]');if(!t){if(e.target.id==='scrim')closeSheet();return}
+  if(t.dataset.view){state.view=t.dataset.view;render();window.scrollTo({top:0});return}
+  if(t.dataset.f){const s=state.f[t.dataset.f];s.has(t.dataset.v)?s.delete(t.dataset.v):s.add(t.dataset.v);t.setAttribute('aria-pressed',s.has(t.dataset.v));render();return}
+  if(t.dataset.open){openSheet(+t.dataset.open);return}
+  if(t.dataset.pin){state.colorPin=+t.dataset.pin;state.q='';$('#q').value='';state.view='combos';render();window.scrollTo({top:0});return}
+  if(t.hasAttribute('data-unpin')){state.colorPin=null;render();return}
+  if(t.hasAttribute('data-close')){closeSheet();return}
+  if(t.dataset.copy){copy(t.dataset.copy);return}
+  if(t.dataset.medium){state.medium=t.dataset.medium;renderMedium(K[state.open-1]);return}
+  if(t.dataset.ex){const ex=$('#sheet')._ex;$('#expre').textContent=ex[t.dataset.ex];copy(ex[t.dataset.ex],t.dataset.ex==='tw'?'Tailwind config':t.dataset.ex.toUpperCase());return}
+  if(t.id==='saveBtn'){const n=state.open;if(saved[n]){persist(n,null);t.textContent='☆ Save';t.classList.add('pri');toast('Removed')}else{persist(n,{combo:n,projects:parseProj(),note:$('#noteIn').value.trim(),at:Date.now()});t.textContent='★ Saved — remove';t.classList.remove('pri');toast('Saved')}return}
+  if(t.id==='saveMeta'){const n=state.open;persist(n,{combo:n,projects:parseProj(),note:$('#noteIn').value.trim(),at:saved[n]?.at||Date.now()});$('#saveBtn').textContent='★ Saved — remove';$('#saveBtn').classList.remove('pri');toast('Saved');return}
+  if(t.id==='clearAll'){Object.values(state.f).forEach(s=>s.clear());state.colorPin=null;state.q='';$('#q').value='';document.querySelectorAll('[data-f]').forEach(b=>b.setAttribute('aria-pressed','false'));render();return}
+});
+$('#scrim').addEventListener('click',closeSheet);
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&state.open)closeSheet()});
+const parseProj=()=>$('#projIn').value.split(',').map(s=>s.trim()).filter(Boolean).slice(0,8);
+let qt;$('#q').addEventListener('input',e=>{clearTimeout(qt);qt=setTimeout(()=>{state.q=e.target.value;state.colorPin=null;if(state.view!=='combos')state.view='combos';render()},120)});
+document.querySelectorAll('[data-f]').forEach(b=>b.setAttribute('aria-pressed','false'));
+initStore();
+</script>
+</body></html>

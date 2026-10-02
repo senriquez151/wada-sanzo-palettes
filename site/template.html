@@ -1,0 +1,393 @@
+<title>Wada Sanzo Palette Atlas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Shippori+Mincho+B1:wght@600;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap">
+<style>
+/* Layout: specimen-book index — a quiet filter rail over a dense grid of swatch plates; a detail sheet slides in per plate. */
+:root{
+  --bg:#ECEEEA; --panel:#F8F9F6; --ink:#1B1D1F; --muted:#5B615C; --line:#D2D6CF; --accent:#005B8D; --accent-ink:#FFFFFF;
+  --good:#1F7A4D; --warn:#9A6400; --bad:#B23A3A; --shadow:0 18px 50px rgba(20,25,22,.18);
+  --f-display:"Shippori Mincho B1","Hiragino Mincho ProN","Yu Mincho",Georgia,serif;
+  --f-body:"Zen Kaku Gothic New","Hiragino Sans","Segoe UI",system-ui,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#131514; --panel:#1B1E1C; --ink:#E7E9E4; --muted:#9AA19B; --line:#2E3330; --accent:#7DB3DD; --accent-ink:#0E1A24;
+  --good:#5CC08C; --warn:#E0A84A; --bad:#EA7C7C; --shadow:0 18px 50px rgba(0,0,0,.5); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#131514; --panel:#1B1E1C; --ink:#E7E9E4; --muted:#9AA19B; --line:#2E3330; --accent:#7DB3DD; --accent-ink:#0E1A24;
+  --good:#5CC08C; --warn:#E0A84A; --bad:#EA7C7C; --shadow:0 18px 50px rgba(0,0,0,.5); color-scheme:dark}
+*{box-sizing:border-box}
+html,body{background:var(--bg);color:var(--ink)}
+body{font-family:var(--f-body);font-size:14px;line-height:1.5}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1360px;margin:0 auto;padding-inline:20px;padding-block:20px 60px}
+header.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 24px;padding-bottom:16px;border-bottom:1px solid var(--line)}
+h1{font-family:var(--f-display);font-weight:800;font-size:clamp(26px,4vw,40px);line-height:1.05;margin:0;letter-spacing:.01em;text-wrap:balance}
+.sub{color:var(--muted);margin:6px 0 0;max-width:62ch}
+.tabs{display:flex;gap:4px;background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:4px}
+.tab{border:0;background:transparent;padding:6px 14px;border-radius:999px;cursor:pointer;color:var(--muted);font-weight:500}
+.tab[aria-selected="true"]{background:var(--ink);color:var(--bg)}
+.tab .n{font-family:var(--f-mono);font-size:11px;opacity:.7;margin-left:4px}
+
+.rail{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;padding-block:14px;position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);z-index:5;border-bottom:1px solid var(--line)}
+.grp{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.lab{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-right:2px}
+.chip{border:1px solid var(--line);background:var(--panel);padding:3px 10px;border-radius:999px;cursor:pointer;font-size:13px}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.search{display:flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--panel);border-radius:8px;padding:3px 6px 3px 10px}
+.search input{border:0;background:transparent;outline:none;width:150px}
+.search .dot{width:16px;height:16px;border-radius:4px;border:1px solid var(--line)}
+.clear{border:0;background:none;color:var(--accent);cursor:pointer;font-size:13px;text-decoration:underline}
+.status{font-size:13px;color:var(--muted);padding-block:12px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.status b{color:var(--ink);font-family:var(--f-mono);font-weight:500}
+.pin{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:2px 4px 2px 2px;font-size:12px}
+.pin i{width:18px;height:18px;border-radius:50%;display:inline-block}
+.pin button{border:0;background:none;cursor:pointer;color:var(--muted);padding:0 4px}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:6px;overflow:hidden;cursor:pointer;display:flex;flex-direction:column;text-align:left;padding:0;transition:transform .15s ease, box-shadow .15s ease}
+.card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.08)}
+.plate{display:flex;aspect-ratio:4/3;width:100%}
+.plate span{flex:1}
+.meta{display:flex;justify-content:space-between;align-items:center;gap:6px;padding:8px 10px}
+.no{font-family:var(--f-display);font-weight:600;font-size:15px}
+.no small{font-family:var(--f-mono);font-size:10px;color:var(--muted);margin-left:4px;font-weight:400}
+.tags{display:flex;gap:3px;flex-wrap:wrap;justify-content:flex-end}
+.t{font-size:10px;font-family:var(--f-mono);padding:0 5px;border-radius:3px;border:1px solid var(--line);color:var(--muted)}
+.t.ok{border-color:var(--good);color:var(--good)}
+.star{color:var(--warn);font-size:13px}
+
+.cgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.cc{border:1px solid var(--line);background:var(--panel);border-radius:6px;overflow:hidden;cursor:pointer;padding:0;text-align:left;display:flex;flex-direction:column}
+.cc .sw{height:64px}
+.cc .ci{padding:6px 8px;display:grid;gap:1px}
+.cc .nm{font-weight:500;font-size:13px;line-height:1.25}
+.cc .hx{font-family:var(--f-mono);font-size:11px;color:var(--muted)}
+.famh{font-family:var(--f-display);font-size:18px;margin:22px 0 10px;text-transform:capitalize}
+
+.empty{border:1px dashed var(--line);border-radius:8px;padding:28px;color:var(--muted);text-align:center;max-width:560px;margin:30px auto}
+
+/* sheet */
+.scrim{position:fixed;inset:0;background:rgba(10,12,11,.35);z-index:20}
+.sheet{position:fixed;top:0;right:0;bottom:0;width:min(620px,100%);background:var(--panel);z-index:21;box-shadow:var(--shadow);overflow-y:auto;padding-bottom:env(safe-area-inset-bottom,0px)}
+.sheet .bigplate{display:flex;height:180px}
+.sheet .bigplate div{flex:1;display:flex;align-items:flex-end;padding:8px;font-family:var(--f-mono);font-size:11px}
+.shead{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;padding:16px 20px 4px}
+.shead h2{font-family:var(--f-display);font-size:28px;margin:0;line-height:1.1}
+.shead p{margin:4px 0 0;color:var(--muted);font-size:13px}
+.x{border:1px solid var(--line);background:var(--bg);border-radius:999px;width:34px;height:34px;cursor:pointer;font-size:18px;line-height:1;flex:none}
+.sec{padding:14px 20px;border-top:1px solid var(--line);display:grid;gap:10px}
+.sec h3{margin:0;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.tblw{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:12.5px;font-variant-numeric:tabular-nums}
+th{font-weight:500;color:var(--muted);text-align:left;font-size:11px;padding:4px 6px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:6px;border-bottom:1px solid var(--line);vertical-align:middle;white-space:nowrap}
+td.m{font-family:var(--f-mono);font-size:12px}
+.cp{cursor:pointer;border:0;background:none;padding:0;font:inherit;color:inherit;border-bottom:1px dotted var(--muted)}
+.cp:hover{color:var(--accent)}
+.sw16{width:22px;height:22px;border-radius:4px;border:1px solid rgba(0,0,0,.12);display:inline-block;vertical-align:middle}
+.gam{color:var(--warn);font-size:11px;font-family:var(--f-mono)}
+.badge{font-family:var(--f-mono);font-size:11px;padding:1px 6px;border-radius:3px;font-weight:500}
+.b-aa{background:var(--good);color:var(--panel)}
+.b-lg{background:var(--warn);color:var(--panel)}
+.b-no{border:1px solid var(--line);color:var(--muted)}
+.mtabs{display:flex;gap:6px;flex-wrap:wrap}
+.preview{border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.note{font-size:12.5px;color:var(--muted);margin:0}
+.roles{display:grid;grid-template-columns:auto 1fr auto;gap:6px 10px;align-items:center;font-size:13px}
+.roles .r{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.code{position:relative}
+pre{margin:0;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:10px 12px;font-family:var(--f-mono);font-size:12px;overflow-x:auto;white-space:pre}
+.btn{border:1px solid var(--line);background:var(--bg);border-radius:6px;padding:5px 12px;cursor:pointer;font-size:13px}
+.btn.pri{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.field{display:grid;gap:4px;font-size:12px;color:var(--muted)}
+.field input,.field textarea{border:1px solid var(--line);background:var(--bg);border-radius:6px;padding:6px 8px;color:var(--ink);font:inherit;font-size:13px;width:100%}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:6px;font-size:13px;z-index:40}
+.store{font-size:12px;color:var(--muted)}
+/* previews */
+.web{padding:18px;display:grid;gap:10px}
+.web .nav{display:flex;justify-content:space-between;font-size:12px;font-weight:700;letter-spacing:.04em}
+.web h4{font-family:var(--f-display);font-size:22px;margin:4px 0 0;line-height:1.15}
+.web p{margin:0;font-size:13px;max-width:44ch}
+.web .cta{display:inline-block;padding:7px 14px;border-radius:4px;font-size:13px;font-weight:700;justify-self:start}
+.web .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.web .cards div{height:44px;border-radius:4px}
+.room{display:grid;grid-template-rows:1fr auto;height:200px;position:relative}
+.room .wall{position:relative}
+.room .trim{height:10px}
+.room .floor{height:34px}
+.room .sofa{position:absolute;left:12%;right:30%;bottom:0;height:46%;border-radius:10px 10px 0 0}
+.room .art{position:absolute;right:12%;top:16%;width:16%;aspect-ratio:3/4;border:5px solid}
+.room .pill{position:absolute;left:20%;bottom:30%;width:14%;height:22%;border-radius:8px}
+.fit{display:flex;gap:10px;align-items:flex-end;padding:16px;justify-content:center;flex-wrap:wrap}
+.fit svg{width:min(240px,100%);height:auto}
+@media (max-width:640px){.rail{position:static}.search input{width:110px}.sheet .bigplate{height:130px}}
+@media (prefers-reduced-motion:reduce){.card{transition:none}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>Wada Sanzo Palette Atlas</h1>
+      <p class="sub">All 360 combinations from Sanzo Wada's <em>A Dictionary of Color Combinations</em> (1933), with codes for screen and print and a quick read on where each one works.</p>
+    </div>
+    <div class="tabs" role="tablist">
+      <button class="tab" role="tab" id="tab-combos" aria-selected="true" data-view="combos">Combinations<span class="n">360</span></button>
+      <button class="tab" role="tab" id="tab-colors" aria-selected="false" data-view="colors">Colors<span class="n">159</span></button>
+      <button class="tab" role="tab" id="tab-saved" aria-selected="false" data-view="saved">Saved<span class="n" id="savedCount">0</span></button>
+    </div>
+  </header>
+
+  <div class="rail" id="rail">
+    <div class="grp"><span class="lab">Use</span>
+      <button class="chip" data-f="fit" data-v="web">Web</button>
+      <button class="chip" data-f="fit" data-v="interior">Interior</button>
+      <button class="chip" data-f="fit" data-v="apparel">Apparel</button>
+      <button class="chip" data-f="fit" data-v="print/brand">Print / brand</button>
+    </div>
+    <div class="grp"><span class="lab">Colors</span>
+      <button class="chip" data-f="size" data-v="2">2</button>
+      <button class="chip" data-f="size" data-v="3">3</button>
+      <button class="chip" data-f="size" data-v="4">4</button>
+    </div>
+    <div class="grp"><span class="lab">Temp</span>
+      <button class="chip" data-f="temp" data-v="warm">Warm</button>
+      <button class="chip" data-f="temp" data-v="balanced">Balanced</button>
+      <button class="chip" data-f="temp" data-v="cool">Cool</button>
+    </div>
+    <div class="grp"><span class="lab">Chroma</span>
+      <button class="chip" data-f="chroma" data-v="muted">Muted</button>
+      <button class="chip" data-f="chroma" data-v="medium">Medium</button>
+      <button class="chip" data-f="chroma" data-v="vivid">Vivid</button>
+    </div>
+    <div class="grp"><span class="lab">Value</span>
+      <button class="chip" data-f="value" data-v="tonal">Tonal</button>
+      <button class="chip" data-f="value" data-v="mid">Mid</button>
+      <button class="chip" data-f="value" data-v="high">High contrast</button>
+    </div>
+    <label class="search" for="q"><span class="dot" id="qdot"></span><input id="q" placeholder="Name or #hex" autocomplete="off"></label>
+    <button class="clear" id="clearAll">Clear</button>
+  </div>
+
+  <div class="status" id="status"></div>
+  <main id="view"></main>
+</div>
+
+<div class="scrim" id="scrim" hidden></div>
+<aside class="sheet" id="sheet" hidden aria-modal="true" role="dialog" aria-labelledby="sheetTitle"></aside>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+/*DATA*/
+// ---------- color math ----------
+const s2l=c=>{c/=255;return c<=.04045?c/12.92:Math.pow((c+.055)/1.055,2.4)};
+const l2s=c=>{c=c<=.0031308?12.92*c:1.055*Math.pow(c,1/2.4)-.055;return Math.max(0,Math.min(255,Math.round(c*255)))};
+const lum=rgb=>{const[r,g,b]=rgb.map(s2l);return .2126*r+.7152*g+.0722*b};
+const contrast=(a,b)=>{const x=lum(a),y=lum(b);return(Math.max(x,y)+.05)/(Math.min(x,y)+.05)};
+function rgb2lab(rgb){const[r,g,b]=rgb.map(s2l);const X=(.4124*r+.3576*g+.1805*b)/.95047,Y=.2126*r+.7152*g+.0722*b,Z=(.0193*r+.1192*g+.9505*b)/1.08883;const f=t=>t>.008856?Math.cbrt(t):7.787*t+16/116;return[116*f(Y)-16,500*(f(X)-f(Y)),200*(f(Y)-f(Z))]}
+function lab2rgb([L,a,b]){const fy=(L+16)/116,fx=fy+a/500,fz=fy-b/200;const g=t=>t**3>.008856?t**3:(t-16/116)/7.787;const X=g(fx)*.95047,Y=g(fy),Z=g(fz)*1.08883;return[3.2406*X-1.5372*Y-.4986*Z,-.9689*X+1.8758*Y+.0415*Z,.0557*X-.204*Y+1.057*Z].map(v=>l2s(Math.max(0,v)))}
+const hex=rgb=>'#'+rgb.map(v=>v.toString(16).padStart(2,'0')).join('').toUpperCase();
+const parseHex=s=>{const m=s.trim().replace('#','');if(!/^[0-9a-f]{3}([0-9a-f]{3})?$/i.test(m))return null;const h=m.length==3?m.split('').map(c=>c+c).join(''):m;return[0,2,4].map(i=>parseInt(h.slice(i,i+2),16))};
+const chromaOf=lab=>Math.hypot(lab[1],lab[2]);
+
+const C=COLORS.map((c,i)=>{const lab=rgb2lab(c[2]);return{id:i+1,name:c[0],hex:c[1],rgb:c[2],lab:c[3],cmyk:c[4],lrv:c[5],fam:c[6],gam:c[7],slab:lab,ch:chromaOf(lab)}});
+const K=COMBOS.map((k,i)=>({n:i+1,ids:k[0],best:k[1],ratio:k[2],value:k[3],chroma:k[4],temp:k[5],fits:k[6]}));
+const byId=id=>C[id-1];
+
+// ---------- state ----------
+const state={view:'combos',f:{fit:new Set(),size:new Set(),temp:new Set(),chroma:new Set(),value:new Set()},colorPin:null,q:'',open:null,medium:'web'};
+let saved={}; // n -> {combo, projects:[], note, at}
+let store={kind:'none',db:null,uid:null};
+const $=s=>document.querySelector(s);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+function toast(msg){const t=$('#toast');t.textContent=msg;t.hidden=false;clearTimeout(toast._t);toast._t=setTimeout(()=>t.hidden=true,1600)}
+async function copy(text,label){try{await navigator.clipboard.writeText(text);toast(`Copied ${label||text}`)}catch(e){toast('Copy blocked — select the text instead')}}
+
+// ---------- filtering ----------
+function fitMatch(k,v){return v==='web'?k.fits.includes('web'):v==='interior'?k.fits.some(f=>f.startsWith('interior')):v==='apparel'?k.fits.some(f=>f.startsWith('apparel')):k.fits.includes(v)}
+function nearest(rgb){const lab=rgb2lab(rgb);let best=null,d=1e9;for(const c of C){const e=Math.hypot(...c.slab.map((v,i)=>v-lab[i]));if(e<d){d=e;best=c}}return{c:best,de:d}}
+function resolveQuery(){
+  const q=state.q.trim();if(!q)return null;
+  const rgb=parseHex(q);
+  if(rgb&&q.replace('#','').length>=3&&/^#?[0-9a-f]+$/i.test(q)){const r=nearest(rgb);return{kind:'hex',rgb,...r}}
+  const lc=q.toLowerCase();const hits=C.filter(c=>c.name.toLowerCase().includes(lc));
+  return{kind:'name',hits};
+}
+function filtered(){
+  const F=state.f,rq=resolveQuery();
+  let pinIds=state.colorPin?[state.colorPin]:null;
+  if(!pinIds&&rq){pinIds=rq.kind==='hex'?[rq.c.id]:rq.hits.map(c=>c.id)}
+  return K.filter(k=>{
+    if(F.size.size&&!F.size.has(String(k.ids.length)))return false;
+    if(F.temp.size&&!F.temp.has(k.temp))return false;
+    if(F.chroma.size&&!F.chroma.has(k.chroma))return false;
+    if(F.value.size&&!F.value.has(k.value))return false;
+    if(F.fit.size&&![...F.fit].every(v=>fitMatch(k,v)))return false;
+    if(pinIds&&!k.ids.some(id=>pinIds.includes(id)))return false;
+    return true});
+}
+
+// ---------- render ----------
+function plate(ids,cls='plate'){return `<div class="${cls}">${ids.map(id=>`<span style="background:${byId(id).hex}"></span>`).join('')}</div>`}
+function tagChips(k){const out=[];if(k.fits.includes('web'))out.push('<span class="t ok">AA</span>');else if(k.fits.includes('web*'))out.push('<span class="t">AA-lg</span>');out.push(`<span class="t">${k.temp[0].toUpperCase()}</span>`);return out.join('')}
+function card(k){return `<button class="card" data-open="${k.n}" aria-label="Combination ${k.n}: ${k.ids.map(i=>byId(i).name).join(', ')}">${plate(k.ids)}<div class="meta"><span class="no">No.&nbsp;${k.n}${saved[k.n]?' <span class="star" aria-label="saved">★</span>':''}</span><span class="tags">${tagChips(k)}</span></div></button>`}
+
+function renderStatus(list){
+  const rq=resolveQuery();let extra='';
+  if(state.colorPin){const c=byId(state.colorPin);extra=`<span class="pin"><i style="background:${c.hex}"></i>${esc(c.name)}<button data-unpin aria-label="Remove color filter">×</button></span>`}
+  else if(rq&&rq.kind==='hex'){extra=`<span class="pin"><i style="background:${hex(rq.rgb)}"></i>→ <i style="background:${rq.c.hex}"></i>${esc(rq.c.name)} <span class="m">ΔE ${rq.de.toFixed(1)}</span></span>`}
+  else if(rq&&rq.kind==='name'){extra=rq.hits.length?`<span>matching ${rq.hits.length} color${rq.hits.length>1?'s':''}</span>`:'<span>no color with that name</span>'}
+  $('#status').innerHTML=`<span><b>${list.length}</b> of 360 combinations</span>${extra}`;
+}
+function render(){
+  $('#qdot').style.background=(()=>{const r=resolveQuery();return r&&r.kind==='hex'?hex(r.rgb):'transparent'})();
+  document.querySelectorAll('.tab').forEach(t=>t.setAttribute('aria-selected',t.dataset.view===state.view));
+  $('#rail').hidden=state.view==='colors';
+  $('#savedCount').textContent=Object.keys(saved).length;
+  const v=$('#view');
+  if(state.view==='combos'){const list=filtered();renderStatus(list);
+    v.innerHTML=list.length?`<div class="grid">${list.map(card).join('')}</div>`:`<div class="empty">No combinations match all of these filters. Try removing one, or clear them all.</div>`}
+  else if(state.view==='colors'){
+    $('#status').innerHTML=`<span>Pick a color to see every combination it appears in. <span class="gam">✱</span> marks colors whose printed version is more vivid than a screen can show.</span>`;
+    const fams={};C.forEach(c=>{const f=c.fam.replace(/-(light|dark)$/,'');(fams[f]=fams[f]||[]).push(c)});
+    const order=['red/pink','red-orange','peach/salmon','orange','brown/tan','brown/terracotta','yellow','olive/ochre','yellow-green/olive','green','teal/blue-green','blue','violet/purple','neutral'];
+    v.innerHTML=order.filter(f=>fams[f]).map(f=>`<h2 class="famh">${f.replace('/',' / ')}</h2><div class="cgrid">${fams[f].sort((a,b)=>b.lab[0]-a.lab[0]).map(c=>`<button class="cc" data-pin="${c.id}"><div class="sw" style="background:${c.hex}"></div><div class="ci"><span class="nm">${esc(c.name)}${c.gam?' <span class="gam">✱</span>':''}</span><span class="hx">${c.hex} · LRV ${c.lrv} · in ${K.filter(k=>k.ids.includes(c.id)).length}</span></div></button>`).join('')}</div>`).join('')}
+  else{
+    const list=K.filter(k=>saved[k.n]);
+    const projects=[...new Set(list.flatMap(k=>saved[k.n].projects||[]))].sort();
+    $('#status').innerHTML=`<span><b>${list.length}</b> saved</span><span class="store">${store.kind==='db'?'Saved to your account':store.kind==='local'?'Saved in this browser only':''}</span>`;
+    if(!list.length){v.innerHTML=`<div class="empty">Nothing saved yet. Open any combination and press <b>Save</b>, then tag it with a project like “Spring hoodie drop” to group it here.</div>`;return}
+    const groups=projects.map(p=>[p,list.filter(k=>(saved[k.n].projects||[]).includes(p))]);
+    const loose=list.filter(k=>!(saved[k.n].projects||[]).length);if(loose.length)groups.push(['Untagged',loose]);
+    v.innerHTML=groups.map(([p,ks])=>`<h2 class="famh">${esc(p)} <span class="hx">${ks.length}</span></h2><div class="grid">${ks.map(card).join('')}</div>`).join('');
+  }
+}
+
+// ---------- roles & previews ----------
+function roles(k){
+  const cs=k.ids.map(byId);
+  const byL=[...cs].sort((a,b)=>b.slab[0]-a.slab[0]);
+  const bg=byL[0];
+  let text=[...cs].filter(c=>c!==bg).sort((a,b)=>contrast(b.rgb,bg.rgb)-contrast(a.rgb,bg.rgb))[0];
+  let textRgb=text.rgb,derived=false;
+  if(contrast(textRgb,bg.rgb)<4.5){ // derive darker (or lighter) version keeping hue
+    const dark=bg.slab[0]>50;let lab=[...rgb2lab(text.rgb)];
+    for(let i=0;i<100&&contrast(textRgb,bg.rgb)<4.5;i++){lab[0]+=dark?-1:1;lab[1]*=.985;lab[2]*=.985;textRgb=lab2rgb(lab)}
+    derived=true}
+  const rest=cs.filter(c=>c!==bg&&c!==text);
+  const accent=(rest.length?rest:[text]).sort((a,b)=>b.ch-a.ch)[0];
+  const second=rest.find(c=>c!==accent)||accent;
+  return{bg,text,textRgb,derived,accent,second,byL,cs};
+}
+function webPreview(k){const r=roles(k);const t=hex(r.textRgb);const aTxt=contrast(r.accent.rgb,[255,255,255])>contrast(r.accent.rgb,[20,20,20])?'#FFFFFF':'#141414';
+  return `<div class="preview"><div class="web" style="background:${r.bg.hex};color:${t}">
+  <div class="nav"><span>STUDIO</span><span>Work · About · Contact</span></div>
+  <h4>Color that was printed first</h4>
+  <p>Body copy set in the darkest usable color. ${contrast(r.textRgb,r.bg.rgb).toFixed(1)}:1 against the background.</p>
+  <span class="cta" style="background:${r.accent.hex};color:${aTxt}">Get started</span>
+  <div class="cards">${r.cs.map(c=>`<div style="background:${c.hex}"></div>`).join('')}</div></div></div>
+  <div class="roles"><span class="sw16" style="background:${r.bg.hex}"></span><span>${esc(r.bg.name)}</span><span class="r">Background</span>
+  <span class="sw16" style="background:${t}"></span><span>${r.derived?`${t} <span class="note">derived from ${esc(r.text.name)} to reach 4.5:1</span>`:esc(r.text.name)}</span><span class="r">Text</span>
+  <span class="sw16" style="background:${r.accent.hex}"></span><span>${esc(r.accent.name)}</span><span class="r">Accent</span></div>`}
+function roomPreview(k){const r=roles(k);const wall=r.byL[0],trim=r.byL[r.byL.length-1];const mids=r.cs.filter(c=>c!==wall&&c!==trim);const sofa=mids[0]||trim,acc=mids[1]||null,artFill=(acc||trim).hex;
+  const wallNote=wall.lrv>=55?`Wall LRV ${wall.lrv} — good for main walls.`:`Wall LRV ${wall.lrv} is dark for a whole room; use it on one wall or in a well-lit space.`;
+  return `<div class="preview"><div class="room"><div class="wall" style="background:${wall.hex}"><div class="art" style="background:${artFill};border-color:${acc?trim.hex:sofa.hex}"></div><div class="sofa" style="background:${sofa.hex}"></div></div><div><div class="trim" style="background:${trim.hex}"></div><div class="floor" style="background:${hex(lab2rgb([Math.max(25,trim.slab[0]+20),trim.slab[1]*.4,trim.slab[2]*.4+6]))}"></div></div></div></div>
+  <div class="roles"><span class="sw16" style="background:${wall.hex}"></span><span>${esc(wall.name)} · LRV ${wall.lrv}</span><span class="r">Walls</span>
+  <span class="sw16" style="background:${sofa.hex}"></span><span>${esc(sofa.name)} · LRV ${sofa.lrv}</span><span class="r">Large pieces</span>
+  ${acc?`<span class="sw16" style="background:${acc.hex}"></span><span>${esc(acc.name)} · LRV ${acc.lrv}</span><span class="r">Accent ≤10%</span>`:''}
+  <span class="sw16" style="background:${trim.hex}"></span><span>${esc(trim.name)} · LRV ${trim.lrv}</span><span class="r">${acc?'Trim / anchor':'Trim & accent'}</span></div>
+  <p class="note">${wallNote} Floor is a derived neutral. Match paint to the LAB values with a physical chip before buying.</p>`}
+function fitPreview(k){const cs=k.ids.map(byId);const base=[...cs].sort((a,b)=>a.ch-b.ch)[0];const others=cs.filter(c=>c!==base);const top=others[0]||base,acc=others[others.length-1]||top;
+  return `<div class="preview"><div class="fit"><svg viewBox="0 0 200 220" role="img" aria-label="Outfit color blocking">
+  <path d="M60 30 L85 18 Q100 30 115 18 L140 30 L170 70 L150 82 L140 70 L140 120 L60 120 L60 70 L50 82 L30 70 Z" fill="${top.hex}" stroke="rgba(0,0,0,.15)"/>
+  <path d="M62 120 L138 120 L142 210 L108 210 L100 140 L92 210 L58 210 Z" fill="${base.hex}" stroke="rgba(0,0,0,.15)"/>
+  <rect x="60" y="116" width="80" height="8" fill="${acc.hex}"/><path d="M85 18 Q100 30 115 18 L112 26 Q100 36 88 26 Z" fill="${acc.hex}"/>
+  ${cs.length>3?`<rect x="55" y="205" width="40" height="12" rx="4" fill="${others[1].hex}"/><rect x="105" y="205" width="40" height="12" rx="4" fill="${others[1].hex}"/>`:''}
+  </svg></div></div>
+  <div class="roles"><span class="sw16" style="background:${base.hex}"></span><span>${esc(base.name)}</span><span class="r">Base</span>
+  <span class="sw16" style="background:${top.hex}"></span><span>${esc(top.name)}</span><span class="r">Top / hero</span>
+  <span class="sw16" style="background:${acc.hex}"></span><span>${esc(acc.name)}</span><span class="r">Accent</span></div>
+  <p class="note">${k.value==='tonal'?'Tonal set: colors sit close in lightness, so it reads soft and refined.':k.value==='high'?'High value contrast: graphic and sharp.':'Moderate contrast: easy to wear.'} For printed garments, use the ${byId(k.best[0]).name} / ${byId(k.best[1]).name} pair for ink on fabric (${k.ratio}:1).</p>`}
+function printPreview(k){const cs=k.ids.map(byId);
+  return `<div class="tblw"><table><thead><tr><th></th><th>Color</th><th>C</th><th>M</th><th>Y</th><th>K</th><th>LAB target</th></tr></thead><tbody>${cs.map(c=>`<tr><td><span class="sw16" style="background:${c.hex}"></span></td><td>${esc(c.name)}${c.gam?' <span class="gam">✱</span>':''}</td>${c.cmyk.map(v=>`<td class="m">${v}</td>`).join('')}<td class="m">${c.lab.map(v=>v.toFixed(1)).join(', ')}</td></tr>`).join('')}</tbody></table></div>
+  <p class="note">CMYK is the book's build. Coated and uncoated stock shift the result, so proof first. ${cs.some(c=>c.gam)?'✱ colors print more vivid than their hex shows on screen; match to the LAB target.':''}</p>`}
+
+function exports(k){const cs=k.ids.map(byId);const slug=c=>c.name.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+  const css=`/* Wada Sanzo No. ${k.n} */\n:root {\n${cs.map(c=>`  --${slug(c)}: ${c.hex};`).join('\n')}\n}`;
+  const tw=`// tailwind.config.js → theme.extend.colors\nwada${k.n}: {\n${cs.map(c=>`  '${slug(c)}': '${c.hex}',`).join('\n')}\n}`;
+  const json=JSON.stringify({combination:k.n,colors:cs.map(c=>({name:c.name,hex:c.hex,rgb:c.rgb,lab:c.lab,cmyk:c.cmyk,lrv:c.lrv}))},null,2);
+  return{css,tw,json}}
+
+function openSheet(n){state.open=n;const k=K[n-1];const cs=k.ids.map(byId);const ex=exports(k);const sv=saved[n];
+  const pairs=[];for(let i=0;i<cs.length;i++)for(let j=i+1;j<cs.length;j++)pairs.push([cs[i],cs[j],contrast(cs[i].rgb,cs[j].rgb)]);
+  pairs.sort((a,b)=>b[2]-a[2]);
+  const fitsTxt=k.fits.map(f=>({web:'web text','web*':'web (large text only)',interior:'interior','interior-accent':'interior accents',apparel:'apparel','apparel-statement':'statement apparel','print/brand':'print & brand',general:'accents & illustration'}[f])).join(' · ');
+  const sh=$('#sheet');
+  sh.innerHTML=`<div class="bigplate">${cs.map(c=>`<div style="background:${c.hex};color:${contrast(c.rgb,[255,255,255])>contrast(c.rgb,[17,19,20])?'#fff':'#111'}">${c.hex}</div>`).join('')}</div>
+  <div class="shead"><div><h2 id="sheetTitle">No. ${n}</h2><p>${cs.map(c=>esc(c.name)).join(' · ')}</p><p>${k.value} contrast · ${k.chroma} · ${k.temp} · best for ${fitsTxt}</p></div><button class="x" data-close aria-label="Close">×</button></div>
+  <div class="sec"><h3>Colors</h3><div class="tblw"><table><thead><tr><th></th><th>Name</th><th>HEX</th><th>RGB</th><th>LAB</th><th>CMYK</th><th>LRV</th></tr></thead><tbody>
+  ${cs.map(c=>`<tr><td><span class="sw16" style="background:${c.hex}"></span></td><td>${esc(c.name)}${c.gam?` <span class="gam" title="Printed color is outside screen gamut">✱ΔE${c.gam}</span>`:''}</td>
+  <td class="m"><button class="cp" data-copy="${c.hex}">${c.hex}</button></td><td class="m"><button class="cp" data-copy="rgb(${c.rgb.join(', ')})">${c.rgb.join(', ')}</button></td>
+  <td class="m"><button class="cp" data-copy="lab(${c.lab.map(v=>v.toFixed(1)).join(' ')})">${c.lab.map(v=>v.toFixed(1)).join(', ')}</button></td><td class="m">${c.cmyk.join(',')}</td><td class="m">${c.lrv}</td></tr>`).join('')}
+  </tbody></table></div>${cs.some(c=>c.gam)?'<p class="note">✱ The printed color is more vivid than a screen can show. For paint, fabric or print, match the LAB values.</p>':''}</div>
+  <div class="sec"><h3>In use</h3><div class="mtabs">${['web','interior','apparel','print'].map(m=>`<button class="chip" data-medium="${m}" aria-pressed="${state.medium===m}">${m[0].toUpperCase()+m.slice(1)}</button>`).join('')}</div><div id="mview" style="display:grid;gap:10px"></div></div>
+  <div class="sec"><h3>Contrast pairs</h3><div class="tblw"><table><tbody>${pairs.map(([a,b,r])=>`<tr><td><span class="sw16" style="background:${a.hex}"></span> <span class="sw16" style="background:${b.hex}"></span></td><td>${esc(a.name)} / ${esc(b.name)}</td><td class="m">${(Math.floor(r*10)/10).toFixed(1)}:1</td><td>${r>=4.5?'<span class="badge b-aa">AA text</span>':r>=3?'<span class="badge b-lg">AA large</span>':'<span class="badge b-no">blocks only</span>'}</td></tr>`).join('')}</tbody></table></div></div>
+  <div class="sec"><h3>Export</h3><div class="row"><button class="btn" data-ex="css">Copy CSS variables</button><button class="btn" data-ex="tw">Copy Tailwind</button><button class="btn" data-ex="json">Copy JSON</button></div><pre id="expre">${esc(ex.css)}</pre></div>
+  <div class="sec"><h3>Save</h3>
+   <div class="row"><button class="btn ${sv?'':'pri'}" id="saveBtn">${sv?'★ Saved — remove':'☆ Save'}</button><span class="store">${store.kind==='db'?'Saved to your account':store.kind==='local'?'Saved in this browser only':''}</span></div>
+   <label class="field" for="projIn">Projects (comma separated)<input id="projIn" value="${esc((sv?.projects||[]).join(', '))}" placeholder="Spartan Beard tees, Office refresh"></label>
+   <label class="field" for="noteIn">Note<textarea id="noteIn" rows="2" placeholder="What you'd use it for">${esc(sv?.note||'')}</textarea></label>
+   <div class="row"><button class="btn" id="saveMeta">Update tags & note</button></div></div>`;
+  sh._ex=ex;sh.hidden=false;$('#scrim').hidden=false;sh.scrollTop=0;renderMedium(k);sh.querySelector('[data-close]').focus();
+}
+function renderMedium(k){const m=state.medium;$('#mview').innerHTML=m==='web'?webPreview(k):m==='interior'?roomPreview(k):m==='apparel'?fitPreview(k):printPreview(k);
+  document.querySelectorAll('[data-medium]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.medium===m))}
+function closeSheet(){state.open=null;$('#sheet').hidden=true;$('#scrim').hidden=true}
+
+// ---------- storage ----------
+async function persist(n,body){ // body null = delete
+  if(body)saved[n]=body;else delete saved[n];
+  render();
+  try{
+    if(store.kind==='db'){const ref=store.db.collection('data/users/'+store.uid).doc('combo-'+n);body?await ref.set(body):await ref.delete()}
+    else if(store.kind==='local'){localStorage.setItem('wada-saved',JSON.stringify(saved))}
+  }catch(e){toast('Could not save — '+(e&&e.code||'try again'))}
+}
+async function initStore(){
+  try{const raw=localStorage.getItem('wada-saved');if(raw){saved=JSON.parse(raw)||{};store.kind='local'}else store.kind='local'}catch(e){store.kind='none'}
+  render();
+  try{
+    const db=await window.claude?.use?.('db');const user=db?await window.claude.use('user'):null;const uid=user?await user.id():null;
+    if(db&&uid){store={kind:'db',db,uid};
+      db.collection('data/users/'+uid).onSnapshot(snap=>{const next={};snap.docs.forEach(d=>{const b=d.data();if(b&&b.combo)next[b.combo]={...b,projects:[...(b.projects||[])]}});saved=next;render();if(state.open){const sb=$('#saveBtn');if(sb){sb.textContent=saved[state.open]?'★ Saved — remove':'☆ Save';sb.classList.toggle('pri',!saved[state.open])}}},()=>{});
+    }
+  }catch(e){}
+  render();
+}
+
+// ---------- events ----------
+document.addEventListener('click',e=>{
+  const t=e.target.closest('button,[data-close]');if(!t){if(e.target.id==='scrim')closeSheet();return}
+  if(t.dataset.view){state.view=t.dataset.view;render();window.scrollTo({top:0});return}
+  if(t.dataset.f){const s=state.f[t.dataset.f];s.has(t.dataset.v)?s.delete(t.dataset.v):s.add(t.dataset.v);t.setAttribute('aria-pressed',s.has(t.dataset.v));render();return}
+  if(t.dataset.open){openSheet(+t.dataset.open);return}
+  if(t.dataset.pin){state.colorPin=+t.dataset.pin;state.q='';$('#q').value='';state.view='combos';render();window.scrollTo({top:0});return}
+  if(t.hasAttribute('data-unpin')){state.colorPin=null;render();return}
+  if(t.hasAttribute('data-close')){closeSheet();return}
+  if(t.dataset.copy){copy(t.dataset.copy);return}
+  if(t.dataset.medium){state.medium=t.dataset.medium;renderMedium(K[state.open-1]);return}
+  if(t.dataset.ex){const ex=$('#sheet')._ex;$('#expre').textContent=ex[t.dataset.ex];copy(ex[t.dataset.ex],t.dataset.ex==='tw'?'Tailwind config':t.dataset.ex.toUpperCase());return}
+  if(t.id==='saveBtn'){const n=state.open;if(saved[n]){persist(n,null);t.textContent='☆ Save';t.classList.add('pri');toast('Removed')}else{persist(n,{combo:n,projects:parseProj(),note:$('#noteIn').value.trim(),at:Date.now()});t.textContent='★ Saved — remove';t.classList.remove('pri');toast('Saved')}return}
+  if(t.id==='saveMeta'){const n=state.open;persist(n,{combo:n,projects:parseProj(),note:$('#noteIn').value.trim(),at:saved[n]?.at||Date.now()});$('#saveBtn').textContent='★ Saved — remove';$('#saveBtn').classList.remove('pri');toast('Saved');return}
+  if(t.id==='clearAll'){Object.values(state.f).forEach(s=>s.clear());state.colorPin=null;state.q='';$('#q').value='';document.querySelectorAll('[data-f]').forEach(b=>b.setAttribute('aria-pressed','false'));render();return}
+});
+$('#scrim').addEventListener('click',closeSheet);
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&state.open)closeSheet()});
+const parseProj=()=>$('#projIn').value.split(',').map(s=>s.trim()).filter(Boolean).slice(0,8);
+let qt;$('#q').addEventListener('input',e=>{clearTimeout(qt);qt=setTimeout(()=>{state.q=e.target.value;state.colorPin=null;if(state.view!=='combos')state.view='combos';render()},120)});
+document.querySelectorAll('[data-f]').forEach(b=>b.setAttribute('aria-pressed','false'));
+initStore();
+</script>
